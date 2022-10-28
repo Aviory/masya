@@ -1,13 +1,22 @@
 body{
     margin:0px;
+    position: relative;
+    z-index: -101;
 }
 header{
-    background: url("images/Rectangle 64.png");
-    height:743px;
-    height: 1743px;
+    overflow: hidden;
+    position: relative;
+    z-index: -100;
+    /* background-position-y: -50px; */
+    background: url("images/Rectangle 64.png") ;
+    background-position: center -240px;
+    height: 1243px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 2560px;
+    background-blend-mode: screen;
 }
+
+
 
 .logo{
     width:204px;
@@ -105,7 +114,7 @@ header{
     line-height: 25px;
 }
 
-h1{
+#mainDialog{
    font-family: 'Balsamiq Sans';
     font-style: normal;
     font-weight: 700;
@@ -133,9 +142,39 @@ h1{
     color: #FFFFFF;
     text-decoration:none;
 }
-.heroes{
-    height: 456px;
-    border: 1px solid;
-    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+.mainBtnCont{
+    display: flex;
+    justify-content: center;
 }
+#mainBtn{
+    align-self: center;
+    padding: 27px 44px 26px 45px ;
+    background: linear-gradient(180deg, #FFEC40 0%, #FC990F 100%);
+    border: 2px solid rgba(245, 134, 52, 0.2);
+    box-shadow: 0px 10px 30px rgba(245, 134, 52, 0.25);
+    border-radius: 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    background-origin: border-box;
+    color: #373435;
+    text-decoration: none;
+}
+#confettiStar{
+    position: absolute;
+    left: 46.3%;
+    top: -68%;
+    z-index: -10;
+    width: 500px;
+    height: 500px;
+    background: url("images/main_back_x1/confetti/image 16.png"),url("images/Rectangle 64.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+ }
+
 

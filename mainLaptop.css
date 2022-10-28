@@ -1,0 +1,55 @@
+@media screen and (max-width: 1460px) {
+    header{
+        height: 1032px;
+        background-position: center 0px;
+        background-size: 1690px;
+
+    }
+    .heroes{
+        /*margin-left: -616px;*/
+        /*width: 1020px;*/
+        /*top: -166px;*/
+        top:-68px;
+        transform: scale(0.7);
+
+    }
+
+    #wavesContainer{
+        right: -2325px;
+    }
+
+    #mainBtn{
+        margin-top: -30px;
+        transform: scale(0.7);
+    }
+    #mainDialog{
+        font-size: 45px;
+    }
+    .underTitle{
+        font-size: 17px;
+    }
+    .sline{
+        font-size: 12px;
+    }
+    .fline{
+        font-size: 14px;
+    }
+    .phones{
+        min-width: 310px;
+    }
+    .logo{
+        transform: scale(0.7);
+        margin-left: 0px;
+    }
+    .baseNav{
+        min-width: 388px;
+    }
+
+}
+
+/*#heroesContainer:hover #hero1, #heroesContainer:hover #hero4{*/
+/*    transform: translate(-3%,-3%) scale(0.8);*/
+/*}*/
+/*#heroesContainer:hover #hero2, #heroesContainer:hover #hero3, #heroesContainer:hover #hero5{*/
+/*    transform: translate(3%,-3%) scale(0.8);*/
+/*}*/

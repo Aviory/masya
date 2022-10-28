@@ -1,0 +1,52 @@
+@media screen and (max-width: 1960px) {
+    header{
+            height: 1096px;
+            background-position: center -66px;
+            background-size: 1960px;
+
+    }
+    .heroes{
+        transform: scale(0.8);
+        width: 1440px;
+        top:-36px;
+
+    }
+
+    #wavesContainer{
+
+    }
+    #mainBtn{
+        transform: scale(0.8);
+        margin-top: -30px;
+    }
+    #wavesContainer{
+
+        right: -2278px;
+    }
+}
+
+
+/*header{*/
+/*    height: 1096px;*/
+/*    background-position: center -66px;*/
+/*    background-size: 1960px;*/
+
+/*}*/
+/*.heroes{*/
+/*    margin-left: -388px;*/
+/*    width: 1440px;*/
+/*    top:-76px;*/
+/*}*/
+/*.heroesItem{*/
+/*    transform: scale(0.8);*/
+/*}*/
+/*#heroesContainer:hover #hero1, #heroesContainer:hover #hero4{*/
+/*    transform: translate(-3%,-3%) scale(0.8);*/
+/*}*/
+/*#heroesContainer:hover #hero2, #heroesContainer:hover #hero3, #heroesContainer:hover #hero5{*/
+/*    transform: translate(3%,-3%) scale(0.8);*/
+/*}*/
+
+/*#wavesContainer{*/
+/*    right: -2278px;*/
+/*}*/

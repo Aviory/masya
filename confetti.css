@@ -1,0 +1,285 @@
+#heroesContainer{
+    display: flex;
+    justify-content: center;
+}
+.heroes{
+    margin-left: -80px;
+    position: relative;
+    z-index: -10;
+    top: 20px;
+    height: 456px;
+    width: 2034px;
+    min-width: 2034px;
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+.heroesItem{
+    position: absolute;
+    transition: 1s;
+}
+#hero1{
+    left: 8.55%;
+    top: -67.5%;
+}
+#hero2{
+    left: 21.39%;
+    top: -54.19%;
+    z-index: -5;
+}
+#hero3{
+    left: 19.3%;
+    top: -68.9%;
+}
+#hero4{
+    left: 25.93%;
+    top: -63%;
+    z-index: -5;
+}
+#hero5{
+    left: 45%;
+    top: -42.26%;
+}
+#heroesContainer:hover #hero1, #heroesContainer:hover #hero4{
+    transform: translate(-3%,-3%);
+}
+#heroesContainer:hover #hero2, #heroesContainer:hover #hero3, #heroesContainer:hover #hero5{
+    transform: translate(3%,-3%);
+}
+
+#confetti21{
+    transform: rotate(-141.06deg);
+    left: 35%;
+    top: 36%;
+}
+#confetti22{
+    left: 61%;
+    top: 85%;
+}
+#confetti23{
+    left: 11%;
+    top: 20%;
+    transform: rotate(93deg);
+}
+#confetti25{
+    left: 86%;
+    filter: blur(1px);
+    top: 51%;
+    transform: scale(1.5) rotate(280deg);
+}
+#confetti24{
+    left: 88%;
+}
+#confetti26{
+    left: 27%;
+    top: 60%;
+    filter: blur(1px);
+    transform: scale(1.5) rotate(220deg);
+}
+#confetti2{
+    transform: rotate(17deg) scale(0.3);
+    top: 30%;
+    left: 35%;
+}
+#confetti3{
+    transform: rotate(330deg) scale(0.3);
+    top: 15%;
+    left: 2%;
+
+}
+#confetti4{
+    left: 25%;
+    top: 1%;
+    transform: rotate(277deg) scale(0.3);
+}
+#confetti5{
+    left: 76%;
+    top: 15%;
+    transform: rotate(314deg) scale(0.3);
+}
+#confetti6{
+    left: 7%;
+    top: 8%;
+    transform: rotate(268deg) scale(0.3);
+}
+#confetti7{
+    left: 54%;
+    top: 20%;
+    transform: rotate(212deg) scale(0.3);
+}
+#confetti31{
+    transform: scale(0.4) rotate(312deg);
+    filter: blur(3px);
+    left: 32%;
+    top: 48%;
+}
+#confetti32{
+    transform: scale(0.4) rotate(256deg);
+    filter: blur(3px);
+    left: 54%;
+    top: 41%;
+}
+#confetti33{
+    transform: scale(0.28) rotate(359deg);
+    filter: blur(3px);
+    left: 42%;
+    top: 46%;
+}
+#confetti41{
+    left: 17%;
+    top: 33%;
+    transform: rotate(317deg);
+}
+#confetti42{
+    left: 31%;
+    top: 10%;
+    transform: rotate(91deg);
+}
+#confetti43{
+    left: 49%;
+    top: -29%;
+    transform: rotate(291deg) scale(0.7);
+}
+#confetti44{
+    left: 83%;
+    top: 13%;
+    transform: rotate(1deg);
+}
+#confetti45{
+    left: 89%;
+    top: 32%;
+    transform: rotate(274deg) scale(0.8);
+}
+#confetti51{
+    left: 41%;
+    top: 40%;
+    transform: scale(0.8);
+}
+#confetti52{
+    left: 26%;
+    top: 50%;
+    transform: scale(0.8);
+}
+#confetti53{
+    left: 30%;
+    top: 44%;
+    transform: scale(0.4);
+}
+#confetti54{
+    left: 18%;
+    top: -1%;
+    transform: scale(0.4);
+}
+#confetti55{
+    left: 55%;
+    top: 18%;
+    transform: scale(0.4);
+}
+#confetti56{
+    left: 66%;
+    top: 38%;
+    transform: scale(0.5);
+}
+#confetti57{
+    left: 86%;
+    top: 15%;
+    transform: scale(0.4);
+}
+
+
+
+
+/*anim--------------------------------------------------------*/
+
+.confettiItem{
+    transition: 1s;
+}
+
+
+#heroesContainer:hover #confetti21{
+    transform: rotate(-180deg) translate(-60px, -60px);
+
+}
+#heroesContainer:hover #confetti22{
+    transform: rotate(18deg) translate(-60px, -60px);
+}
+#heroesContainer:hover #confetti23{
+    transform: rotate(99deg) translate(60px, 60px);
+}
+
+#heroesContainer:hover #confetti24{
+    transform: rotate(5deg) translate(60px, -60px);
+}
+#heroesContainer:hover #confetti25{
+    transform: scale(1.5) rotate(290deg) translate(-60px, 60px);
+}
+#heroesContainer:hover #confetti26{
+    transform: scale(1.5) rotate(227deg) translate(-60px, -60px);
+}
+#heroesContainer:hover #confetti2{
+    transform: scale(0.3) rotate(8deg) translate(-160px, 360px);
+}
+#heroesContainer:hover #confetti3{
+    transform: scale(0.3) rotate(8deg) translate(-160px, 360px);
+
+
+}
+#heroesContainer:hover #confetti4{
+    transform: scale(0.3) rotate(33deg) translate(-160px, 360px);
+}
+#heroesContainer:hover #confetti5{
+    transform: scale(0.3) rotate(330deg) translate(160px, 360px);
+}
+#heroesContainer:hover #confetti6{
+    transform: rotate(233deg) scale(0.3) translate(-260px, -160px);
+}
+#heroesContainer:hover #confetti7{
+    transform: rotate(233deg) scale(0.3) translate(-260px, -160px);
+}
+#heroesContainer:hover #confetti31{
+    transform: scale(0.4) rotate(312deg) translate(160px, 160px);
+
+}
+#heroesContainer:hover #confetti32{
+    transform: scale(0.4) rotate(256deg) translate(-160px, 160px);
+}
+#heroesContainer:hover #confetti33{
+    transform: scale(0.28) rotate(351deg) translate(-160px, 160px);
+}
+#heroesContainer:hover #confetti41{
+
+    transform: rotate(317deg) translate(-60px, 60px);
+}
+#heroesContainer:hover #confetti42{
+    transform: rotate(91deg) translate(-60px, 60px);
+}
+#heroesContainer:hover #confetti43{
+    transform: rotate(291deg) scale(0.7) translate(-60px, 60px);
+}
+#heroesContainer:hover #confetti44{
+    transform: rotate(17deg) translate(60px, 60px);
+}
+#heroesContainer:hover #confetti45{
+    transform: rotate(274deg) scale(0.8) translate(80px, 60px);
+}
+#heroesContainer:hover #confetti51{
+    transform: scale(0.8) translate(80px, 60px);
+}
+#heroesContainer:hover #confetti52{
+    transform: scale(0.8) translate(-60px, 60px);
+}
+#heroesContainer:hover #confetti53{
+    transform: scale(0.4) translate(-200px, -70px);
+}
+#heroesContainer:hover #confetti54{
+    transform: scale(0.4) translate(-200px, -90px);
+}
+#heroesContainer:hover #confetti55{
+    transform: scale(0.4) translate(280px, 70px);
+}
+#heroesContainer:hover #confetti56{
+    transform: scale(0.5) translate(80px, -200px);
+}
+#heroesContainer:hover #confetti57{
+    transform: scale(0.4) translate(80px, -200px);
+}
+

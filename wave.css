@@ -1,0 +1,48 @@
+.waves{
+    position: absolute;
+    height: 256px;
+
+    bottom: 0px;
+    right: 0px;
+    width: 6000px;
+    transition: 4s;
+}
+#waveSmall{
+
+    background: url("images/wave/smal.png");
+    right: -300px;
+    background-position: center;
+    background-repeat: repeat-x;
+
+}
+#waveMeddle{
+
+    background: url("images/wave/med.png");
+    background-position: top;
+    background-repeat: repeat-x;
+    right: 1793px;
+
+}
+#waveMax{
+
+    background: url("images/wave/max.png");
+    background-position: bottom;
+    background-repeat: repeat-x;
+
+}
+#wavesContainer:hover .waves:nth-child(2) {
+    right: -1000px;
+}
+#wavesContainer:hover .waves:nth-child(3){
+    right: -600px;
+}
+#wavesContainer:hover .waves:nth-child(1){
+    right: -1600px;
+}
+#wavesContainer{
+    position: absolute;
+    bottom: 0px;
+    right: -1800px;
+    width: 6000px;
+    height: 256px;
+}

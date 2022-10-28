@@ -1,0 +1,55 @@
+@media screen and (max-width: 900px) {
+    header{
+        height: 742px;
+        background-position: center 0px;
+        background-size: 1460px;
+
+    }
+    .heroes{
+
+
+        top: -118px;
+        transform: scale(0.4);
+
+
+    }
+    #wavesContainer{
+        bottom: -57px;
+        transform: scale(0.7);
+        right: -2466px;
+    }
+
+    #mainBtn{
+        margin-top: -42px;
+        transform: scale(0.5);
+    }
+    #mainDialog{
+        margin-top: 150px;
+        font-size: 30px;
+        line-height: 52px;
+    }
+    .underTitle{
+        font-size: 12px;
+        margin-top: -24px;
+    }
+    .sline{
+        display: none;
+    }
+    .fline select{
+        display: none;
+    }
+    .fline{
+        justify-content: end;
+    }
+    .phones{
+        display: none;
+    }
+    .logo{
+        transform: scale(1.5);
+        margin-top: 50px;
+        margin-left: 74px;
+    }
+    .baseNav{
+        display: none;
+    }
+}
