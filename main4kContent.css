@@ -55,6 +55,8 @@
 #formOfMagic{
     height: 1126px;
     background: url("images/Rectangle 42.png");
+    background-size: cover;
+    background-position: 0px -400px;
 }
 .btn {
     align-self:center;
@@ -175,8 +177,9 @@ input{
 }
 /*---------------------------------------------------------*/
 #happyBirthday{
-    height: 1275px;
-    background: linear-gradient(332.27deg, #179F3E -4.03%, rgba(24, 149, 59, 0) 41.12%), linear-gradient(154.93deg, #8BF2C1 8.8%, rgba(93, 206, 102, 0) 45.34%, rgba(179, 248, 220, 0) 45.34%), linear-gradient(0deg, #44C571, #44C571), #E9417D;
+    height: 1119px;
+    background: url("images/Frame 50.png");
+    background-size: cover;
 }
 .sectionContainer{
     background-repeat: no-repeat;
@@ -200,8 +203,10 @@ input{
 /*---------------------------------------------------------*/
 #masterClasses{
     height: 1075px;
-    background: linear-gradient(345.24deg, #187FE1 -3%, rgba(12, 109, 201, 0) 64.24%), linear-gradient(117.91deg, rgba(186, 220, 253, 0.32) 12.71%, rgba(207, 234, 255, 0) 43.93%), linear-gradient(0deg, #4B9FEF, #4B9FEF), linear-gradient(164.39deg, #FFC647 9.83%, #F05D5E 137.48%);
-    background-blend-mode: screen, screen, soft-light, normal, screen, normal, normal;
+    /*background: url("images/Frame 53.png"), linear-gradient(345.24deg, #187FE1 -3%, rgba(12, 109, 201, 0) 64.24%), linear-gradient(117.91deg, rgba(186, 220, 253, 0.32) 12.71%, rgba(207, 234, 255, 0) 43.93%), linear-gradient(0deg, #4B9FEF, #4B9FEF), linear-gradient(164.39deg, #FFC647 9.83%, #F05D5E 137.48%);*/
+    /*background-blend-mode: screen, screen, soft-light, normal, screen, normal, normal;*/
+    background: url("images/Frame 53.png");
+    background-size: cover;
 }
 /*---------------------------------------------------------*/
 #calendarCelebrate{
@@ -211,8 +216,8 @@ input{
 /*---------------------------------------------------------*/
 #inviteToCelebrate{
     height: 1075px;
-    background: linear-gradient(328.36deg, rgba(179, 118, 63, 0.72) 12.06%, rgba(237, 184, 140, 0) 67.63%), linear-gradient(193.77deg, rgba(255, 232, 180, 0.72) 9.84%, rgba(255, 232, 180, 0) 46.57%), linear-gradient(0deg, #E9AB7F, #E9AB7F), linear-gradient(164.39deg, #FFC647 9.83%, #F05D5E 137.48%);
-    background-blend-mode: screen, screen, color-dodge, normal, normal, normal, normal, normal;;
+    background: url("images/Frame 55.png");
+    background-size: cover;
 }
 
 .cursiveText{
@@ -229,4 +234,6 @@ input{
 /*---------------------------------------------------------*/
 #externalSupport{
     height: 1075px;
+    background: url("images/Frame 57.png");
+    background-size: cover;
 }
