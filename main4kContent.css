@@ -1,0 +1,232 @@
+#aboutAs{
+    height: 1126px;
+}
+.contentContainer{
+    display: flex;
+    justify-content: center;
+}
+.contentText{
+    /*flex-grow: 1;*/
+    width: 636px;
+    border: 1px solid;
+}
+.contentAnimation{
+    /*flex-grow: 1;*/
+    width: 606px;
+    border: 1px solid;
+}
+.contentH2{
+    font-family: 'Balsamiq Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 74px;
+    /* identical to box height, or 109% */
+    color: #373435;
+}
+.contentH3{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+
+    color: #373435;
+}
+.contentSmallText{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #636061;
+}
+#aboutAsAnimation{
+    width: 571px;
+    height: 571px;
+
+}
+#aboutAsAnimationImg{
+    border-radius:100% ;
+}
+
+/*---------------------------------------------------------*/
+#formOfMagic{
+    height: 1126px;
+    background: url("images/Rectangle 42.png");
+}
+.btn {
+    align-self:center;
+    background: linear-gradient(180deg, #FFEC40 0%, #FC990F 100%);
+    border: 2px solid rgba(245, 134, 52, 0.2);
+    box-shadow: 0px 10px 30px rgba(245, 134, 52, 0.25);
+    border-radius: 100px;
+    padding: 15px 35px;
+    width:30%;
+    margin-bottom:5%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    background-origin:border-box;
+    color: #373435;
+    text-decoration : none;
+
+}
+input{
+    background: #FFFFFF;
+    /* grey2 */
+    border: 1px solid #9C9A9B;
+    border-radius: 200px;
+    width: 430px;
+    height: 50px;
+    left: 266px;
+    top: 452px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 30px;
+    padding-left:27px;
+    margin-top:1.5%;
+    margin-bottom:1.5%;
+    color: #9C9A9B;
+
+}
+.application{
+    margin-top:45px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+#check1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    margin-left: 0%;
+    color: #FFFFFF;
+    margin-right: 0;
+
+}
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.custom-checkbox + label {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+.custom-checkbox + label::before {
+    content: '';
+    display: inline-block;
+    width: 1.3em;
+    height: 1.3em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #c3c3c3;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    border-color: #9C9A9B;
+    background-color: white;
+}
+.custom-checkbox:checked + label::before {
+    border-color: #9C9A9B;
+    background-color: white;
+    background-image: url("/images/check.png");
+    background-size: 100%;
+}
+
+#sendbtn{
+    padding: 14px 24px;
+    width:80px;
+    margin-bottom: 0%;
+}
+#sendbtn1{
+    padding: 14px 24px;
+    width:80px;
+    margin-bottom: 0%;
+}
+.btnmenu{
+    display:flex;
+    width:457px;
+    justify-content:space-between;
+    margin-top:20px;
+    align-items:center;
+}
+/*---------------------------------------------------------*/
+#happyBirthday{
+    height: 1275px;
+    background: linear-gradient(332.27deg, #179F3E -4.03%, rgba(24, 149, 59, 0) 41.12%), linear-gradient(154.93deg, #8BF2C1 8.8%, rgba(93, 206, 102, 0) 45.34%, rgba(179, 248, 220, 0) 45.34%), linear-gradient(0deg, #44C571, #44C571), #E9417D;
+}
+.sectionContainer{
+    background-repeat: no-repeat;
+}
+.textAlignCenter{
+    text-align: center;
+}
+.textWhite{
+    color: #FFFFFF;
+}
+.sendbtnContainer{
+    margin-top: 50px;
+}
+/*---------------------------------------------------------*/
+
+#shouPrograms{
+    height: 1075px;
+}
+
+
+/*---------------------------------------------------------*/
+#masterClasses{
+    height: 1075px;
+    background: linear-gradient(345.24deg, #187FE1 -3%, rgba(12, 109, 201, 0) 64.24%), linear-gradient(117.91deg, rgba(186, 220, 253, 0.32) 12.71%, rgba(207, 234, 255, 0) 43.93%), linear-gradient(0deg, #4B9FEF, #4B9FEF), linear-gradient(164.39deg, #FFC647 9.83%, #F05D5E 137.48%);
+    background-blend-mode: screen, screen, soft-light, normal, screen, normal, normal;
+}
+/*---------------------------------------------------------*/
+#calendarCelebrate{
+    height: 1075px;
+
+}
+/*---------------------------------------------------------*/
+#inviteToCelebrate{
+    height: 1075px;
+    background: linear-gradient(328.36deg, rgba(179, 118, 63, 0.72) 12.06%, rgba(237, 184, 140, 0) 67.63%), linear-gradient(193.77deg, rgba(255, 232, 180, 0.72) 9.84%, rgba(255, 232, 180, 0) 46.57%), linear-gradient(0deg, #E9AB7F, #E9AB7F), linear-gradient(164.39deg, #FFC647 9.83%, #F05D5E 137.48%);
+    background-blend-mode: screen, screen, color-dodge, normal, normal, normal, normal, normal;;
+}
+
+.cursiveText{
+    font-family: 'Segoe Script';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+}
+/*---------------------------------------------------------*/
+#sweets{
+    height: 1075px;
+}
+/*---------------------------------------------------------*/
+#externalSupport{
+    height: 1075px;
+}

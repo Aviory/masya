@@ -176,5 +176,8 @@ header{
     background-repeat: no-repeat;
     background-blend-mode: screen;
  }
+.tmpBR{
+    display: none;
+}
 
 

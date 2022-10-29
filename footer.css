@@ -1,0 +1,81 @@
+#img{
+    width:10.62%;
+    margin-left:8.75%;
+    margin-right:8.75%;
+}
+#logo{
+    width:100%;
+}
+
+#main {
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 212.68%;
+}
+.text {
+    margin-right:5.1%;
+    display: flex;
+    flex-direction: column;
+}
+.a {
+    color: #373435;
+    text-decoration : none;
+}
+#mainlink{
+    color:#FFBF00;
+}
+#map{
+    width:100%;
+
+}
+#location{
+    width:6%;
+    margin-left:2.29%;
+    margin-right: 0.68%;
+}
+#bold {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 165.68%;
+    margin-top:13%;
+}
+#light {
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 145%;
+}
+.line{
+    margin-top:4%;
+    margin-bottom:4%;
+    width:60%;
+}
+#phone{
+    margin-top:3%;
+    margin-right:3%;
+    height:23%;
+
+}
+#contact{
+    display:flex;
+
+}
+.fb{
+    width:70%;
+    float:left;
+    margin-top:7%;
+    margin-right:2%;
+
+}
+#media{
+    padding:4%;
+    display:flex;
+}
+#back{
+    background-color: #FCEAF2;
+    width:100%;
+    height:100%;
+    padding-top:3%;
+}
