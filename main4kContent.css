@@ -1,5 +1,5 @@
 #aboutAs{
-    height: 1126px;
+    height: 721px;
 }
 .contentContainer{
     display: flex;
@@ -8,12 +8,23 @@
 .contentText{
     /*flex-grow: 1;*/
     width: 636px;
-    border: 1px solid;
+    align-self: center;
+}
+.contentTextUp{
+    position: relative;
+    z-index: 3;
+}
+#aboutAs .contentText{
+    align-self: auto;
 }
 .contentAnimation{
     /*flex-grow: 1;*/
-    width: 606px;
-    border: 1px solid;
+    position: relative;
+    width: 874px;
+    height: 785px;
+}
+.imgAnimationItem{
+    position: absolute;
 }
 .contentH2{
     font-family: 'Balsamiq Sans';
@@ -42,6 +53,15 @@
 
     color: #636061;
 }
+.contentMediumText{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+
+    color: #636061;
+}
 #aboutAsAnimation{
     width: 571px;
     height: 571px;
@@ -50,13 +70,17 @@
 #aboutAsAnimationImg{
     border-radius:100% ;
 }
+.textMarginTop{
+    margin-top: -35px;
+}
 
 /*---------------------------------------------------------*/
 #formOfMagic{
     height: 1126px;
+    padding-top: 100px;
     background: url("images/Rectangle 42.png");
     background-size: cover;
-    background-position: 0px -400px;
+
 }
 .btn {
     align-self:center;
@@ -109,7 +133,7 @@ input{
     /* identical to box height */
     color: #FFFFFF;
 }
-#check1{
+.check1{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -158,12 +182,7 @@ input{
     background-size: 100%;
 }
 
-#sendbtn{
-    padding: 14px 24px;
-    width:80px;
-    margin-bottom: 0%;
-}
-#sendbtn1{
+.formBtn{
     padding: 14px 24px;
     width:80px;
     margin-bottom: 0%;
@@ -177,12 +196,14 @@ input{
 }
 /*---------------------------------------------------------*/
 #happyBirthday{
-    height: 1119px;
+    height: 1330px;
     background: url("images/Frame 50.png");
     background-size: cover;
 }
 .sectionContainer{
     background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
 }
 .textAlignCenter{
     text-align: center;
@@ -193,29 +214,90 @@ input{
 .sendbtnContainer{
     margin-top: 50px;
 }
+.contentMarginTop{
+    margin-top: 155px;
+}
+.headerMarginTop{
+    top: -20px;
+}
+
+
 /*---------------------------------------------------------*/
 
 #shouPrograms{
-    height: 1075px;
+    height: 790px;
 }
+#shouprogramsElipse{
+    left: 11.12%;
+    top: 82.36%;
+}
+#shouprogramsGirl{
+    left: 11.82%;
+    top: 1.86%;
+}
+#shouprogramsBlueBalloon{
+    left: 84.83%;
+    top: 46.29%;
+}
+#shouprogramsWhiteBalloon{
+    left: 67.85%;
+    top: 22.02%;
+}
+#shouprogramsGrayBalloon{
+    left: 13.48%;
+    top: -0.53%;
+    transform: matrix(0.94, -0.35, 0.32, 0.94, 0, 0);
+}
+
 
 
 /*---------------------------------------------------------*/
 #masterClasses{
     height: 1075px;
+    padding-top: 260px;
     /*background: url("images/Frame 53.png"), linear-gradient(345.24deg, #187FE1 -3%, rgba(12, 109, 201, 0) 64.24%), linear-gradient(117.91deg, rgba(186, 220, 253, 0.32) 12.71%, rgba(207, 234, 255, 0) 43.93%), linear-gradient(0deg, #4B9FEF, #4B9FEF), linear-gradient(164.39deg, #FFC647 9.83%, #F05D5E 137.48%);*/
     /*background-blend-mode: screen, screen, soft-light, normal, screen, normal, normal;*/
     background: url("images/Frame 53.png");
     background-size: cover;
 }
+#masterClassesEllipse{
+    left: 41px;
+    top: 582px;
+}
+#masterClassesOreo1{
+    left: 317px;
+    top: 617px;
+}
+#masterClassesOreo2{
+    left: 336px;
+    top: 69px;
+}
+#masterClassesOreo3{
+    left: 583px;
+    top: 241px;
+}
+#masterClassesCake1{
+    left: 48px;
+    top: 142px;
+}
+#masterClassesCake2{
+    left: 272px;
+    top: 24px;
+}
+#masterClassesCookies{
+    left: 155px;
+    top: 166px;
+}
+
 /*---------------------------------------------------------*/
 #calendarCelebrate{
-    height: 1075px;
+    height: 832px;
 
 }
 /*---------------------------------------------------------*/
 #inviteToCelebrate{
     height: 1075px;
+    padding-top: 374px;
     background: url("images/Frame 55.png");
     background-size: cover;
 }
@@ -227,13 +309,173 @@ input{
     font-size: 25px;
     line-height: 40px;
 }
+
+
 /*---------------------------------------------------------*/
 #sweets{
-    height: 1075px;
+    height: 776px;
 }
 /*---------------------------------------------------------*/
 #externalSupport{
     height: 1075px;
+    padding-top: 300px;
     background: url("images/Frame 57.png");
     background-size: cover;
+}
+
+/*--------------------------------------------*/
+#formOfFairy{
+    height: 928px;
+    padding-top: 150px;
+    background: url("images/formoffairy/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*---------------------------------------------------instagram*/
+#echo{
+    padding-top:8%;
+    position: relative;
+}
+#echoWave{
+    bottom: 0;
+    transform: scaleY(-1);
+    height: 250px;
+    background: url("images/wave/purpleStaticWave.png");
+    background-repeat: no-repeat;
+    background-position: 57%;
+}
+.nunito22{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #373435;
+
+}
+#nickname{
+    color:black;
+    line-height:26px;
+}
+#screens{
+    width:1301.26px;
+    height:444.55px;
+    position:relative;
+}
+#photo1{
+    z-index:0;
+    position: absolute;
+    left: 0%;
+    right: 85.7%;
+    top: 1.91%;
+    bottom: 22.75%;
+    border-radius: 36px;
+
+}
+#photo2{
+
+    position: absolute;
+    left: 8.56%;
+    right: 80.14%;
+    top: 26.77%;
+    bottom: 13.77%;
+    border-radius: 36px;
+    z-index:1;
+
+}
+#photo3{
+    z-index:0;
+    position: absolute;
+    left: 15.87%;
+    right: 68.52%;
+    top: 24.67%;
+    bottom: 0%;
+    border-radius: 36px;
+    width:268px;
+
+}
+#photo4{
+    position: absolute;
+    left: 26.39%;
+    right: 62.31%;
+    top: 12.43%;
+    bottom: 28.11%;
+    border-radius: 36px;
+    z-index:1;
+
+}
+#photo5{
+
+    position: absolute;
+    left: 33.71%;
+    right: 48.46%;
+    top: -4%;
+    bottom: 4.97%;
+    border-radius: 36px;
+    z-index:3;
+
+
+
+}
+#photo6{
+    position: absolute;
+    left: 50.04%;
+    right: 35.67%;
+    top: 9.56%;
+    bottom: 15.11%;
+    border-radius: 36px;
+    z-index:0;
+}
+#photo7{
+    position: absolute;
+    left: 60.68%;
+    right: 28.02%;
+    top: 32.5%;
+    bottom: 8.03%;
+    border-radius: 36px;
+    z-index:1;
+
+}
+#photo8{
+    position: absolute;
+    left: 67.22%;
+    right: 18.49%;
+    top: 21.03%;
+    bottom: 3.63%;
+    border-radius: 36px;
+    z-index:0;
+}
+#photo9{
+    position: absolute;
+    left: 76.16%;
+    right: 12.53%;
+    top: 0%;
+    bottom: 40.54%;
+    border-radius: 36px;
+    z-index:1;
+
+}
+#photo10{
+    position: absolute;
+    left: 85.7%;
+    right: 0%;
+    top: 1.91%;
+    bottom: 22.75%;
+    border-radius: 36px;
+    z-index:0;
+}
+.allimg{
+    width:323px;
+}
+.middle{
+    /*        transform: scale(0.8);*/
+    width:248px;
+}
+.small{
+    /*   transform: scale(0.6);*/
+    width:203px;
 }

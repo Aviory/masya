@@ -1,0 +1,592 @@
+/*HappyBirthday*/
+#princess{
+    position:absolute;
+    width: 523px;
+    height: 784px;
+    left: 16px;
+    top: 25px;
+    transition-duration:1s;
+}
+#guy{
+    position:absolute;
+    width: 562px;
+    height: 750px;
+    left: 306px;
+    top: 18px;
+    transition-duration:1s;
+}
+.contentAnimation:hover #guy{
+    transition-duration:1s;
+    transform: translate(30px,0px);
+}
+.contentAnimation:hover #princess{
+    transition-duration:1s;
+    transform: translate(-30px,0px);
+}
+.ellipse{
+    position: absolute;
+    width: 721px;
+    height: 171px;
+    left: 112px;
+    top: 597px;
+    shape-outside: ellipse();
+    clip-path: ellipse();
+    z-index:0;
+    background: linear-gradient(107.86deg, #031420 37.82%, #002454 77.37%);
+}
+.firstplan{
+    z-index:2;
+}
+.secondplan{
+    z-index:1;
+}
+#fence{
+    position: absolute;
+    width: 200px;
+    height: 164px;
+    left: 372px;
+    top: 454px;
+    transition-duration:1s;
+}
+.contentAnimation:hover #fence{
+    transition-duration:1s;
+    transform: translate(-60px,0px);
+}
+#blueballoon{
+    position: absolute;
+    left: 668.37px;
+    top: 444px;
+    transition-duration:1s;
+}
+.contentAnimation:hover #blueballoon{
+    transition-duration:1s;
+    transform: scale(1.2) translate(0px,70px) rotate(12deg);
+
+}
+#goldballoon{
+    position: absolute;
+    left: 3.89%;
+    top: 0.07%;
+    bottom: 65.37%;
+    transition-duration:1s;
+}
+.contentAnimation:hover #goldballoon{
+    transition-duration:1s;
+    transform: translate(-30px,0px) rotate(-10deg);
+
+}
+#conf1{
+    position: absolute;
+    left: 20.37%;
+    right: 74.14%;
+    top: 10.32%;
+    bottom: 83.69%;
+    transition-duration:1s;
+}
+.contentAnimation:hover #conf1{
+    transition-duration:1s;
+    transform: translate(-30px,160px) rotate(-45deg);
+}
+#conf2{
+    position: absolute;
+    left: 44.51%;
+    /* right: 50.65%; */
+    top: 75.76%;
+    transition-duration:1s;
+}
+.contentAnimation:hover #conf2{
+    transition-duration:1s;
+    transform: scale(1.5) rotate(-65.58deg) translate(-70px,0px);
+
+}
+#conf3{
+    position: absolute;
+    left: 23.91%;
+    right: 71.17%;
+    top: 89.87%;
+    transition-duration:1s;
+}
+.contentAnimation:hover #conf3{
+    transition-duration:1s;
+    transform:rotate(-55.58deg) translate(-95px,10px);
+
+}
+#conf4{
+    position: absolute;
+    left: 88.3%;
+    top: 25.28%;
+    transition-duration:1s;
+}
+.contentAnimation:hover #conf4{
+    transition-duration:1s;
+    transform:translate(0px, 100px) rotate(94.97deg);
+}
+#conf5{
+    position: absolute;
+    left: 78.43%;
+    top: 72.19%;
+    transition-duration:1s;
+}
+.contentAnimation:hover #conf5{
+    transition-duration:1s;
+    transform:translate(-45px, 125px) rotate(85.97deg);
+}
+#conf6{
+    position: absolute;
+    left: 45.69%;
+    right: 52.32%;
+    top: 36.03%;
+    bottom: 59.92%;
+    transform: rotate(-140.25deg);
+    transition-duration:1s;
+}
+.contentAnimation:hover #conf6{
+    transition-duration:1s;
+    transform:translate(45px, 125px) rotate(-85.97deg);
+}
+#conf7{
+    position: absolute;
+    left: 7.11%;
+    top: 58.54%;
+    transform: rotate(113.58deg);
+    transition-duration:1s;
+}
+.contentAnimation:hover #conf7{
+    transition-duration:1s;
+    transform:translate(0px, 85px) rotate(65.97deg);
+}
+#conf8{
+    position: absolute;
+    left: 11.14%;
+    right: 83.37%;
+    top: 89.51%;
+    bottom: 14.5%;
+    transform: rotate(-94deg);
+    transition-duration:1s;
+}
+.contentAnimation:hover #conf8{
+    transition-duration:1s;
+    transform:translate(-70px, 65px) rotate(195.97deg);
+}
+#conf9{
+    position: absolute;
+    width: 138.53px;
+    /* height: 78.86px; */
+    left: 67.59px;
+    top: 411.83px;
+    transition-duration:1s;
+}
+.contentAnimation:hover #conf9{
+    transition-duration:1s;
+    transform:translate(-40px, 60px) rotate(45.97deg);
+}
+/*------------------------------------------calendar selebr---*/
+#santa{
+    position: absolute;
+    width: 727px;
+    height: 640px;
+    left: 50px;
+    top: 116px;
+}
+#cloud1{
+    position: absolute;
+    width: 497px;
+    height: 248px;
+    left: 266px;
+    top: 527px;
+}
+.contentAnimation:hover #cloud1{
+    transition-duration:1s;
+    transform:translate(80px, 0px);
+}
+#cloud2{
+    position: absolute;
+    width: 260px;
+    height: 115px;
+    left: 359px;
+    top: 709px;
+    z-index:4;
+}
+.contentAnimation:hover #cloud2{
+    transition-duration:1s;
+    transform:translate(70px, 0px);
+}
+#cloud3{
+    position: absolute;
+    width: 180px;
+    height: 90.2px;
+    left: 155px;
+    top: 685px;
+}
+.contentAnimation:hover #cloud3{
+    transition-duration:1s;
+    transform:translate(-60px, 0px);
+}
+#cloud4{
+    position: absolute;
+    width: 734px;
+    height: 424px;
+    left: 47px;
+    top: 421px;
+}
+.contentAnimation:hover #cloud4{
+    transition-duration:1s;
+    transform:translate(-80px, 0px);
+}
+#snowflake1{
+    position: absolute;
+    width: 42px;
+    height: 47px;
+    left: 104px;
+    top: 423px;
+}
+.contentAnimation:hover #snowflake1{
+    transition-duration:1s;
+    transform:translate(-35px,115px) rotate(45deg);
+}
+#snowflake2{
+    position: absolute;
+    width: 28px;
+    height: 31px;
+    left: 615px;
+    top: 224px;
+}
+.contentAnimation:hover #snowflake2{
+    transition-duration:1s;
+    transform:translate(70px,100px) rotate(45deg);
+}
+#snowflake3{
+    position: absolute;
+    width: 41px;
+    height: 47px;
+    left: 695px;
+    top: 186px;
+}
+.contentAnimation:hover #snowflake3{
+    transition-duration:1s;
+    transform:translate(-60px, 60px) rotate(75deg);
+}
+#snowflake4{
+    position: absolute;
+    width: 28px;
+    height: 32px;
+    left: 77px;
+    top: 70px;
+}
+.contentAnimation:hover #snowflake4{
+    transition-duration:1s;
+    transform:translate(40px,90px) rotate(45deg);
+}
+#snowflake5{
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    left: 777px;
+    top: 97px;
+}
+.contentAnimation:hover #snowflake5{
+    transition-duration:1s;
+    transform:translate(-45px,80px) rotate(45deg);
+}
+#snowflake6{
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    left: 770px;
+    top: 295px;
+}
+.contentAnimation:hover #snowflake6{
+    transition-duration:1s;
+    transform:translate(40px,50px) rotate(45deg);
+}
+#snowflake7{
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    left: 619px;
+    top: 161px;
+}
+.contentAnimation:hover #snowflake7{
+    transition-duration:1s;
+    transform:translate(-60px,100px) rotate(45deg);
+}
+#snowflake8{
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    left: 806px;
+    top: 678px;
+}
+.contentAnimation:hover #snowflake8{
+    transition-duration:1s;
+    transform:translate(-50px,80px) rotate(45deg);
+}
+#snowflake9{
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    left: 608px;
+    top: 608px;
+}
+.contentAnimation:hover #snowflake9{
+    transition-duration:1s;
+    transform:translate(-35px,75px) rotate(45deg);
+}
+#snowflake10{
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    left: 70px;
+    top: 589px;
+}
+.contentAnimation:hover #snowflake10{
+    transition-duration:1s;
+    transform:translate(65px,40px) rotate(45deg);
+}
+#snowflake11{
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    left: 129px;
+    top: 287px;
+}
+.contentAnimation:hover #snowflake11{
+    transition-duration:1s;
+    transform:translate(-40px,110px) rotate(45deg);
+}
+#snowflake12{
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    left: 246px;
+    top: 137px;
+}
+.contentAnimation:hover #snowflake12{
+    transition-duration:1s;
+    transform:translate(70px,150px) rotate(45deg);
+}
+#snowflake13{
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    left: 428px;
+    top: 70px;
+}
+.contentAnimation:hover #snowflake13{
+    transition-duration:1s;
+    transform:translate(-60px,80px) rotate(45deg);
+}
+#snowflake14{
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    left: 262px;
+    top: 316px;
+}
+.contentAnimation:hover #snowflake14{
+    transition-duration:1s;
+    transform:translate(-119px,210px) rotate(45deg);
+}
+#ellipses1{
+    position: absolute;
+    height: 203px;
+    left: 412.18px;
+    top: 74.38px;
+}
+.contentAnimation:hover #ellipses1{
+    transition-duration:1s;
+    transform:translate(110px,40px) rotate(65deg);
+}
+#snowflake15{
+    position: absolute;
+    width: 26px;
+    height: 30px;
+    left: 693px;
+    top: 590px;
+}
+.contentAnimation:hover #snowflake15{
+    transition-duration:1s;
+    transform:translate(-10px,40px) rotate(45deg);
+}
+#snowflake16{
+    position: absolute;
+    width: 25px;
+    height: 27px;
+    left: 125px;
+    top: 695px;
+}
+.contentAnimation:hover #snowflake16{
+    transition-duration:1s;
+    transform:translate(60px,45px) rotate(45deg);
+}
+#snowflake17{
+    position: absolute;
+    width: 34px;
+    height: 38px;
+    left: 595px;
+    top: 51px;
+}
+.contentAnimation:hover #snowflake17{
+    transition-duration:1s;
+    transform:translate(20px,90px) rotate(45deg);
+}
+#snowflake18{
+    position: absolute;
+    width: 27px;
+    height: 30px;
+    left: 753px;
+    top: 391px;
+}
+.contentAnimation:hover #snowflake18{
+    transition-duration:1s;
+    transform:translate(-65px,115px) rotate(45deg);
+}
+#snowflake19{
+    position: absolute;
+    width: 43px;
+    height: 47px;
+    left: 442px;
+    top: 137px;
+}
+.contentAnimation:hover #snowflake19{
+    transition-duration:1s;
+    transform:translate(-50px,135px) rotate(45deg);
+}
+#ellipses2{
+    position: absolute;
+    height: 211px;
+    left: 140px;
+    top: 78.39px;
+}
+.contentAnimation:hover #ellipses2{
+    transition-duration:1s;
+    transform:translate(-60px,95px) rotate(-55deg);
+}
+#ellipses3{
+    position: absolute;
+    width: 168px;
+    height: 154px;
+    left: 577px;
+    top: 284px;
+}
+.contentAnimation:hover #ellipses3{
+    transition-duration:1s;
+    transform:translate(90px,95px) rotate(30deg);
+}
+.contentAnimation img{
+    transition-duration:1s;
+    position: absolute;
+}
+/*---------------------------sweets----------------------*/
+#sweets1{
+    position: absolute;
+    width: 739px;
+    height: 679px;
+    left: 38px;
+    top: 26px;
+    transition-duration:1s;
+}
+.contentAnimation:hover #sweets1{
+    transition-duration:1s;
+    transform: translate(40px,0px) ;
+}
+#sweetsellipse{
+    position: absolute;
+    left: 5.44%;
+    top: 56.22%;
+
+}
+#sweets2{
+    position: absolute;
+    width: 352px;
+    height: 335px;
+    left: 28px;
+    top: 208px;
+    transition-duration:1s;
+}
+.contentAnimation:hover #sweets2{
+    transition-duration:1s;
+    transform: translate(-40px,0px) ;
+}
+#sweets3{
+    position: absolute;
+    width: 160.42px;
+    /* height: 116.35px; */
+    left: 615.32px;
+    top: 249px;
+    transition-duration:1s;
+}
+.contentAnimation:hover #sweets3{
+    transition-duration:1s;
+    transform: translate(40px,-40px) scale(1.15);
+}
+#sweets4{
+    position: absolute;
+    height: 120px;
+    left: 547.23px;
+    top: 160px;
+    transition-duration:1s;
+}
+.contentAnimation:hover #sweets4{
+    transition-duration:1s;
+    transform: translate(40px,-80px) rotate(-15deg) scale(1.1);
+}
+#sweets5{
+    position: absolute;
+    width: 241.58px;
+    left: 469.96px;
+    top: 513px;
+    transition-duration:1s;
+}
+.contentAnimation:hover #sweets5{
+    transition-duration:1s;
+    transform: translate(-25px,25px) rotate(-10deg) scale(1.1);
+}
+
+/*------------------------------invite to cele*/
+#inviteToCelebrateCastle{
+    left: -1px;
+    top: 8px;
+}
+#inviteToCelebrateGirl{
+    left: 567px;
+    top: 284px;
+}
+#inviteToCelebrateBalloons{
+    left: 315px;
+    top: 23px;
+}
+#inviteToCelebrateBalloon1{
+    left: 0.62%;
+    top: 67.26%;
+}
+#inviteToCelebrateBalloon2{
+    left: -1.22%;
+    top: 24.71%;
+}
+#inviteToCelebrateBalloon3{
+    left: 6.52%;
+    top: 3.65%;
+}
+#inviteToCelebrateBalloon4{
+    left: 72.38%;
+    top: 9.43%;
+}
+#inviteToCelebrateEllipse{
+    left: 112px;
+    top: 597px;
+}
+/*------------------- external support*/
+
+#externalSupportStarLeft{
+    left: 124.07px;
+    top: 9.72px;
+}
+#externalSupportStarRight{
+    left: 121.69px;
+    top: 10.91px;
+}
+#externalSupportBat{
+    left: 426px;
+    top: 289px;
+}

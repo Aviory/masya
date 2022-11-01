@@ -16,6 +16,7 @@
     <link href="main1024.css" type="text/css" rel="stylesheet"/>
     <link href="mainTablet.css" type="text/css" rel="stylesheet"/>
     <link href="mainMobile.css" type="text/css" rel="stylesheet"/>
+    <link href="mainContentAnimation.css" type="text/css" rel="stylesheet"/>
 
 <!--    fonts-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -151,30 +152,35 @@
     </section>
 
     <section id="formOfMagic" class="sectionContainer">
+        <div class="wavesTopContainer">
+            <div class="wavesTopBig"></div>
+            <div class="wavesTopMiddle"></div>
+            <div class="wavesTopSmall"></div>
+        </div>
         <div class="contentContainer">
             <div class="contentText">
                 <h2 class="contentH2 textWhite">Форма<br>
                     волшебства</h2>
 
 
-                <p class="contentSmallText textWhite">Оставьте заявку в форме ниже, и мы поможем<br>
+                <p class="contentMediumText textWhite">Оставьте заявку в форме ниже, и мы поможем<br>
                     вам организовать волшебный праздник.</p>
 
                 <form class="application">
 
-                    <label>Имя:</label><br>
-                    <input class="input" id="name1" type="text" maxlength="50" autofocus placeholder="Как Вас зовут?"><br>
-                    <label>Телефон:</label><br>
+                    <label for="name1">Имя:</label><br>
+                    <input class="input" id="name1" type="text" maxlength="50" placeholder="Как Вас зовут?"><br>
+                    <label for="telephone1">Телефон:</label><br>
                     <input class="input" id="telephone1" name="phone" type="tel" maxlength="50" required
                            placeholder="Введите телефон*"><br>
                     <div class="btnmenu">
                         <div>
                             <input class="custom-checkbox" id="myCheckbox1" type="checkbox">
-                            <label id="check1" for="myCheckbox1">
+                            <label class="check1" for="myCheckbox1">
                                 Соглашаюсь со всеми условиями реального и сказочного<br>мира
                             </label>
                         </div>
-                        <a href="#" class="btn" id="sendbtn1">Отправить</a>
+                        <a href="#" class="btn formBtn" id="sendbtn1">Отправить</a>
                     </div>
                 </form>
 
@@ -187,16 +193,40 @@
             </div>
 
         </div>
+        <div class="wavesBotContainer">
+            <div class="wavesBotBig"></div>
+            <div class="wavesBotMiddle"></div>
+            <div class="wavesBotSmall"></div>
+        </div>
 
     </section>
 
     <section id="happyBirthday" class="sectionContainer">
-        <h2 class="contentH2 textAlignCenter">У Вашего ребенка День Рождения?</h2>
-        <h3 class="contentH3 textAlignCenter">Давайте вместе сделаем его незабываемым!</h3>
-        <div class="contentContainer">
+        <div class="wavesTopContainer">
+            <div class="wavesTopBig"></div>
+            <div class="wavesTopMiddle"></div>
+            <div class="wavesTopSmall"></div>
+        </div>
+        <h2 class="contentH2 textAlignCenter contentTextUp headerMarginTop">У Вашего ребенка День Рождения?</h2>
+        <h3 class="contentH3 textAlignCenter contentTextUp textMarginTop">Давайте вместе сделаем его незабываемым!</h3>
+        <div class="contentContainer contentMarginTop">
 
             <div class="contentAnimation">
-
+                <img class="firstplan" id="princess" src="images/50.png"/>
+                <img class="firstplan" id="guy" src="images/IMG_8362р 1.png"/>
+                <div class="ellipse"></div>
+                <img class="secondplan" id="fence" src="images/fence.png"/>
+                <img class="firstplan" id="blueballoon" src="images/image 77.png"/>
+                <img class="firstplan" id="goldballoon" src="images/happybirthday/Golden-Brown-Balloon-PNG-Clipart 1.png"/>
+                <img class="firstplan" id="conf1" src="images/happybirthday/confetti1.png"/>
+                <img class="firstplan" id="conf2" src="images/happybirthday/confetti2.png"/>
+                <img class="firstplan" id="conf3" src="images/happybirthday/conf3.png"/>
+                <img class="firstplan" id="conf4" src="images/happybirthday/conf4.png"/>
+                <img class="firstplan" id="conf5" src="images/happybirthday/conf5.png"/>
+                <img class="firstplan" id="conf6" src="images/happybirthday/conf5.png"/>
+                <img class="firstplan" id="conf7" src="images/happybirthday/conf5.png"/>
+                <img class="firstplan" id="conf8" src="images/happybirthday/confetti1.png"/>
+                <img class="firstplan" id="conf9" src="images/happybirthday/image 75.png"/>
             </div>
             <div class="contentText">
                 <h2 class="contentH2 textWhite">Завораживающие<br>
@@ -213,6 +243,11 @@
                     <a href="#" class="btn" id="sendbtn2">Смотреть все программы</a>
                </div>
             </div>
+        </div>
+        <div class="wavesBotContainer">
+            <div class="wavesBotBig"></div>
+            <div class="wavesBotMiddle"></div>
+            <div class="wavesBotSmall"></div>
         </div>
 
     </section>
@@ -236,6 +271,11 @@
                 </div>
             </div>
             <div class="contentAnimation">
+                <img id="shouprogramsElipse" src="images/shouprograms/Ellipse%2015.png" class="imgAnimationItem">
+                <img id="shouprogramsGirl" src="images/shouprograms/girl.png" class="imgAnimationItem">
+                <img id="shouprogramsBlueBalloon" src="images/shouprograms/image5.png" class="imgAnimationItem">
+                <img id="shouprogramsWhiteBalloon" src="images/shouprograms/whiteBall.png" class="imgAnimationItem">
+                <img id="shouprogramsGrayBalloon" src="images/shouprograms/grayball.png" class="imgAnimationItem">
 
             </div>
         </div>
@@ -243,10 +283,21 @@
     </section>
 
     <section id="masterClasses" class="sectionContainer">
+        <div class="wavesTopContainer">
+            <div class="wavesTopBig"></div>
+            <div class="wavesTopMiddle"></div>
+            <div class="wavesTopSmall"></div>
+        </div>
         <div class="contentContainer">
 
             <div class="contentAnimation">
-
+                <img id="masterClassesEllipse" src="images/masterclases/Ellipse%2074.png" class="imgAnimationItem">
+                <img id="masterClassesCake1" src="images/masterclases/cake1.png" class="imgAnimationItem">
+                <img id="masterClassesCake2" src="images/masterclases/cake2.png" class="imgAnimationItem">
+                <img id="masterClassesOreo1" src="images/masterclases/oreo1.png" class="imgAnimationItem">
+                <img id="masterClassesOreo2" src="images/masterclases/oreo2.png" class="imgAnimationItem">
+                <img id="masterClassesOreo3" src="images/masterclases/oreo3.png" class="imgAnimationItem">
+                <img id="masterClassesCookies" src="images/masterclases/cookies.png" class="imgAnimationItem">
             </div>
 
             <div class="contentText">
@@ -254,7 +305,7 @@
                     на детский праздник</h2>
 
 
-                <p class="contentSmallText">Если Ваш ребенок усидчив и очень любит создавать своими<br>
+                <p class="contentSmallText textWhite">Если Ваш ребенок усидчив и очень любит создавать своими<br>
                     руками что-то новое, тогда такое увлекательное занятие как<br>
                     мастер-классы будут прекрасным развлечением на детском<br>
                     празднике. Большой выбор мастер-классов окунут Вас в мир<br>
@@ -265,10 +316,15 @@
             </div>
 
         </div>
-
+        <div class="wavesBotContainer">
+            <div class="wavesBotBig"></div>
+            <div class="wavesBotMiddle"></div>
+            <div class="wavesBotSmall"></div>
+        </div>
     </section>
 
     <section id="calendarCelebrate" class="sectionContainer">
+
         <div class="contentContainer">
 
             <div class="contentText">
@@ -288,7 +344,33 @@
             </div>
 
             <div class="contentAnimation">
-
+                <img id="santa" class="firstplan" src="images/calendarcelebrate/santa.png"/>
+                <img id="cloud4" class="secondplan" src="images/calendarcelebrate/pngegg (49) 1.png"/>
+                <img id="cloud1" class="secondplan" src="images/calendarcelebrate/pngegg (49) 4.png"/>
+                <img id="cloud2" class="secondplan" src="images/calendarcelebrate/pngegg (49) 2.png"/>
+                <img id="cloud3" class="firstplan" src="images/calendarcelebrate/pngegg (49) 3.png"/>
+                <img id="snowflake1" class="firstplan" src="images/calendarcelebrate/snowflake1.png"/>
+                <img id="snowflake2" class="firstplan" src="images/calendarcelebrate/snowflake1.png"/>
+                <img id="snowflake3" class="firstplan" src="images/calendarcelebrate/snowflake3.png"/>
+                <img id="snowflake4" class="firstplan" src="images/calendarcelebrate/snowflake3.png"/>
+                <img id="snowflake5" class="firstplan" src="images/calendarcelebrate/snowflake4.png"/>
+                <img id="snowflake6" class="firstplan" src="images/calendarcelebrate/snowflake4.png"/>
+                <img id="snowflake7" class="firstplan" src="images/calendarcelebrate/snowflake4.png"/>
+                <img id="snowflake8" class="firstplan" src="images/calendarcelebrate/snowflake4.png"/>
+                <img id="snowflake9" class="firstplan" src="images/calendarcelebrate/snowflake4.png"/>
+                <img id="snowflake10" class="firstplan" src="images/calendarcelebrate/snowflake4.png"/>
+                <img id="snowflake11" class="firstplan" src="images/calendarcelebrate/snowflake4.png"/>
+                <img id="snowflake12" class="firstplan" src="images/calendarcelebrate/snowflake4.png"/>
+                <img id="snowflake13" class="firstplan" src="images/calendarcelebrate/snowflake4.png"/>
+                <img id="snowflake14" class="firstplan" src="images/calendarcelebrate/snowflake4.png"/>
+                <img id="snowflake15" class="firstplan" src="images/calendarcelebrate/snowflake5.png"/>
+                <img id="snowflake16" class="firstplan" src="images/calendarcelebrate/snowflake6.png"/>
+                <img id="snowflake17" class="firstplan" src="images/calendarcelebrate/snowflake7.png"/>
+                <img id="snowflake18" class="firstplan" src="images/calendarcelebrate/snowflake7.png"/>
+                <img id="snowflake19" class="firstplan" src="images/calendarcelebrate/snowflake8.png"/>
+                <img id="ellipses1" class="secondtplan" src="images/calendarcelebrate/Group 176.png"/>
+                <img id="ellipses2" class="secondplan" src="images/calendarcelebrate/Group 175.png"/>
+                <img id="ellipses3" class="secondplan" src="images/calendarcelebrate/Group 174.png"/>
             </div>
 
         </div>
@@ -296,10 +378,22 @@
     </section>
 
     <section id="inviteToCelebrate" class="sectionContainer">
+        <div class="wavesTopContainer">
+            <div class="wavesTopBig"></div>
+            <div class="wavesTopMiddle"></div>
+            <div class="wavesTopSmall"></div>
+        </div>
         <div class="contentContainer">
 
             <div class="contentAnimation">
-
+                <img id="inviteToCelebrateEllipse" src="images/invitetocelebrate/Ellipse7.png" class="imgAnimationItem">
+                <img id="inviteToCelebrateBalloons" src="images/invitetocelebrate/balloons.png" class="imgAnimationItem">
+                <img id="inviteToCelebrateCastle" src="images/invitetocelebrate/castle.png" class="imgAnimationItem">
+                <img id="inviteToCelebrateGirl" src="images/invitetocelebrate/girl.png" class="imgAnimationItem">
+                <img id="inviteToCelebrateBalloon1" src="images/invitetocelebrate/balloon1.png" class="imgAnimationItem">
+                <img id="inviteToCelebrateBalloon2" src="images/invitetocelebrate/balloon2.png" class="imgAnimationItem">
+                <img id="inviteToCelebrateBalloon3" src="images/invitetocelebrate/balloon3.png" class="imgAnimationItem">
+                <img id="inviteToCelebrateBalloon4" src="images/invitetocelebrate/balloon4.png" class="imgAnimationItem">
             </div>
 
             <div class="contentText">
@@ -320,7 +414,11 @@
                 </div>
             </div>
 
-
+            <div class="wavesBotContainer">
+                <div class="wavesBotBig"></div>
+                <div class="wavesBotMiddle"></div>
+                <div class="wavesBotSmall"></div>
+            </div>
 
         </div>
 
@@ -346,7 +444,12 @@
             </div>
 
             <div class="contentAnimation">
-
+                <img class="firstplan" id="sweets1" src="images/sweets/3 (2) 1.png"/>
+                <img class="secondplan" id="sweetsellipse" src="images/sweets/Ellipse 74.png"/>
+                <img class="secondplan" id="sweets2" src="images/sweets/pngegg (53) 1.png"/>
+                <img class="firstplan" id="sweets3" src="images/sweets/pngegg (50) 1.png"/>
+                <img class="firstplan" id="sweets4" src="images/sweets/pngegg (52) 1.png"/>
+                <img class="firstplan" id="sweets5" src="images/sweets/pngegg (51) 1.png"/>
             </div>
 
         </div>
@@ -354,10 +457,17 @@
     </section>
 
     <section id="externalSupport" class="sectionContainer">
+        <div class="wavesTopContainer">
+            <div class="wavesTopBig"></div>
+            <div class="wavesTopMiddle"></div>
+            <div class="wavesTopSmall"></div>
+        </div>
         <div class="contentContainer">
 
             <div class="contentAnimation">
-
+                <img id="externalSupportStarRight" src="images/externalsupport/starRight.png" class="imgAnimationItem">
+                <img id="externalSupportStarLeft" src="images/externalsupport/starLeft.png" class="imgAnimationItem">
+                <img id="externalSupportBat" src="images/externalsupport/bat.png" class="imgAnimationItem">
             </div>
 
             <div class="contentText">
@@ -375,7 +485,30 @@
 
 
         </div>
+        <div class="wavesBotContainer">
+            <div class="wavesBotBig"></div>
+            <div class="wavesBotMiddle"></div>
+            <div class="wavesBotSmall"></div>
+        </div>
+    </section>
 
+    <section id="echo">
+        <h2 class="tariff">Эхо праздника</h2>
+        <b class="nunito22"><center>Слава о наших праздниках ушла далеко за пределы сказочных миров. И это всё благодаря людям, которым<br>мы подарили сказку. Их отзывы расскажут о нас лучше, чем сотни слов на сайте.</center></b>
+        <b class="price" id="nickname"><center>@leo_show_dp</center></b>
+        <div id="screens">
+            <img class="allimg middle" id="photo1" src="images/instagram/Без имени-2 30.png" >
+            <img  class="allimg small" id="photo2" src="images/instagram/Без имени-2 33.png" >
+            <img class="allimg" id="photo3" src="images/instagram/Без имени-2 32.png" >
+            <img  class="allimg small" id="photo4" src="images/instagram/Без имени-2 24.png" >
+            <img  class="allimg" id="photo5" src="images/instagram/Без имени-2 29.png" >
+            <img  class="allimg middle" id="photo6" src="images/instagram/Без имени-2 31.png" >
+            <img  class="allimg small" id="photo7" src="images/instagram/Без имени-2 26.png" >
+            <img  class="allimg middle" id="photo8" src="images/instagram/Без имени-2 315.png" >
+            <img  class="allimg small" id="photo9" src="images/instagram/Без имени-2 27.png" >
+            <img  class="allimg middle" id="photo10" src="images/instagram/Без имени-2 28.png" >
+        </div>
+        <div id="echoWave"></div>
     </section>
 
     <section id="back">
@@ -441,10 +574,58 @@
 
         </div>
     </section>
+    <section id="formOfFairy" class="sectionContainer">
+        <div class="wavesTopContainer">
+            <div class="wavesTopBigPurple"></div>
+            <div class="wavesTopMiddlePurple"></div>
+            <div class="wavesTopSmallPurple"></div>
+        </div>
+        <div class="contentContainer">
+            <div class="contentText">
+                <h2 class="contentH2 textWhite">Форма<br>
+                    волшебства</h2>
+
+
+                <p class="contentMediumText textWhite">Оставьте заявку в форме ниже, и мы поможем<br>
+                    вам организовать волшебный праздник.</p>
+
+                <form class="application">
+
+                    <label for="name2">Имя:</label><br>
+                    <input class="input" id="name2" type="text" maxlength="50" placeholder="Как Вас зовут?"><br>
+                    <label for="telephone2">Телефон:</label><br>
+                    <input class="input" id="telephone2" name="phone" type="tel" maxlength="50" required
+                           placeholder="Введите телефон*"><br>
+                    <div class="btnmenu">
+                        <div>
+                            <input class="custom-checkbox" id="myCheckbox2" type="checkbox">
+                            <label class="check1"  for="myCheckbox2">
+                                Соглашаюсь со всеми условиями реального и сказочного<br>мира
+                            </label>
+                        </div>
+                        <a href="#" class="btn formBtn" id="sendbtn10">Отправить</a>
+                    </div>
+                </form>
+
+
+
+
+            </div>
+            <div class="contentAnimation">
+
+            </div>
+
+        </div>
+        <div class="wavesBotContainer">
+            <div class="wavesBotBig"></div>
+            <div class="wavesBotMiddle"></div>
+            <div class="wavesBotSmall"></div>
+        </div>
+    </section>
 
     <footer id="main">
         <div id="img">
-            <img id="logo" src="images/footer/лого 1.png" >
+            <img id="logo" src="images/footer/logo1.png" >
         </div>
         <div class="text">
             <a class="a" href="" id="mainlink">Главная</a>

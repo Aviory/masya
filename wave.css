@@ -46,3 +46,119 @@
     width: 6000px;
     height: 256px;
 }
+/*form of magik-------------------------------------------------------------------------*/
+.wavesTopContainer{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 356px;
+    right: 0%;
+    top: 0px;
+}
+.wavesTopBig{
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    width: 4832px;
+    height: 356px;
+    background: url("images/wave/whitetop/topBig.png");
+    background-repeat: repeat-x;
+    transition: 4s;
+}
+.wavesTopMiddle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6871px;
+    height: 356px;
+    background: url("images/wave/whitetop/topMiddle.png");
+    background-repeat: repeat-x;
+    transition: 4s;
+}
+.wavesTopSmall{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8436px;
+    height: 356px;
+    background: url("images/wave/whitetop/topsmall.png");
+    background-repeat: repeat-x;
+    transition: 4s;
+}
+.wavesTopContainer:hover div,.wavesBotContainer:hover div {
+    right: -1000px;
+}
+
+.wavesBotContainer{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 356px;
+    right: 0;
+    bottom: 0;
+}
+
+.wavesBotBig{
+    position: absolute;
+    top: 0;
+    right: -439px;
+    width: 4832px;
+    height: 356px;
+    background: url("images/wave/whitetop/topBig.png");
+    background-repeat: repeat-x;
+    transform: scaleY(-1);
+    transition: 4s;
+}
+.wavesBotMiddle{
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width:  5271px;
+    height: 356px;
+    background: url("images/wave/whitebott/middle.png");
+    background-repeat: repeat-x;
+    transform: scaleY(-1);
+    transition: 4s;
+}
+.wavesBotSmall{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6836px;
+    height: 356px;
+    background: url("images/wave/whitebott/small.png");
+    background-repeat: repeat-x;
+    transform: scaleY(-1);
+    transition: 4s;
+}
+
+.wavesTopBigPurple{
+    position: absolute;
+    top: 0;
+    right: -38px;
+    width: 4832px;
+    height: 356px;
+    background: url("images/wave/purple/max.png");
+    background-repeat: repeat-x;
+    transition: 4s;
+}
+.wavesTopMiddlePurple{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6871px;
+    height: 356px;
+    background: url("images/wave/purple/middle.png");
+    background-repeat: repeat-x;
+    transition: 4s;
+}
+.wavesTopSmallPurple{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8436px;
+    height: 356px;
+    background: url("images/wave/purple/small.png");
+    background-repeat: repeat-x;
+    transition: 4s;
+}
