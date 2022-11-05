@@ -17,11 +17,12 @@
     <link href="mainTablet.css" type="text/css" rel="stylesheet"/>
     <link href="mainMobile.css" type="text/css" rel="stylesheet"/>
     <link href="mainContentAnimation.css" type="text/css" rel="stylesheet"/>
+    <link href="mobileL.css" type="text/css" rel="stylesheet"/>
 
 <!--    fonts-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Nunito:wght@500;900&family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Nunito:wght@500;700;900&family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -31,7 +32,7 @@
                 <div class="fline">
                     <nav class="baseNav">
                         <ul>
-                            <li><a href="#">Цены</a></li>
+                            <li><a href="#back">Цены</a></li>
                             <div class="dot"></div>
                             <li><a href="#">О нас</a></li>
                             <div class="dot"></div>
@@ -144,6 +145,10 @@
             <div class="contentAnimation">
                 <div id="aboutAsAnimation">
                     <img id="aboutAsAnimationImg" src="images/Ellipse%201.png">
+                    <img id="aboutAsPlayBtn" src="images/aboutas/playbtn.png" class="imgAnimationItem">
+                    <img id="aboutAsBall1" src="images/aboutas/ballon1.png" class="imgAnimationItem">
+                    <img id="aboutAsBall2" src="images/aboutas/ballon2.png" class="imgAnimationItem">
+
                 </div>
             </div>
 
@@ -230,7 +235,7 @@
             </div>
             <div class="contentText">
                 <h2 class="contentH2 textWhite">Завораживающие<br>
-                    анимационные программы<br> и квесты</h2>
+                    <span>анимационные программы и квесты</span></h2>
 
 
                     <p class="contentSmallText textWhite">Анимационная программа или Квест программа — это основная<br>
@@ -276,6 +281,14 @@
                 <img id="shouprogramsBlueBalloon" src="images/shouprograms/image5.png" class="imgAnimationItem">
                 <img id="shouprogramsWhiteBalloon" src="images/shouprograms/whiteBall.png" class="imgAnimationItem">
                 <img id="shouprogramsGrayBalloon" src="images/shouprograms/grayball.png" class="imgAnimationItem">
+                <img id="shouprogramsBubble" src="images/shouprograms/5a28ba769827e0 16.png" class="imgAnimationItem">
+                <img id="shouprogramsBubble1" src="images/shouprograms/5a28ba769827e0 19.png" class="imgAnimationItem">
+                <img id="shouprogramsBubble2" src="images/shouprograms/5a28ba769827e0 19.png" class="imgAnimationItem">
+                <img id="shouprogramsBubble3" src="images/shouprograms/5a28ba769827e0 17.png" class="imgAnimationItem">
+                <img id="whiteconf" src="images/shouprograms/whiteconf.png" class="imgAnimationItem">
+                <img id="whiteconf1" src="images/shouprograms/whiteconf1.png" class="imgAnimationItem">
+                <img id="whiteconf2" src="images/shouprograms/whiteconf2.png" class="imgAnimationItem">
+                <img id="whiteconf3" src="images/shouprograms/whiteconf3.png" class="imgAnimationItem">
 
             </div>
         </div>
@@ -492,21 +505,23 @@
         </div>
     </section>
 
-    <section id="echo">
+    <section id="echo" class="sectionContainer">
         <h2 class="tariff">Эхо праздника</h2>
         <b class="nunito22"><center>Слава о наших праздниках ушла далеко за пределы сказочных миров. И это всё благодаря людям, которым<br>мы подарили сказку. Их отзывы расскажут о нас лучше, чем сотни слов на сайте.</center></b>
         <b class="price" id="nickname"><center>@leo_show_dp</center></b>
-        <div id="screens">
-            <img class="allimg middle" id="photo1" src="images/instagram/Без имени-2 30.png" >
-            <img  class="allimg small" id="photo2" src="images/instagram/Без имени-2 33.png" >
-            <img class="allimg" id="photo3" src="images/instagram/Без имени-2 32.png" >
-            <img  class="allimg small" id="photo4" src="images/instagram/Без имени-2 24.png" >
-            <img  class="allimg" id="photo5" src="images/instagram/Без имени-2 29.png" >
-            <img  class="allimg middle" id="photo6" src="images/instagram/Без имени-2 31.png" >
-            <img  class="allimg small" id="photo7" src="images/instagram/Без имени-2 26.png" >
-            <img  class="allimg middle" id="photo8" src="images/instagram/Без имени-2 315.png" >
-            <img  class="allimg small" id="photo9" src="images/instagram/Без имени-2 27.png" >
-            <img  class="allimg middle" id="photo10" src="images/instagram/Без имени-2 28.png" >
+        <div class="contentContainer">
+            <div id="screens">
+                <img class="allimg middle" id="photo1" src="images/instagram/Без имени-2 30.png" >
+                <img  class="allimg small" id="photo2" src="images/instagram/Без имени-2 33.png" >
+                <img class="allimg" id="photo3" src="images/instagram/Без имени-2 32.png" >
+                <img  class="allimg small" id="photo4" src="images/instagram/Без имени-2 24.png" >
+                <img  class="allimg" id="photo5" src="images/instagram/Без имени-2 29.png" >
+                <img  class="allimg middle" id="photo6" src="images/instagram/Без имени-2 31.png" >
+                <img  class="allimg small" id="photo7" src="images/instagram/Без имени-2 26.png" >
+                <img  class="allimg middle" id="photo8" src="images/instagram/Без имени-2 315.png" >
+                <img  class="allimg small" id="photo9" src="images/instagram/Без имени-2 27.png" >
+                <img  class="allimg middle" id="photo10" src="images/instagram/Без имени-2 28.png" >
+            </div>
         </div>
         <div id="echoWave"></div>
     </section>

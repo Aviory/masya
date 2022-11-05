@@ -1,3 +1,17 @@
+/*aboutAs*/
+
+#aboutAsPlayBtn{
+    left: 262px;
+    top: 257px;
+}
+#aboutAsBall1{
+    left: -3.71%;
+    top: 4.92%;
+}
+#aboutAsBall2{
+    left: 84.51%;
+    top: 59.85%;
+}
 /*HappyBirthday*/
 #princess{
     position:absolute;
@@ -548,29 +562,57 @@
     left: -1px;
     top: 8px;
 }
+.contentAnimation:hover #inviteToCelebrateCastle{
+    transition-duration:1s;
+    transform: translate(30px,0px);
+}
 #inviteToCelebrateGirl{
     left: 567px;
     top: 284px;
+}
+.contentAnimation:hover #inviteToCelebrateGirl{
+    transition-duration:1s;
+    transform: translate(-30px,0px);
 }
 #inviteToCelebrateBalloons{
     left: 315px;
     top: 23px;
 }
+.contentAnimation:hover #inviteToCelebrateBalloons{
+    transition-duration:1s;
+    transform: translate(25px,15px) rotate(10deg);
+}
 #inviteToCelebrateBalloon1{
     left: 0.62%;
     top: 67.26%;
+}
+.contentAnimation:hover #inviteToCelebrateBalloon1{
+    transition-duration:1s;
+    transform: translate(-65px,0px) rotate(-10deg);
 }
 #inviteToCelebrateBalloon2{
     left: -1.22%;
     top: 24.71%;
 }
+.contentAnimation:hover #inviteToCelebrateBalloon2{
+    transition-duration:1s;
+    transform: translate(-25px,-40px) rotate(5deg);
+}
 #inviteToCelebrateBalloon3{
     left: 6.52%;
     top: 3.65%;
 }
+.contentAnimation:hover #inviteToCelebrateBalloon3{
+    transition-duration:1s;
+    transform: translate(-30px,-20px) rotate(15deg);
+}
 #inviteToCelebrateBalloon4{
     left: 72.38%;
     top: 9.43%;
+}
+.contentAnimation:hover #inviteToCelebrateBalloon4{
+    transition-duration:1s;
+    transform: translate(30px,-60px) rotate(15deg);
 }
 #inviteToCelebrateEllipse{
     left: 112px;

@@ -67,4 +67,81 @@
         display: block;
     }
 
+    /*-------------- main content*/
+    .contentH2,.contentH3,.contentSmallText, .contentMediumText{
+        text-align: center;
+    }
+    .contentH2{
+        font-family: 'Balsamiq Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .contentMediumText{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .contentContainer{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .contentAnimation{
+        transform: scale(0.6);
+    }
+    .contentText{
+        width: 100%;
+    }
+
+
+    /*------ aboutas*/
+    #aboutAs{
+        height: 991px;
+    }
+#aboutAs .contentAnimation{
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------- forms of magik*/
+    #formOfMagic{
+        background: url("images/formofmagik/backforphone.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .application{
+        padding-left: 5%;
+    }
+    .input{
+        width: 90%;
+    }
+    /*---------- happy birth*/
+    #happyBirthday{
+        background: url("images/happybirthday/mobileback.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /*---------- tarifs*/
+    #contain{
+        flex-direction: column;
+    }
+    .item{
+        width: auto;
+        align-items: center;
+    }
+    .li{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 26px;
+    }
 }

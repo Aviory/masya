@@ -65,6 +65,7 @@
 #aboutAsAnimation{
     width: 571px;
     height: 571px;
+    position: relative;
 
 }
 #aboutAsAnimationImg{
@@ -200,6 +201,13 @@ input{
     background: url("images/Frame 50.png");
     background-size: cover;
 }
+#happyBirthday .contentH2 span {
+    font-size: 56px;
+
+}
+#happyBirthday .contentText{
+    width:750px;
+}
 .sectionContainer{
     background-repeat: no-repeat;
     position: relative;
@@ -235,21 +243,72 @@ input{
     left: 11.82%;
     top: 1.86%;
 }
+.contentAnimation:hover #shouprogramsGirl{
+    transition-duration:1s;
+    transform: translate(0px,-30px);
+}
 #shouprogramsBlueBalloon{
     left: 84.83%;
     top: 46.29%;
+}
+.contentAnimation:hover #shouprogramsBlueBalloon{
+    transition-duration:1s;
+    transform: translate(-90px,110px) scale(1.5) rotate(15deg);
 }
 #shouprogramsWhiteBalloon{
     left: 67.85%;
     top: 22.02%;
 }
+.contentAnimation:hover #shouprogramsWhiteBalloon{
+    transition-duration:1s;
+    transform: translate(50px,90px);
+}
 #shouprogramsGrayBalloon{
     left: 13.48%;
     top: -0.53%;
-    transform: matrix(0.94, -0.35, 0.32, 0.94, 0, 0);
 }
-
-
+.contentAnimation:hover #shouprogramsGrayBalloon{
+    transition-duration:1s;
+    transform: translate(-100px,5px) rotate(-20deg);
+}
+#shouprogramsBubble{
+    left: 10.99%;
+    right: 77.07%;
+    top: 34.35%;
+    bottom: 53.58%;
+}
+#shouprogramsBubble1{
+    left: 67.89%;
+    right: 26.24%;
+    top: 19.44%;
+    bottom: 74.67%;
+}
+#shouprogramsBubble2{
+    left: 20.84%;
+    right: 73.28%;
+    top: 67.58%;
+    bottom: 26.53%;
+}
+#shouprogramsBubble3{
+    left: 69.58%;
+    top: 40.05%;
+}
+#whiteconf{
+    left: 45.75%;
+    top: 9.02%;
+}
+#whiteconf1{
+    left: 15.75%;
+    top: 20.02%;
+}
+#whiteconf2{
+    left: 17.75%;
+    top: 49.02%;
+}
+#whiteconf3{
+    left: 56.75%;
+    top: 35.02%;
+}
 
 /*---------------------------------------------------------*/
 #masterClasses{
@@ -268,25 +327,49 @@ input{
     left: 317px;
     top: 617px;
 }
+.contentAnimation:hover #masterClassesOreo1{
+    transition-duration:1s;
+    transform: translate(-110px,20px) rotate(-30deg);
+}
 #masterClassesOreo2{
     left: 336px;
     top: 69px;
+}
+.contentAnimation:hover #masterClassesOreo2{
+    transition-duration:1s;
+    transform: translate(40px,125px) rotate(-60deg);
 }
 #masterClassesOreo3{
     left: 583px;
     top: 241px;
 }
+.contentAnimation:hover #masterClassesOreo3{
+    transition-duration:1s;
+    transform: translate(50px,110px) rotate(45deg);
+}
 #masterClassesCake1{
     left: 48px;
     top: 142px;
+}
+.contentAnimation:hover #masterClassesCake1{
+    transition-duration:1s;
+    transform: translate(-30px,0px);
 }
 #masterClassesCake2{
     left: 272px;
     top: 24px;
 }
+.contentAnimation:hover #masterClassesCake2{
+    transition-duration:1s;
+    transform: translate(30px,0px);
+}
 #masterClassesCookies{
     left: 155px;
     top: 166px;
+}
+.contentAnimation:hover #masterClassesCookies{
+    transition-duration:1s;
+    transform: translate(115px,135px) rotate(90deg);
 }
 
 /*---------------------------------------------------------*/
