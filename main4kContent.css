@@ -66,7 +66,11 @@
     width: 571px;
     height: 571px;
     position: relative;
-
+    border-radius:100%;
+    background: url("images/Ellipse 1.png");
+    background-size: 571px;
+    background-position: top;
+    transition-duration:1s;
 }
 #aboutAsAnimationImg{
     border-radius:100% ;
@@ -195,6 +199,96 @@ input{
     margin-top:20px;
     align-items:center;
 }
+.magicConf{
+    left: 25.49%;
+    top: 72.25%;
+}
+.contentAnimation:hover .magicConf{
+    transition-duration:1s;
+    transform: translate(-30px,30px);
+}
+.magicConf1{
+    width:52px;
+    left: 76.49%;
+    top: 28.25%;
+}
+.contentAnimation:hover .magicConf1{
+    transition-duration:1s;
+    transform: translate(30px,30px);
+}
+.magicConf2{
+    width:40.75px;
+    left: 103.49%;
+    top: 95.25%;
+}
+.contentAnimation:hover .magicConf2{
+    transition-duration:1s;
+    transform: translate(-30px,30px);
+}
+.magicConf3{
+    width:225px;
+    left: 79.49%;
+    top: 100.25%;
+    filter: blur(3.5px);
+}
+.contentAnimation:hover .magicConf3{
+    transition-duration:1s;
+    transform: translate(70px,0px);
+}
+.magicConf4{
+    left: 92.84%;
+    top: 62.92%;
+}
+.contentAnimation:hover .magicConf4{
+    transition-duration:1s;
+    transform: translate(40px,40px) rotate(40deg);
+}
+.magicConf5{
+    transform: rotate(-22.1deg);
+    left: 85.84%;
+    top: 40.92%;
+}
+.contentAnimation:hover .magicConf5{
+    transition-duration:1s;
+    transform: translate(25px,45px) rotate(20deg);
+}
+.magicConf6{
+    transform: rotate(-85.94deg);
+    left: 75.84%;
+    top: 74.92%;
+}
+.contentAnimation:hover .magicConf6{
+    transition-duration:1s;
+    transform: translate(25px,45px) rotate(-40deg);
+}
+.magicConf7{
+    transform: rotate(129.28deg);
+    left: 75.84%;
+    top: 93.92%;
+}
+.contentAnimation:hover .magicConf7{
+    transition-duration:1s;
+    transform: translate(-60px,30px) rotate(169deg);
+}
+.magicConf8{
+    transform: rotate(-169.27deg);
+    left: 32.84%;
+    top: 85.92%;
+}
+.contentAnimation:hover .magicConf8{
+    transition-duration:1s;
+    transform: translate(-60px,30px) rotate(-80deg);
+}
+.magicConf9 {
+    transform: rotate(51.86deg);
+    left: 98.84%;
+    top: 77.92%;
+}
+.contentAnimation:hover .magicConf9{
+    transition-duration:1s;
+    transform: translate(-40px,40px) rotate(91deg);
+}
+
 /*---------------------------------------------------------*/
 #happyBirthday{
     height: 1330px;
@@ -277,11 +371,19 @@ input{
     top: 34.35%;
     bottom: 53.58%;
 }
+.contentAnimation:hover #shouprogramsBubble{
+    transition-duration:1s;
+    transform: translate(-40px,-40px);
+}
 #shouprogramsBubble1{
     left: 67.89%;
     right: 26.24%;
     top: 19.44%;
     bottom: 74.67%;
+}
+.contentAnimation:hover #shouprogramsBubble1 {
+    transition-duration: 1s;
+    transform: translate(80px, 20px);
 }
 #shouprogramsBubble2{
     left: 20.84%;
@@ -289,27 +391,78 @@ input{
     top: 67.58%;
     bottom: 26.53%;
 }
+.contentAnimation:hover #shouprogramsBubble2 {
+    transition-duration: 1s;
+    transform: translate(-40px, -40px);
+}
 #shouprogramsBubble3{
     left: 69.58%;
     top: 40.05%;
+}
+.contentAnimation:hover #shouprogramsBubble3 {
+    transition-duration: 1s;
+    transform: translate(-70px, -20px);
 }
 #whiteconf{
     left: 45.75%;
     top: 9.02%;
 }
+.contentAnimation:hover #whiteconf{
+    transition-duration:1s;
+    transform: translate(20px,160px) rotate(60deg);
+}
 #whiteconf1{
     left: 15.75%;
     top: 20.02%;
+}
+.contentAnimation:hover #whiteconf1{
+    transition-duration:1s;
+    transform: translate(70px,160px) rotate(-60deg);
 }
 #whiteconf2{
     left: 17.75%;
     top: 49.02%;
 }
+.contentAnimation:hover #whiteconf2{
+    transition-duration:1s;
+    transform: translate(70px,70px) rotate(-60deg);
+}
 #whiteconf3{
     left: 56.75%;
     top: 35.02%;
 }
+.contentAnimation:hover #whiteconf3{
+    transition-duration:1s;
+    transform: translate(20px,70px) rotate(100deg);
+}
+#whiteconf4{
+    left: 11.83%;
+    right: 73.5%;
+    top: 77.03%;
+}
+.contentAnimation:hover #whiteconf4{
+    transition-duration:1s;
+    transform: translate(30px,0px) rotate(40deg);
+}
+#whiteconf5{
+    left: 25.3%;
+    right: 60.02%;
+    top: 80.94%;
+}
+.contentAnimation:hover #whiteconf5{
+    transition-duration:1s;
+    transform: translate(-30px,0px) rotate(-40deg);
+}
+#whiteconf6{
+    left: 56.86%;
+    right: 28.46%;
+    top: 80.94%;
+}
 
+.contentAnimation:hover #whiteconf6{
+    transition-duration:1s;
+    transform: translate(-30px,0px) rotate(-40deg);
+}
 /*---------------------------------------------------------*/
 #masterClasses{
     height: 1075px;
@@ -414,7 +567,6 @@ input{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 /*---------------------------------------------------instagram*/
 #echo{
@@ -561,4 +713,10 @@ input{
 .small{
     /*   transform: scale(0.6);*/
     width:203px;
+}
+@font-face {
+    font-family: "Segoe Script";
+    src: url("fonts/Segoe Script.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
