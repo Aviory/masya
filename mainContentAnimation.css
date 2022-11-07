@@ -8,9 +8,47 @@
     left: -3.71%;
     top: 4.92%;
 }
+.contentAnimation:hover #aboutAsBall1{
+    transition-duration:1s;
+    transform: rotate(-30deg);
+}
 #aboutAsBall2{
-    left: 84.51%;
-    top: 59.85%;
+    left: 52.51%;
+    top: 44.85%;
+}
+.contentAnimation:hover #aboutAsBall2{
+    transition-duration:1s;
+    transform: rotate(-30deg) translate(0px,30px);
+}
+#aboutconf{
+    left: -1.93%;
+    top: 21.21%;
+}
+.contentAnimation:hover #aboutconf{
+    transition-duration:1s;
+    transform: rotate(50deg) translate(0px,20px);
+}
+#aboutconf1{
+    left: 45.09%;
+    top: 62.7%;
+    transform: rotate(109.54deg);
+}
+.contentAnimation:hover #aboutconf1{
+    transition-duration:1s;
+    transform: rotate(139deg) translate(0px,-20px);
+}
+#aboutconf2{
+    left: 47.65%;
+    top: 2.76%;
+    transform: rotate(59.44deg);
+}
+.contentAnimation:hover #aboutconf2{
+    transition-duration:1s;
+    transform: rotate(29deg) translate(55px,0px);
+}
+#aboutAs .contentAnimation:hover #aboutAsAnimation{
+    background-size: 650px;
+    background-position: top;
 }
 /*HappyBirthday*/
 #princess{
@@ -624,11 +662,193 @@
     left: 124.07px;
     top: 9.72px;
 }
+.contentAnimation:hover #externalSupportStarLeft {
+    transition-duration: 1s;
+    transform: translate(-150px, 0px) rotate(-20deg);
+}
 #externalSupportStarRight{
     left: 121.69px;
     top: 10.91px;
 }
+.contentAnimation:hover #externalSupportStarRight {
+    transition-duration: 1s;
+    transform: translate(120px, 50px) rotate(30deg);
+}
 #externalSupportBat{
     left: 426px;
     top: 289px;
+}
+.contentAnimation:hover #externalSupportBat {
+    transition-duration: 1s;
+    transform: translate(-200px, -90px) rotate(-60deg);
+}
+
+.contentAnimation:hover #candy {
+    transition-duration: 1s;
+    transform: translate(130px,90px) rotate(90deg);
+}
+.hiddencandy{
+    transition-timing-function:cubic-bezier(.73,.7,.48,1.07);
+    transition-duration: 1s;
+    position:absolute;
+    z-index:3;
+    left: 350px;
+    top: 308px;
+}
+.externalStar{
+    transition-duration: 1s;
+    position:absolute;
+    z-index:4;
+}
+.contentAnimation:hover #candy1 {
+    transition-duration: 1s;
+    transform: translate(9px,150px) rotate(90deg);
+}
+.contentAnimation:hover #candy2 {
+    transition-duration: 1s;
+    transform: translate(10px,90px) rotate(100deg);
+}
+.contentAnimation:hover #candy3 {
+    transition-duration: 1s;
+    transform: translate(-110px,-90px) rotate(-90deg);
+}
+.contentAnimation:hover #candy4 {
+    transition-duration: 1s;
+    transform: translate(180px,-120px) rotate(-60deg);
+}
+.contentAnimation:hover #candy5 {
+    transition-duration: 1s;
+    transform: translate(220px,-140px) rotate(30deg);
+}
+.contentAnimation:hover #candy6 {
+    transition-duration: 1s;
+    transform: translate(180px, 40px) rotate(60deg);
+}
+.contentAnimation:hover #candy7 {
+    transition-duration: 1s;
+    transform: translate(210px,0px) rotate(-90deg);
+}
+.contentAnimation:hover #candy8 {
+    transition-duration: 1s;
+    transform: translate(150px,-10px) rotate(-30deg);
+}
+.contentAnimation:hover #candy9 {
+    transition-duration: 1s;
+    transform: translate(0px,-200px) rotate(-30deg);
+}
+.contentAnimation:hover #candy10 {
+    transition-duration: 1s;
+    transform: translate(70px,-120px) rotate(30deg);
+}
+.contentAnimation:hover #candy11 {
+    transition-duration: 1s;
+    transform: translate(190px,250px) rotate(-30deg);
+}
+.contentAnimation:hover #candy12 {
+    transition-duration: 1s;
+    transform: translate(90px,-120px) rotate(90deg);
+}
+.contentAnimation:hover #candy13 {
+    transition-duration: 1s;
+    transform: translate(-90px,-120px) rotate(-60deg);
+}
+.contentAnimation:hover #candy14 {
+    transition-duration: 1s;
+    transform: translate(210px,210px) rotate(30deg);
+}
+.contentAnimation:hover #candy15 {
+    transition-duration: 1s;
+    transform: translate(10px,210px) rotate(90deg);
+}
+.contentAnimation:hover #candy16 {
+    transition-duration: 1s;
+    transform: translate(40px,160px) rotate(-90deg);
+}
+.contentAnimation:hover #candy17 {
+    transition-duration: 1s;
+    transform: translate(-110px,190px) rotate(-180deg);
+}
+.contentAnimation:hover #candy18 {
+    transition-duration: 1s;
+    transform: translate(-130px,170px) rotate(-180deg);
+}
+.contentAnimation:hover #candy19 {
+    transition-duration: 1s;
+    transform: translate(10px,150px) rotate(-90deg);
+}
+.contentAnimation:hover #candy20 {
+    transition-duration: 1s;
+    transform: translate(-180px,140px) rotate(-70deg);
+}
+.contentAnimation:hover #candy21 {
+    transition-duration: 1s;
+    transform: translate(-300px,0px) rotate(-70deg);
+}
+.contentAnimation:hover #candy22 {
+    transition-duration: 1s;
+    transform: translate(-80px,-260px) rotate(-70deg);
+}
+.contentAnimation:hover #candy23 {
+    transition-duration: 1s;
+    transform: translate(-70px,-180px) rotate(70deg);
+}
+.contentAnimation:hover #candy24 {
+    transition-duration: 1s;
+    transform: translate(-80px,-260px) rotate(90deg);
+}
+.contentAnimation:hover #candy25 {
+    transition-duration: 1s;
+    transform: translate(120px,0px) rotate(90deg);
+}
+.contentAnimation:hover #candy38 {
+    transition-duration: 1s;
+    transform: translate(-40px,100px) rotate(-30deg);
+}
+.contentAnimation:hover #candy26 {
+    transition-duration: 1s;
+    transform: translate(-60px,0px) rotate(90deg);
+}
+.contentAnimation:hover #candy27 {
+    transition-duration: 1s;
+    transform: translate(-60px,-20px) rotate(200deg);
+}
+.contentAnimation:hover #candy28 {
+    transition-duration: 1s;
+    transform: translate(180px,-200px) rotate(90deg);
+}
+.contentAnimation:hover #candy29 {
+    transition-duration: 1s;
+    transform: translate(90px,-60px) rotate(-30deg);
+}
+.contentAnimation:hover #candy30 {
+    transition-duration: 1s;
+    transform: translate(60px,-160px) rotate(45deg);
+}
+.contentAnimation:hover #candy31 {
+    transition-duration: 1s;
+    transform: translate(90px,-190px) rotate(-45deg);
+}
+.contentAnimation:hover #candy32 {
+    transition-duration: 1s;
+    transform: translate(-90px,-140px) rotate(-45deg);
+}
+.contentAnimation:hover #candy33 {
+    transition-duration: 1s;
+    transform: translate(230px,-80px) rotate(45deg);
+}
+.contentAnimation:hover #candy34 {
+    transition-duration: 1s;
+    transform: translate(110px,-200px) rotate(95deg);
+}
+.contentAnimation:hover #candy35 {
+    transition-duration: 1s;
+    transform: translate(-210px,200px) rotate(45deg);
+}
+.contentAnimation:hover #candy36 {
+    transition-duration: 1s;
+    transform: translate(140px,-100px) rotate(-45deg);
+}
+.contentAnimation:hover #candy37 {
+    transition-duration: 1s;
+    transform: translate(-60px,20px) rotate(-45deg);
 }
