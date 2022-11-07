@@ -1,5 +1,17 @@
 @media screen and (max-width: 425px) {
 
+    .logo{
+       transform: scale(0.8);
+        margin-top: 0;
+    }
+    .headerContainer{
+        padding-top: 0;
+    }
+
+    .localisation{
+        margin-right: -35px;
+    }
+
     .contentH2{
         font-family: 'Balsamiq Sans';
         font-style: normal;
@@ -14,5 +26,9 @@
         font-size: 16px;
         line-height: 22px;
         text-align: center;
+    }
+
+    #aboutAs .contentAnimation{
+        margin-top: -130px;
     }
 }

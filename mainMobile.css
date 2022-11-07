@@ -100,14 +100,15 @@
     }
 
 
-    /*------ aboutas*/
+/*------ aboutus*/
     #aboutAs{
         height: 991px;
     }
-#aboutAs .contentAnimation{
-    display: flex;
-    justify-content: center;
-}
+    #aboutAs .contentAnimation{
+        display: flex;
+        justify-content: center;
+    }
+
 
 /*-------------- forms of magik*/
     #formOfMagic{
@@ -122,19 +123,134 @@
     .input{
         width: 90%;
     }
+
     /*---------- happy birth*/
     #happyBirthday{
+        height: 1412px;
         background: url("images/happybirthday/mobileback.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .contentMarginTop {
+        margin-top: -130px;
+    }
+    #happyBirthday .contentText{
+        margin-top: -150px;
+        width: 92%;
+    }
 
+    .sendbtnContainer {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 3;
+    }
+
+    #happyBirthday .contentH2 span {
+        font-size: 40px;
+    }
+
+    .btn{
+        padding: 25px 35px;
+        width: 70%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        /* identical to box height */
+
+        text-align: center;
+    }
+
+    /*---------- show program*/
+    #shouPrograms{
+        z-index: 3;
+        margin-top: -100px;
+        height: 966px;
+    }
+    #shouPrograms .contentContainer{
+        flex-direction: column-reverse;
+        margin-top: -180px;
+    }
+    #shouPrograms .contentText{
+        margin-top: -100px;
+    }
+    /*---------- master classes*/
+    #masterClasses{
+        background: url("images/masterclases/mobileback.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1098px;
+    }
+    #masterClasses .contentContainer{
+        margin-top: -250px;
+    }
+
+    #masterClasses .contentText{
+        margin-top: -100px;
+    }
+
+    /*---------- calendar celebr*/
+    #calendarCelebrate{
+        height: 1014px;
+    }
+
+    #calendarCelebrate .contentContainer{
+        flex-direction: column-reverse;
+        margin-top: -184px;
+
+    }
+    #calendarCelebrate .contentText{
+        margin-top: -100px;
+    }
+    .cursiveText{
+        text-align: center;
+    }
+
+    /*---------- invite to celebr*/
+    #inviteToCelebrate{
+        background: url("images/invitetocelebrate/mobileback.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #inviteToCelebrate .contentContainer{
+        margin-top: -352px;
+    }
+    #inviteToCelebrate .contentText{
+        margin-top: -100px;
+    }
+
+
+    /*---------- sweets*/
+
+    #sweets {
+        height: 896px;
+    }
+    #sweets .contentContainer{
+        flex-direction: column-reverse;
+        margin-top: -182px;
+    }
+
+    #sweets .contentText{
+        margin-top: -170px;;
+    }
+
+    /*---------- external support*/
+    #externalSupport .contentContainer{
+        margin-top: -250px;
+    }
+    #externalSupport .contentText{
+        margin-top: -135px;
+    }
     /*---------- tarifs*/
     #contain{
         flex-direction: column;
+        align-items: center;
     }
     .item{
-        width: auto;
+        width: 80%;
         align-items: center;
     }
     .li{
@@ -144,4 +260,53 @@
         font-size: 13px;
         line-height: 26px;
     }
+
+
+    /*------------------form of fairy*/
+    #formOfFairy{
+        background: url("images/formoffairy/mobileback.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .btnmenu{
+        justify-content: flex-start;
+        margin-top: 20px;
+        align-items: start;
+        flex-direction: column;
+    }
+    .formBtn{
+        width: 20%;
+        align-self: start;
+        margin-top: 30px;
+    }
+    /*---------------------- footer*/
+
+    #img{
+        display: none;
+    }
+
+    #main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main .text{
+        display: none;
+    }
+    #main .text:last-child{
+        display: block;
+        width: 130px;
+        margin-right: 0;
+        text-align: center;
+    }
+    #media{
+        justify-content: center;
+    }
+    #location {
+         width: auto;
+         margin-left: 0;
+         margin-right: 0;
+    }
 }
+
