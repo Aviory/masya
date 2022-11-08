@@ -1,12 +1,108 @@
 @media screen and (max-width: 770px) {
     header{
         height: 710px;
-        background-position: center 0px;
+        background-position: center 0;
         background-size: 1120px;
 
     }
+
+    /*--------------------------- mobile menu*/
+
+
+
+    #labelBtnMobileMenu{
+        display: block;
+    }
+
+    #btnMobileMenu:checked~.mobileDetails{
+        display: block;
+        height: 100vh;
+        background: linear-gradient(158.52deg, rgba(47, 126, 181, 0.5) 12.07%, rgba(99, 195, 224, 0.5) 74.08%), linear-gradient(170.12deg, #0395AF 7.94%, #7AD9D9 97.82%);
+        position: relative;
+        top: 0;
+        z-index: 10;
+    }
+    #btnMobileMenu:checked~*{
+        display: none;
+    }
+    #btnMobileMenu:checked+#labelBtnMobileMenu{
+        display: block;
+        left: 0;
+
+        background: url("images/btnMobileCross.png");
+    }
+
+    /*-----------------body details*/
+
+    .mobileDetailsHeader{
+        display: flex;
+        width: 70%;
+        position: absolute;
+        right: 0;
+        margin-top: 100px;
+        align-items: center;
+        justify-content: space-around
+
+    }
+    .mobileDetails .phones{
+        flex-direction: column;
+    }
+
+    .mobileDetails{
+        min-height: 800px;
+    }
+    .mobileDetailsPhones div{
+        min-width: 159px;
+        text-align: right;
+    }
+    .mobileDetailsPhones a{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+    .mobileDetailsHeader select{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #FFFFFF;
+        background: none;
+        border: none;
+
+        /* border: 1px solid #000000;*/
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .mobileDetailsContent{
+        position: relative;
+        top: 200px;
+    }
+
+    .mobileDetailsContent ul{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 258%;
+        text-align: center;
+        color: #FFFFFF;
+        list-style: none;
+        margin: 0;
+    }
+
+    /*--------------------------- mobile menu end that*/
+
+
     .heroes{
-        margin-left: 0px;
+        margin-left: 0;
         top: -118px;
         transform: scale(0.3);
 
@@ -90,7 +186,10 @@
     .contentContainer{
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         width: 100%;
+        margin-left: -0;
+        transform: scale(1)
     }
     .contentAnimation{
         transform: scale(0.6);
@@ -99,14 +198,33 @@
         width: 100%;
     }
 
+    .contentContainer .contentText:nth-child(1){
+        position: static;
+        left: -0;
+    }
+    .contentContainer .contentAnimation:nth-child(1){
+        position: static;
+        left: -0;
+    }
+
 
 /*------ aboutus*/
     #aboutAs{
         height: 991px;
     }
+    #aboutAs .contentContainer{
+        right: 0;
+        position: relative;
+    }
     #aboutAs .contentAnimation{
         display: flex;
         justify-content: center;
+        right: -90px;
+    }
+
+    #aboutAsAnimation{
+        position: relative;
+        left: -154px;
     }
 
 
@@ -126,7 +244,7 @@
 
     /*---------- happy birth*/
     #happyBirthday{
-        height: 1412px;
+        min-height: 1498px;
         background: url("images/happybirthday/mobileback.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -137,6 +255,11 @@
     #happyBirthday .contentText{
         margin-top: -150px;
         width: 92%;
+    }
+
+    #happyBirthday .contentAnimation{
+
+        left: 0;
     }
 
     .sendbtnContainer {
@@ -211,6 +334,7 @@
 
     /*---------- invite to celebr*/
     #inviteToCelebrate{
+        height: 1108px;;
         background: url("images/invitetocelebrate/mobileback.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -220,6 +344,10 @@
     }
     #inviteToCelebrate .contentText{
         margin-top: -100px;
+    }
+
+    #inviteToCelebrate .contentAnimation{
+        left: 0;
     }
 
 
@@ -279,6 +407,9 @@
         width: 20%;
         align-self: start;
         margin-top: 30px;
+    }
+    .btnUp{
+        bottom: 102px;
     }
     /*---------------------- footer*/
 

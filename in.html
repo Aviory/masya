@@ -18,6 +18,7 @@
     <link href="mainMobile.css" type="text/css" rel="stylesheet"/>
     <link href="mainContentAnimation.css" type="text/css" rel="stylesheet"/>
     <link href="mobileL.css" type="text/css" rel="stylesheet"/>
+    <link href="mobileSmall.css" type="text/css" rel="stylesheet"/>
 
 <!--    fonts-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +26,50 @@
 <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Nunito:wght@500;700;900&family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <input id="btnMobileMenu" type="checkbox" class="btnMobileMenu">
+    <label for="btnMobileMenu" id="labelBtnMobileMenu"></label>
+    <div class="mobileDetails">
+        <div class="mobileDetailsHeader">
+            <div>
+                <select>
+                    <option selected>Рус</option>
+                    <option>Укр</option>
+                </select>
+            </div>
+
+            <div class="mobileDetailsPhones">
+                <div>
+                    <img src="images/phone_logo.png">
+                    <a href="tel:+380634858933">+38 (063) 48-58-933</a>
+                </div>
+                <div>
+                    <a href="tel:+380634858933">+38 (063) 48-58-933</a>
+                </div>
+            </div>
+
+        </div>
+        <nav class="mobileDetailsContent">
+            <ul>
+                <li>Главная</li>
+                <li>Цены</li>
+                <li>О нас</li>
+                <li>Отзывы</li>
+                <li>Статьи</li>
+                <li>Контакты</li>
+            </ul>
+            <ul>
+                <li>Аниматоры и квесты</li>
+                <li>Шоу-программы</li>
+                <li>Мастер-классы</li>
+                <li>Календарные праздники</li>
+                <li>Оформление праздника</li>
+                <li>Сладости</li>
+                <li>Дополнительные услуги</li>
+            </ul>
+        </nav>
+    </div>
+    <header id="header">
+
         <div class="content"> 
             <img class="logo" src="images/лого 1.png">
             <div class="headerContainer">
@@ -249,11 +293,11 @@
                     <span>анимационные программы и квесты</span></h2>
 
 
-                    <p class="contentSmallText textWhite">Анимационная программа или Квест программа — это основная<br>
-                        составляющая праздника, когда оживают любимые герои Вашего<br>
-                        ребенка. Для Вашего тождества, мы подберем идеально<br>
-                        подходящих героев и тематику. Адаптируем сценарий, учитывая<br>
-                        интересы и возраст ребенка. Каждая программа продумана до<br>
+                    <p class="contentSmallText textWhite">Анимационная программа или Квест программа — это основная<br class="mobileHideTextBr">
+                        составляющая праздника, когда оживают любимые герои Вашего<br class="mobileHideTextBr">
+                        ребенка. Для Вашего тождества, мы подберем идеально<br class="mobileHideTextBr">
+                        подходящих героев и тематику. Адаптируем сценарий, учитывая<br class="mobileHideTextBr">
+                        интересы и возраст ребенка. Каждая программа продумана до<br class="mobileHideTextBr">
                         мелочей, чтобы восхитить всех гостей.</p>
                <div class="sendbtnContainer">
                     <a href="#" class="btn" id="sendbtn2">Смотреть все программы</a>
@@ -276,11 +320,11 @@
                 <h2 class="contentH2">Шоу-программы</h2>
 
 
-                <p class="contentSmallText">Прекрасным наполнением праздника являются шоу-программы.<br>
-                    Они бывают подвижные- это дискотечные варианты, где вместе с<br>
-                    ведущим мы будем весело зажигать или зрелищные шоу-<br>
-                    программы для тех, кто любит завораживающие представления.<br>
-                    Мы всегда поможем с выбором подходящих и самых интересных<br>
+                <p class="contentSmallText">Прекрасным наполнением праздника являются шоу-программы.<br class="mobileHideTextBr">
+                    Они бывают подвижные- это дискотечные варианты, где вместе с<br class="mobileHideTextBr">
+                    ведущим мы будем весело зажигать или зрелищные шоу-<br class="mobileHideTextBr">
+                    программы для тех, кто любит завораживающие представления.<br class="mobileHideTextBr">
+                    Мы всегда поможем с выбором подходящих и самых интересных<br class="mobileHideTextBr">
                     программ.</p>
                 <div class="sendbtnContainer">
                     <a href="#" class="btn" id="sendbtn3">Смотреть все программы</a>
@@ -332,10 +376,10 @@
                     на детский праздник</h2>
 
 
-                <p class="contentSmallText textWhite">Если Ваш ребенок усидчив и очень любит создавать своими<br>
-                    руками что-то новое, тогда такое увлекательное занятие как<br>
-                    мастер-классы будут прекрасным развлечением на детском<br>
-                    празднике. Большой выбор мастер-классов окунут Вас в мир<br>
+                <p class="contentSmallText textWhite">Если Ваш ребенок усидчив и очень любит создавать своими<br class="mobileHideTextBr">
+                    руками что-то новое, тогда такое увлекательное занятие как<br class="mobileHideTextBr">
+                    мастер-классы будут прекрасным развлечением на детском<br class="mobileHideTextBr">
+                    празднике. Большой выбор мастер-классов окунут Вас в мир<br class="mobileHideTextBr">
                     творчества.</p>
                 <div class="sendbtnContainer">
                     <a href="#" class="btn" id="sendbtn4">Смотреть все программы</a>
@@ -359,11 +403,11 @@
                     праздники</h2>
 
 
-                <p class="contentSmallText">Прекрасным наполнением праздника являются шоу-программы.<br>
-                    Они бывают подвижные- это дискотечные варианты, где вместе с<br>
-                    ведущим мы будем весело зажигать или зрелищные шоу-<br>
-                    программы для тех, кто любит завораживающие представления.<br>
-                    Мы всегда поможем с выбором подходящих и самых интересных<br>
+                <p class="contentSmallText">Прекрасным наполнением праздника являются шоу-программы.<br class="mobileHideTextBr">
+                    Они бывают подвижные- это дискотечные варианты, где вместе с<br class="mobileHideTextBr">
+                    ведущим мы будем весело зажигать или зрелищные шоу-<br class="mobileHideTextBr">
+                    программы для тех, кто любит завораживающие представления.<br class="mobileHideTextBr">
+                    Мы всегда поможем с выбором подходящих и самых интересных<br class="mobileHideTextBr">
                     программ.</p>
                 <div class="sendbtnContainer">
                     <a href="#" class="btn" id="sendbtn5">Смотреть все программы</a>
@@ -429,24 +473,25 @@
                 <h3 class="cursiveText textWhite">Уже включены в программу</h3>
 
 
-                <p class="contentSmallText textWhite">Анимационная программа — это основная часть праздника, где<br>
-                    оживают любимые герои из сказок, мультфильмов и<br>
-                    компьютерных игр. Именно в анимационных программах<br>
-                    аниматоры проводят активный интерактив с детьми это игры,<br>
-                    конкурсы, танцы, квесты. Мы гордимся каждой нашей<br>
-                    анимационной программой, ведь они созданы с любовью и<br>
+                <p class="contentSmallText textWhite">Анимационная программа — это основная часть праздника, где<br class="mobileHideTextBr">
+                    оживают любимые герои из сказок, мультфильмов и<br class="mobileHideTextBr">
+                    компьютерных игр. Именно в анимационных программах<br class="mobileHideTextBr">
+                    аниматоры проводят активный интерактив с детьми это игры,<br class="mobileHideTextBr">
+                    конкурсы, танцы, квесты. Мы гордимся каждой нашей<br class="mobileHideTextBr">
+                    анимационной программой, ведь они созданы с любовью и<br class="mobileHideTextBr">
                     продуманны до мелочей.</p>
                 <div class="sendbtnContainer">
                     <a href="#" class="btn" id="sendbtn6">Смотреть все варианты</a>
                 </div>
             </div>
 
-            <div class="wavesBotContainer">
-                <div class="wavesBotBig"></div>
-                <div class="wavesBotMiddle"></div>
-                <div class="wavesBotSmall"></div>
-            </div>
 
+
+        </div>
+        <div class="wavesBotContainer">
+            <div class="wavesBotBig"></div>
+            <div class="wavesBotMiddle"></div>
+            <div class="wavesBotSmall"></div>
         </div>
 
     </section>
@@ -459,11 +504,11 @@
             <div class="contentText">
                 <h2 class="contentH2">Сладости и угощения</h2>
 
-                <p class="contentSmallText">Прекрасным наполнением праздника являются шоу-программы.<br>
-                    Они бывают подвижные- это дискотечные варианты, где вместе с<br>
-                    ведущим мы будем весело зажигать или зрелищные шоу-<br>
-                    программы для тех, кто любит завораживающие представления.<br>
-                    Мы всегда поможем с выбором подходящих и самых интересных<br>
+                <p class="contentSmallText">Прекрасным наполнением праздника являются шоу-программы.<br class="mobileHideTextBr">
+                    Они бывают подвижные- это дискотечные варианты, где вместе с<br class="mobileHideTextBr">
+                    ведущим мы будем весело зажигать или зрелищные шоу-<br class="mobileHideTextBr">
+                    программы для тех, кто любит завораживающие представления.<br class="mobileHideTextBr">
+                    Мы всегда поможем с выбором подходящих и самых интересных<br class="mobileHideTextBr">
                     программ.</p>
                 <div class="sendbtnContainer">
                     <a href="#" class="btn" id="sendbtn7">Смотреть все варианты</a>
@@ -539,9 +584,9 @@
             <div class="contentText">
                 <h2 class="contentH2 textWhite">Дополнительные<br> услуги к празднику</h2>
 
-                <p class="contentSmallText textWhite">Когда хочется более детального погружения в атмосферу сказки,<br>
-                    тогда мы предлагаем дополнить праздник добавками. Они помогут<br>
-                    заполнить свободное время, подарят море позитивных эмоций и<br>
+                <p class="contentSmallText textWhite">Когда хочется более детального погружения в атмосферу сказки,<br class="mobileHideTextBr">
+                    тогда мы предлагаем дополнить праздник добавками. Они помогут<br class="mobileHideTextBr">
+                    заполнить свободное время, подарят море позитивных эмоций и<br class="mobileHideTextBr">
                     усилят впечатление от праздника.</p>
                 <div class="sendbtnContainer">
                     <a href="#" class="btn" id="sendbtn8">Смотреть все услуги</a>
@@ -693,6 +738,9 @@
             </div>
 
         </div>
+        <a href="#header" class="btnUp">
+            <img src="images/btnUp.png" >
+        </a>
         <div class="wavesBotContainer">
             <div class="wavesBotBig"></div>
             <div class="wavesBotMiddle"></div>

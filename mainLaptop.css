@@ -44,6 +44,28 @@
     .baseNav{
         min-width: 388px;
     }
+    .contentContainer{
+        width: 120%;
+        justify-content: space-evenly;
+        margin-left: -10%;
+        transform: scale(0.80)
+    }
+    #aboutAs .contentContainer{
+        right: -7%;
+        position: relative;
+    }
+    #happyBirthday{
+        background-position-x: -350px;
+
+    }
+
+    .contentMarginTop {
+        margin-top: 0;
+    }
+
+    #formOfFairy{
+         background-position: top;
+    }
 
 }
 

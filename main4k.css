@@ -16,8 +16,31 @@ header{
     background-blend-mode: screen;
 }
 
+/*--------------------------- mobile menu*/
+.btnMobileMenu{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    opacity: 0;
+    z-index: -100;
+}
+#labelBtnMobileMenu{
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    width: 109px;
+    height: 111px;
+    display: none;
+    background: url("images/btnMobileMenu.png");
+    z-index: 111;
+}
+.mobileDetails{
+    display: none;
+}
 
 
+/*--------------------------- mobile menu end that*/
 .logo{
     width:204px;
     height:143px;

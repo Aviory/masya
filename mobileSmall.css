@@ -1,0 +1,18 @@
+@media screen and (max-width: 376px) {
+ .logo{
+     margin-left: 0;
+ }
+    .localisation{
+        transform: scale(0.9);
+        margin-right: -76px;
+    }
+    .contentAnimation{
+        transform: scale(0.35);
+    }
+    #happyBirthday .contentContainer{
+        margin-top: -220px;
+    }
+    #aboutAs .contentAnimation{
+        right: -54px;
+    }
+}

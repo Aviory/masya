@@ -85,6 +85,7 @@
     padding-top: 100px;
     background: url("images/Rectangle 42.png");
     background-size: cover;
+    background-position:top;
 
 }
 .btn {
@@ -291,7 +292,7 @@ input{
 
 /*---------------------------------------------------------*/
 #happyBirthday{
-    height: 1330px;
+    min-height: 1330px;
     background: url("images/Frame 50.png");
     background-size: cover;
 }
@@ -566,6 +567,14 @@ input{
     background: url("images/formoffairy/back.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+
+.btnUp{
+    position: absolute;
+    z-index: 5;
+    right: 50px;
+    bottom: 0;
 }
 
 /*---------------------------------------------------instagram*/

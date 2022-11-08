@@ -48,5 +48,56 @@
     .baseNav{
         min-width: 388px;
     }
+
+    .contentContainer{
+        width: 130%;
+        justify-content: space-evenly;
+        margin-left: -15%;
+        transform: scale(0.70)
+    }
+
+    #happyBirthday .contentAnimation{
+
+        position: relative;
+        left: -10%;
+    }
+    .contentMarginTop {
+        margin-top: -50px;
+    }
+
+    #inviteToCelebrate .contentAnimation{
+        position: relative;
+        left: -90px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    /*#happyBirthday .contentAnimation {*/
+    /*    position: relative;*/
+    /*    left: -27%;*/
+    /*}*/
+
+    .contentContainer{
+        width: 150%;
+        justify-content: space-evenly;
+        margin-left: -15%;
+        transform: scale(0.50);
+    }
+    .contentContainer .contentText:nth-child(1){
+        position: relative;
+        left: -25%;
+    }
+    .contentContainer .contentAnimation:nth-child(1){
+        position: relative;
+        left: -24%;
+    }
+    #happyBirthday .contentAnimation {
+        position: relative;
+        left: -25%;
+    }
+    #inviteToCelebrate .contentAnimation {
+        position: relative;
+        left: -25%;
+    }
 }
 
