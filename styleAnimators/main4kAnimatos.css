@@ -1,0 +1,209 @@
+header{
+    background: url("../images/animators/Frame 21.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.underlined{
+    position: relative;
+    color: #484848;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.underlined::before {
+    content: '';
+    left: 0; bottom: -5px;
+    width: 0;
+    height: 14px;
+    background-color:#FFBF00 ;
+    z-index: -1;
+    position: absolute;
+}
+
+.underlined:hover:before {
+    width: 70px;
+    border-radius: 10px;
+
+}
+
+.underlined::before {
+    transition: width 0.35s;
+
+}
+.navigation{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.navigate{
+    color: #FFFFFF;
+    text-decoration-line: none;
+}
+#mainDialogAnimators{
+    font-family: 'Balsamiq Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 74px;
+    /* or 109% */
+
+    text-align: center;
+    margin-bottom:0.50em;
+    color: #FFFFFF;
+}
+#mainDialogAnimators span{
+    font-size: 47px;
+}
+.aflex{
+    margin:10px;
+}
+.flex{
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+    max-width:1920px;
+}
+#mask{
+    align-self: end;
+}
+.animationProgram{
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+    max-width:1230px;
+}
+.program1{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:wrap;
+    max-width:380.25px;
+}
+.program2{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:wrap;
+    max-width:380.25px;
+}
+.program3{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:wrap;
+    max-width:380.25px;
+}
+.animationProgram span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    color: #636061;
+    align-self: center;
+    margin-left:5%;
+}
+.horizontal{
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bals40{
+    font-family: 'Balsamiq Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 74px;
+    /* identical to box height, or 185% */
+    color: #373435;
+}
+.bals58{
+    font-family: 'Balsamiq Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 74px;
+    /* identical to box height, or 185% */
+    color: #373435;
+}
+.questsFlex{
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+#quests .questsFlex div{margin:1%;}
+
+.helpFlex{
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.helpFlex h5{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    color: #636061;
+}
+.formFlex{
+    width:1060px;
+    margin-top:8%;
+    margin-left:3%;
+}
+#sendbtn10{
+    position:absolute;
+
+
+}
+#form{
+    /*margin-bottom:20%;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width:600px;
+    position:relative;
+}
+#telephone2{
+    width:600px;
+    margin:0;
+}
+.formFlex h4{
+    margin-block-start: 0;
+    margin-block-end:0;
+}
+.formFlex h5{
+    margin-block-end:4%;
+    width:600px;
+}
+.FlexHorizontal{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+}
+.FlexHorizontal div{
+    margin-right:5%;
+}
+.FlexHorizontal form{
+    margin-top:0;
+}
