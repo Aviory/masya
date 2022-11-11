@@ -25,6 +25,11 @@
     #mainDialog{
         font-size: 45px;
     }
+
+    #mainDialog span{
+        font-size: 35px;
+    }
+
     .underTitle{
         font-size: 17px;
     }
