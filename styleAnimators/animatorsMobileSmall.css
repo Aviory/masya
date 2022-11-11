@@ -1,0 +1,41 @@
+@media screen and (max-width: 425px) {
+    #helpImgSinka {
+        height: 272px;
+    }
+
+    .helpContactBtn{
+        width: 60px;
+    }
+    #helpContacWh{
+        background: url(../images/animators_mob/wh.png);
+    }
+    #helpContactTel{
+        background: url(../images/animators_mob/tel.png);
+    }
+    /*-------------------------animation program*/
+
+
+
+    .program1{
+        width: 97%;
+        margin-left: 3%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .aflex{
+        margin: 3px;
+    }
+    .animatorsContainer{
+        width: 142px;
+        height: 146px;
+    }
+    #quests .questsFlex div{
+        width: 137px;
+        height: 250px;
+    }
+
+}
+
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>animators</title>
@@ -19,6 +19,7 @@
   <link href="mainContentAnimation.css" type="text/css" rel="stylesheet"/>
   <link href="mobileL.css" type="text/css" rel="stylesheet"/>
   <link href="styleAnimators/animatorsMobile.css" type="text/css" rel="stylesheet"/>
+  <link href="styleAnimators/animatorsMobileSmall.css" type="text/css" rel="stylesheet"/>
 
   <!--    fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -110,19 +111,20 @@
     <h2 class="contentH2 textAlignCenter ">Аниматоры</h2>
     <div class="flex">
       <a class="aflex" href="#"><div id="animatorBravl" class="animatorsContainer"></div></a>
-      <a class="aflex" href="#"><img src="images/animators/bug.png" ></a>
-      <a class="aflex" href="#"><img src="images/animators/lol.png" ></a>
-      <a class="aflex" href="#"><img src="images/animators/pony.png" ></a>
-      <a class="aflex" href="#"><img src="images/animators/peppa.png" ></a>
-      <a class="aflex" href="#"><img src="images/animators/optimus.png" ></a>
-      <a class="aflex" href="#"><img src="images/animators/trolls.png" ></a>
-      <a class="aflex" href="#"><img src="images/animators/fairy.png" ></a>
-      <a class="aflex" href="#"><img src="images/animators/spider.png" ></a>
-      <a class="aflex" href="#"><img src="images/animators/cold.png" ></a>
-      <a class="aflex" href="#"><img src="images/animators/patrol.png" ></a>
-      <a class="aflex" href="#"><img src="images/animators/mickey.png" ></a>
-      <a class="aflex" href="#"><img src="images/animators/turtles.png" ></a>
-      <a id="mask" class="aflex" href="#"><img src="images/animators/masks.png" ></a>
+      <a class="aflex" href="#"><div id="animatorBag" class="animatorsContainer"></div></a>
+      <a class="aflex" href="#"><div id="animatorLol" class="animatorsContainer"></div></a>
+      <a class="aflex" href="#"><div id="animatorPony" class="animatorsContainer"></div></a>
+      <a class="aflex" href="#"><div id="animatorPeppa" class="animatorsContainer"></div></a>
+      <a class="aflex" href="#"><div id="animatorOptimus" class="animatorsContainer"></div></a>
+      <a class="aflex" href="#"><div id="animatorTrolls" class="animatorsContainer"></div></a>
+      <a class="aflex" href="#"><div id="animatorFairy" class="animatorsContainer"></div></a>
+      <a class="aflex" href="#"><div id="animatorSpider" class="animatorsContainer"></div></a>
+      <a class="aflex" href="#"><div id="animatorCold" class="animatorsContainer"></div></a>
+      <a class="aflex" href="#"><div id="animatorPatrol" class="animatorsContainer"></div></a>
+      <a class="aflex" href="#"><div id="animatorMickey" class="animatorsContainer"></div></a>
+      <a class="aflex" href="#"><div id="animatorTurtles" class="animatorsContainer"></div></a>
+      <a class="aflex" href="#"><div id="animatorMasks" class="animatorsContainer"></div></a>
+
     </div>
     <h4 class="bals40 textAlignCenter" >Что входит в анимационную программу</h4>
     <div class="animationProgram">
@@ -136,7 +138,7 @@
           <span>Яркий тематический реквизит</span>
         </div>
       </div>
-      <div class="program2" >
+      <div class="program1" >
         <div class="horizontal" >
           <img src="images/animators/trigger-1 1-1.png">
           <span>Профессиональные актёры - аниматоры</span>
@@ -146,7 +148,7 @@
           <span>Маленький подарок каждому ребёнку </span>
         </div>
       </div>
-    <div class="program3" >
+    <div class="program1" >
         <div class="horizontal" >
           <img src="images/animators/trigger-1 1-2.png">
           <span>Музыкальное сопровождение </span>
@@ -169,9 +171,9 @@
 </section>
 <section id="helpToChoose" >
   <div  class="helpFlex">
-  <img src="images/animators/Group 250.png">
+  <div id="helpImgSinka"></div>
   <div class="formFlex" >
-    <h4 class="bals58" >Поможем с выбором<br> персонажа</h4>
+    <h4 class="bals58 hideInMobile" >Поможем с выбором<br> персонажа</h4>
     <div class="FlexHorizontal" >
       <div>
     <h5>Заполните форму и мы подберем любимого героя для<br> вашего праздника.</h5>
@@ -179,14 +181,16 @@
       <div id="form" >
       <input class="input" id="telephone2" name="phone" type="tel" maxlength="50" required
              placeholder="Введите телефон*" >
-        <a href="#" class="btn formBtn" id="sendbtn10">Отправить</a>
+        <a href="#" class="btn formBtn" id="sendbtn10"><span class="hideInMobile"> Отправить</span></a>
       </div>
     </form>
       </div>
       <div>
       <h5>или <br>напишите нам:</h5>
-      <a href="#"><img src="images/animators/wh.png"> </a>
-      <a href="#"><img src="images/animators/tel.png"> </a>
+        <div class="flexContacts">
+          <a href="#" class="inlineBlock"><div id="helpContacWh" class="helpContactBtn"></div> </a>
+          <a href="#" class="inlineBlock"><div id="helpContactTel" class="helpContactBtn"></div> </a>
+        </div>
     </div>
   </div>
   </div>

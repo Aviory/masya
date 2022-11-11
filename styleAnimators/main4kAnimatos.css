@@ -45,6 +45,12 @@ header{
     color: #FFFFFF;
     text-decoration-line: none;
 }
+
+/*----------- animators*/
+
+#animatorsQuests{
+
+}
 #mainDialogAnimators{
     font-family: 'Balsamiq Sans';
     font-style: normal;
@@ -78,7 +84,45 @@ header{
 #animatorBravl{
     background: url("../images/animators/bravl.png");
 }
-
+#animatorBag{
+    background: url("../images/animators/bug.png");
+}
+#animatorLol{
+    background: url("../images/animators/lol.png");
+}
+#animatorPony{
+    background: url("../images/animators/pony.png");
+}
+#animatorPeppa{
+    background: url("../images/animators/peppa.png");
+}
+#animatorOptimus{
+    background: url("../images/animators/optimus.png");
+}
+#animatorTrolls{
+    background: url("../images/animators/trolls.png");
+}
+#animatorFairy{
+    background: url("../images/animators/fairy.png");
+}
+#animatorSpider{
+    background: url("../images/animators/spider.png");
+}
+#animatorCold{
+    background: url("../images/animators/cold.png");
+}
+#animatorPatrol{
+    background: url("../images/animators/patrol.png");
+}
+#animatorMickey{
+    background: url("../images/animators/mickey.png");
+}
+#animatorTurtles{
+    background: url("../images/animators/turtles.png");
+}
+#animatorMasks{
+    background: url("../images/animators/masks.png");
+}
 #mask{
     align-self: end;
 }
@@ -98,22 +142,7 @@ header{
     flex-wrap:wrap;
     max-width:380.25px;
 }
-.program2{
-    margin:auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap:wrap;
-    max-width:380.25px;
-}
-.program3{
-    margin:auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap:wrap;
-    max-width:380.25px;
-}
+
 .animationProgram span{
     font-family: 'Open Sans';
     font-style: normal;
@@ -158,6 +187,9 @@ header{
 }
 #quests .questsFlex div{margin:1%;}
 
+
+/*----------------help */
+
 .helpFlex{
     margin:auto;
     display: flex;
@@ -175,10 +207,18 @@ header{
     color: #636061;
 }
 .formFlex{
-    width:1060px;
-    margin-top:8%;
+    max-width:1060px;
+    margin-top: 150px;
     margin-left:3%;
 }
+#helpImgSinka{
+    width: 415px;
+    height: 607px;
+    background: url("../images/animators/Group 250.png");
+}
+
+
+
 #sendbtn10{
     position:absolute;
 
@@ -202,7 +242,7 @@ header{
 }
 .formFlex h5{
     margin-block-end:4%;
-    width:600px;
+
 }
 .FlexHorizontal{
     display: flex;
@@ -214,4 +254,22 @@ header{
 }
 .FlexHorizontal form{
     margin-top:0;
+}
+.helpContactBtn{
+    width: 176px;
+    height: 60px;
+}
+.inlineBlock{
+    display: inline-block;
+}
+.flexContacts{
+    display: flex;
+    justify-content: start;
+
+}
+#helpContacWh{
+    background: url(../images/animators/wh.png);
+}
+#helpContactTel{
+    background: url(../images/animators/tel.png);
 }
