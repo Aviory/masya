@@ -1,7 +1,7 @@
 header{
-    background: url("../images/animators/Frame 21.png") ;
-    background-repeat: no-repeat;
+    background: url("../images/animators/backAnimators.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .underlined{
     position: relative;
@@ -47,6 +47,88 @@ header{
 }
 
 /*----------- animators*/
+.animatorsBtn{
+    position: absolute;
+    height: 52px;
+    width: 132px;
+    border: 2px solid #FFFFFF;
+    border-radius: 100px;
+    bottom: 54px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animatorsBtn span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.animatorsText{
+    position: absolute;
+    bottom: 150px;
+    left: 25px;
+}
+.animatorsText span{
+    font-family: 'Balsamiq Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 38px;
+    /* or 123% */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.questText{
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+    text-align: center;
+    transition: 1s;
+}
+
+.questsFlex>div{
+    position: relative;
+}
+.questText span{
+    font-family: 'Balsamiq Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 158% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.questsFlex>div:hover .questText{
+    bottom: 100px;
+}
+
+.questsBtn{
+    bottom: 34px;
+    left: 114px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.questsFlex>div:hover .questsBtn{
+    opacity: 1;
+}
+
+
 
 #animatorsQuests{
 
@@ -78,6 +160,7 @@ header{
     max-width:1920px;
 }
 .animatorsContainer{
+    position: relative;
     width: 369px;
     height: 352px;
 }

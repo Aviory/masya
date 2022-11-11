@@ -202,5 +202,32 @@ header{
 .tmpBR{
     display: none;
 }
+/*--------------*/
 
+.underlined{
+    position: relative;
+    color: #484848;
+    text-decoration: none;
+    z-index: 2;
+}
 
+.underlined::before {
+    content: '';
+    left: 0; bottom: -5px;
+    width: 0;
+    height: 14px;
+    background-color:#FFBF00 ;
+    z-index: -1;
+    position: absolute;
+}
+
+.underlined:hover:before {
+    width: 70px;
+    border-radius: 10px;
+
+}
+
+.underlined::before {
+    transition: width 0.35s;
+
+}

@@ -1,0 +1,100 @@
+header{
+    background: url("../images/show/show.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.animatorsContainer{
+    width: 372px;
+    height: 365px;
+}
+.animatorsContainer:hover .questText{
+    bottom: 100px;
+}
+.animatorsContainer:hover .questsBtn{
+    opacity: 1;
+}
+#animatorBravl{
+    background: url("../images/show/disco.png");
+    background-size: cover;
+}
+#animatorBag{
+    background: url("../images/show/porolon.png");
+    background-size: cover;
+}
+#animatorLol{
+    background: url("../images/show/bubble.png");
+    background-size: cover;
+}
+#animatorPony{
+    background: url("../images/show/neon.png");
+    background-size: cover;
+}
+#animatorPeppa{
+    background: url("../images/show/ball.png");
+    background-size: cover;
+}
+#animatorOptimus{
+    background: url("../images/show/tesla.png");
+    background-size: cover;
+}
+#animatorTrolls{
+    background: url("../images/show/krio.png");
+    background-size: cover;
+}
+#animatorFairy{
+    background: url("../images/show/site.png");
+    background-size: cover;
+}
+
+@media screen and (max-width: 770px) {
+    header {
+        background: url("../images/show/Frame 50 (3).png");
+        height: 900px;
+        background-size: cover;
+        background-position-y: -300px;
+    }
+    #quests .questsFlex img {
+        width: 171px;
+    }
+    .animatorsContainer{
+        width: 191px;
+        height: 188px;
+    }
+    .aflex div{
+        border-radius:30%;
+    }
+}
+@media screen and (max-width: 425px) {
+    header {
+        height:700px;
+        background: url("../images/show/Frame 50 (3).png");
+        background-size: cover;
+
+    }
+    #quests .questsFlex img {
+        width: 94%;
+    }
+
+    #mainBtn {
+        top:280px;
+    }
+    .horizontal{
+        width:320px;
+        margin:0;
+    }
+    #mainDialog{
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .underTitle{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    #mainBtn{
+        top:370px;
+    }
+    .animatorsContainer{
+        width: 142px;
+        height: 146px;
+    }
+}

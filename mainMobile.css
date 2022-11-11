@@ -86,7 +86,7 @@
         top: 200px;
     }
 
-    .mobileDetailsContent ul{
+    .mobileDetailsContent ul,.mobileDetailsContent a{
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 700;
@@ -96,6 +96,7 @@
         color: #FFFFFF;
         list-style: none;
         margin: 0;
+        text-decoration: none;
     }
 
     /*--------------------------- mobile menu end that*/

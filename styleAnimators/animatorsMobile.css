@@ -1,4 +1,25 @@
 @media screen and (max-width: 770px) {
+    header{
+        height:900px;
+        background: url("../images/animators_mob/Frame 87 (2).png");
+        background-size: cover;
+        background-position-y: -300px;
+    }
+    #mainDialog{
+        margin-top:10px;
+        font-size:35px;
+        line-height: 32px;
+    }
+    .underTitle .visiblefirst{
+        display:none;
+    }
+    #mainBtn {
+        top:420px;
+    }
+
+    .navigation{
+        display:none;
+    }
     .flex{
         max-width: 520px;
     }
@@ -71,9 +92,24 @@
 
 
     /*-------------------------animation program*/
+    .animatorsBtn{
+        bottom: 20px;
+    }
+    .animatorsText{
+        left: 25px;
+        top: 22px;
+    }
+    .animatorsText span{
+        font-size: 20px;
+        line-height: 24px;
+    }
     .bals40{
         font-size: 23px;
         line-height: 28px;
+    }
+    .bals58{
+        font-size: 33px;
+        line-height: 59px;
     }
     .animationProgram span{
         font-size: 16px;
@@ -96,17 +132,39 @@
     }
 
     /*-------------quests*/
-    #quests .questsFlex div {
+
+    .questsFlex{
+        max-width: 400px;
+    }
+    .questText{
+        bottom: 10px;
+    }
+    .questText span{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .questsBtn{
+        left: 22px;
+    }
+
+    #quests .questsFlex>div {
          width: 181px;
          height: 283px;
+        border-radius: 50px;
     }
     #quests .questsFlex img {
         width: 100%;
     }
 
+
     /*----------------help */
     .helpFlex{
         flex-direction: column;
+    }
+    .helpFlex h5 {
+        font-size: 16px;
+        line-height: 20px;
     }
     #helpImgSinka{
         width: 100%;

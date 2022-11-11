@@ -1,0 +1,31 @@
+
+@media screen and (max-width: 770px) {
+    header {
+        background: url("../images/lol/Frame 51 (1).png");
+        height: 900px;
+        background-size: cover;
+        background-position-y: -300px;
+    }
+    #quests .questsFlex img {
+        width: 171px;
+    }
+}
+@media screen and (max-width: 425px) {
+    header {
+        height:700px;
+        background: url("../images/lol/Frame 51 (1).png");
+        background-size: cover;
+
+    }
+    #quests .questsFlex img {
+        width: 86%;
+    }
+
+    #mainBtn {
+        top:280px;
+    }
+    .horizontal{
+        width:320px;
+        margin:0;
+    }
+}
