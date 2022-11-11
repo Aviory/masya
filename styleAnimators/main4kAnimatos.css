@@ -71,6 +71,14 @@ header{
     flex-wrap:wrap;
     max-width:1920px;
 }
+.animatorsContainer{
+    width: 369px;
+    height: 352px;
+}
+#animatorBravl{
+    background: url("../images/animators/bravl.png");
+}
+
 #mask{
     align-self: end;
 }

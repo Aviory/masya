@@ -1,0 +1,19 @@
+@media screen and (max-width: 770px) {
+    .flex{
+        max-width: 520px;
+    }
+    .aflex{
+        width: 45%;
+    }
+    .aflex img{
+        width: 100%;
+    }
+    .animatorsContainer{
+        width: 181px;
+        height: 186px;
+    }
+    #animatorBravl{
+        background: url("../images/animators_mob/bravl.png");
+     }
+
+}
