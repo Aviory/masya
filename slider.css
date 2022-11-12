@@ -1,0 +1,75 @@
+#sliderSection{
+    height: 800px;
+
+}
+.sliderMainContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+#sliderContainer{
+    position: relative;
+    width: 85%;
+    height: 400px;
+    display: flex;
+    /* align-content: flex-end; */
+    justify-content: space-around;
+    transition: 1s;
+}
+.sliderBtn{
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top:170px;
+    z-index: 5;
+}
+#sliderBthLeft{
+    background: url("images/lol/sliderBtnLeft.png");
+    left: 7%;
+}
+#sliderBthRight{
+    background: url("images/lol/sliderBtnRight.png");
+    right: 7%;
+}
+.sliderItem{
+    position: relative;
+    min-width: 400px;
+    height: 300px;
+    opacity: 1;
+    border-radius: 40px;
+    transition: 1s;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sliderItem:first-child,
+.sliderItem:last-child{
+    opacity: 0.5;
+    transform: scale(0.8);
+    z-index: 1;
+}
+
+.sliderMainItem{
+    transform: scale(1.5);
+    z-index: 2;
+}
+.inRemoveProcessLeft{
+    margin-left: -600px;
+    opacity: 0;
+}
+.inRemoveProcessRight{
+    margin-right: -600px;
+    opacity: 0;
+}
+#underSlide img{
+    width: auto;
+    height: fit-content;
+}
+#underSlide span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #636061;
+}

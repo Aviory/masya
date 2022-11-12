@@ -22,14 +22,15 @@
   <link href="styleAnimators/animatorsMobile.css" type="text/css" rel="stylesheet"/>
   <link href="styleAnimators/animatorsMobileSmall.css" type="text/css" rel="stylesheet"/>
   <link href="styleLol/lolMobile.css" type="text/css" rel="stylesheet"/>
-
+  <link href="slider.css" type="text/css" rel="stylesheet"/>
+<<script src="script/slider.js"></script>
   <!--    fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Nunito:wght@500;700;900&family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body onload="sliderInit()">
 <input id="btnMobileMenu" type="checkbox" class="btnMobileMenu">
 <label for="btnMobileMenu" id="labelBtnMobileMenu"></label>
 <div class="mobileDetails">
@@ -148,6 +149,58 @@
     <div id="waveMax" class="waves"></div>
   </div>
 </header>
+
+
+<section id="sliderSection">
+  <h2 class="contentH2 textAlignCenter ">Программа и активности</h2>
+  <div class="sliderMainContainer">
+    <div id="sliderBthLeft" onclick="moveLeft()" class="sliderBtn"></div>
+    <div id="sliderBthRight"  onclick="moveRight()" class="sliderBtn"></div>
+    <div id="sliderContainer">
+      <div class="sliderItem"></div>
+      <div class="sliderItem sliderMainItem"></div>
+      <div class="sliderItem"></div>
+    </div>
+  </div>
+
+
+<!--  -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+  <div id="underSlide" class="animationProgram">
+    <div class="program1" >
+      <div class="horizontal" >
+        <img src="images/lol/beforeTextBallon.png">
+        <span>Увлекательный игровой сюжет </span>
+      </div>
+      <div class="horizontal" >
+        <img src="images/lol/beforeTextBallon.png">
+        <span>Яркий тематический реквизит</span>
+      </div>
+    </div>
+    <div class="program1" >
+      <div class="horizontal" >
+        <img src="images/lol/beforeTextBallon.png">
+        <span>Профессиональные актёры - аниматоры</span>
+      </div>
+      <div class="horizontal" >
+        <img src="images/lol/beforeTextBallon.png">
+        <span>Маленький подарок каждому ребёнку </span>
+      </div>
+    </div>
+    <div class="program1" >
+      <div class="horizontal" >
+        <img src="images/lol/beforeTextBallon.png">
+        <span>Музыкальное сопровождение </span>
+      </div>
+      <div class="horizontal" >
+        <img src="images/lol/beforeTextBallon.png">
+        <span>Уникальные образы героев</span>
+      </div>
+    </div>
+  </div>
+
+<!--  -&#45;&#45;&#45;&#45;&#45;&#45;-->
+</section>
+
 <section>
   <h4 class="bals40 textAlignCenter" >Что входит в анимационную программу</h4>
   <div class="animationProgram">
