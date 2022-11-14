@@ -101,3 +101,8 @@
     }
 }
 
+@media screen and (max-width: 1065px) {
+    #helpToChoose {
+        min-height: 1706px;
+    }
+}

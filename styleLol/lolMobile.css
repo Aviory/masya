@@ -4,10 +4,21 @@
         background: url("../images/lol/Frame 51 (1).png");
         height: 900px;
         background-size: cover;
-        background-position-y: -300px;
+        background-position-y: 35%;
+        background-repeat: no-repeat;
     }
     #quests .questsFlex img {
         width: 171px;
+    }
+}
+@media screen and (max-width: 600px) {
+    header{
+        background-position-y: -10%;
+    }
+}
+@media screen and (max-width: 525px) {
+    header{
+        background-position-y: -98%;
     }
 }
 @media screen and (max-width: 425px) {

@@ -162,3 +162,10 @@
     background-repeat: repeat-x;
     transition: 4s;
 }
+.magrinBottomWaves{
+    top: auto;
+    bottom: 78px;
+}
+.magrinTopWaves{
+    bottom: -44px;
+}

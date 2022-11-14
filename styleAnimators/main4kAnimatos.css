@@ -419,6 +419,16 @@ header{
 
 /*----------------help */
 
+#helpToChoose{
+    overflow: hidden;
+    position: relative;
+    min-height: 1100px;
+    background: url(../images/animators/helpTochoseBack.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
+
 .helpFlex{
     margin:auto;
     display: flex;
@@ -502,3 +512,4 @@ header{
 #helpContactTel{
     background: url(../images/animators/tel.png);
 }
+

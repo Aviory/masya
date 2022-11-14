@@ -1,12 +1,13 @@
 #sliderSection{
-    height: 800px;
+    min-height: 800px;
 
 }
 .sliderMainContainer{
+    overflow: hidden;
     position: relative;
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 90px;
 }
 #sliderContainer{
     position: relative;
@@ -73,3 +74,4 @@
     line-height: 28px;
     color: #636061;
 }
+/*//1526*/

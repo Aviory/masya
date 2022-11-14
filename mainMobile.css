@@ -444,6 +444,10 @@
     #quests .questsFlex{
         max-width:571px;
     }
+
+    #helpToChoose {
+        min-height: 1306px;
+    }
 }
 
 
