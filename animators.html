@@ -25,9 +25,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Nunito:wght@500;700;900&family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
-
+  <script src="script/perspective.js"></script>
 </head>
-<body>
+<body onload="perspectiveInit()">
 <input id="btnMobileMenu" type="checkbox" class="btnMobileMenu">
 <label for="btnMobileMenu" id="labelBtnMobileMenu"></label>
 <div class="mobileDetails">
@@ -275,19 +275,19 @@
 <section id="quests" >
   <h4 class="bals58 textAlignCenter" >Квесты</h4>
   <div class="questsFlex" >
-    <div><img src="images/animators/spy.png">
+    <div class="perspective" ><img src="images/animators/spy.png">
       <div class="questText"><span>МИССИЯ ШПИОНОВ</span></div>
       <div class="animatorsBtn questsBtn"><span>Подоробнее</span></div>
     </div>
-    <div><img src="images/animators/dino.png">
+    <div class="perspective"><img src="images/animators/dino.png">
       <div class="questText"><span>раскопки динозавтра</span></div>
       <div class="animatorsBtn questsBtn"><span>Подоробнее</span></div>
     </div>
-    <div><img src="images/animators/treasure.png">
+    <div class="perspective"><img src="images/animators/treasure.png">
       <div class="questText"><span>поиски сокровищ</span></div>
       <div class="animatorsBtn questsBtn"><span>Подоробнее</span></div>
     </div>
-    <div><img src="images/animators/squidgame.png">
+    <div class="perspective"><img src="images/animators/squidgame.png">
       <div class="questText"><span>игра в кальмара</span></div>
       <div class="animatorsBtn questsBtn"><span>Подоробнее</span></div></div>
   </div>

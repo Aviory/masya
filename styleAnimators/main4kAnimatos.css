@@ -61,6 +61,10 @@ header{
     transition: 1s;
     z-index:5;
 }
+.animatorsBtn:hover{
+    background: linear-gradient(180deg, #FFEC40 0%, #FC990F 100%);
+    border:none;
+}
 .animatorsBtn span{
     font-family: 'Open Sans';
     font-style: normal;

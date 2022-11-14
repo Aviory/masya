@@ -186,6 +186,25 @@ header{
     color: #373435;
     text-decoration: none;
 }
+#mainBtn:hover{
+    transform:scale(1.1);
+    background: linear-gradient(0deg, rgba(255, 236, 64, 0.3), rgba(255, 236, 64, 0.3)), linear-gradient(180deg, #FFEB3F 0%, #FBA510 100%);
+    border:none;
+}
+.formBtn:hover{
+    background: linear-gradient(0deg, rgba(255, 236, 64, 0.3), rgba(255, 236, 64, 0.3)), linear-gradient(180deg, #FFEB3F 0%, #FBA510 100%);
+    border: 2px solid #FFEB3F;
+
+}
+.scalebtn{
+    z-index:100;
+    position:relative;
+}
+.scalebtn:hover{
+    transform:scale(1.1);
+    background: linear-gradient(0deg, rgba(255, 236, 64, 0.3), rgba(255, 236, 64, 0.3)), linear-gradient(180deg, #FFEB3F 0%, #FBA510 100%);
+    border:none;
+}
 #confettiStar{
     position: absolute;
     left: 46.3%;
