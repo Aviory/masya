@@ -1,4 +1,7 @@
 function sendEmail() {
+    let name = document.getElementById("name1").value
+    let phone = document.getElementById("telephone1").value
+
     Email.send({
         Host: "smtp.gmail.com",
         Username: "sender@email_address.com",
