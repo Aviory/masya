@@ -239,7 +239,7 @@
 
 
 }
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 687px) {
     header{
         height:800px;
         background-position-y: -158px;
@@ -247,7 +247,14 @@
 }
 @media screen and (max-width: 660px) {
     header{
-        height:800px;
+        height:770px;
         background-position-y: -158px;
     }
 }
+@media screen and (max-width: 600px) {
+    header{
+        height: 725px;
+        /*background-position-y: -10%;*/
+    }
+}
+

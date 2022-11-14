@@ -418,6 +418,9 @@ header{
     justify-content: center;
     flex-wrap:wrap;
 }
+#quests{
+    overflow: hidden;
+}
 #quests .questsFlex div{margin:1%;}
 
 
@@ -427,9 +430,7 @@ header{
     overflow: hidden;
     position: relative;
     min-height: 1100px;
-    background: url(../images/animators/helpTochoseBack.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
+
 
 }
 

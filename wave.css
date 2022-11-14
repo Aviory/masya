@@ -162,10 +162,17 @@
     background-repeat: repeat-x;
     transition: 4s;
 }
+.wavesChoseContainer{
+    height: 512px;
+    position: relative;
+    background: url(images/animators/helpTochoseBack.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 4000px;
+}
 .magrinBottomWaves{
-    top: auto;
-    bottom: 78px;
+
 }
 .magrinTopWaves{
-    bottom: -44px;
+
 }

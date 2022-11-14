@@ -1,4 +1,4 @@
-.animatorsBtn{
+.lolQuestBtn{
     left: 74px;
 }
 @media screen and (max-width: 770px) {
@@ -12,17 +12,18 @@
     #quests .questsFlex img {
         width: 171px;
     }
+
+    .animatorsBtn{
+        left: 17px;
+    }
 }
 @media screen and (max-width: 600px) {
     header{
-        background-position-y: -10%;
+        height: 745px;
+        /*background-position-y: -10%;*/
     }
 }
-@media screen and (max-width: 525px) {
-    header{
-        background-position-y: -98%;
-    }
-}
+
 @media screen and (max-width: 425px) {
     header {
         height:700px;
@@ -34,11 +35,21 @@
         width: 86%;
     }
 
+    .animatorsBtn{
+        left: 10px;
+    }
+
     #mainBtn {
         top:280px;
     }
     .horizontal{
         width:320px;
         margin:0;
+    }
+
+}
+@media screen and (max-width: 376px) {
+    .animatorsBtn {
+        bottom: 52px;
     }
 }
