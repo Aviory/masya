@@ -77,6 +77,18 @@ header{
 
     color: #FFFFFF;
 }
+.animatorsBtn span a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    transition: 1s;
+    text-align: center;
+    text-decoration:none;
+    color: #FFFFFF;
+}
 .animatorsText{
     position: absolute;
     transition: 1s;
