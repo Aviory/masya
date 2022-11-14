@@ -58,6 +58,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 1s;
+    z-index:5;
 }
 .animatorsBtn span{
     font-family: 'Open Sans';
@@ -66,15 +68,17 @@ header{
     font-size: 16px;
     line-height: 22px;
     /* identical to box height */
-
+    transition: 1s;
     text-align: center;
 
     color: #FFFFFF;
 }
 .animatorsText{
     position: absolute;
+    transition: 1s;
     bottom: 150px;
     left: 25px;
+    z-index:5;
 }
 .animatorsText span{
     font-family: 'Balsamiq Sans';
@@ -159,52 +163,194 @@ header{
     flex-wrap:wrap;
     max-width:1920px;
 }
+.flex>.aflex>div{
+    position:relative;
+}
 .animatorsContainer{
     position: relative;
     width: 369px;
     height: 352px;
+    transition: 1s;
+}
+.animatorsBackground{
+    position: relative;
+    width: 369px;
+    height: 352px;
+    transition: 1s;
+    z-index:-1;
+}
+.animatorsContainer:hover .animatorsBackground, .animatorsContainer:hover .animatorsCharacter{
+    transform: scale(103%);
+}
+
+/*.animatorsContainer:hover .animatorsText, .animatorsContainer:hover .animatorsBtn,.animatorsContainer:hover .animatorsBtn span,.animatorsContainer:hover .animatorsText span{*/
+/*    transform: scale(97%);*/
+/*}*/
+.animatorsContainer:hover .animatorsBackground{
+    opacity:0.7;
 }
 #animatorBravl{
     background: url("../images/animators/bravl.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position:absolute;
 }
 #animatorBag{
     background: url("../images/animators/bug.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position:absolute;
 }
+
 #animatorLol{
     background: url("../images/animators/lol.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position:absolute;
 }
 #animatorPony{
     background: url("../images/animators/pony.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position:absolute;
 }
 #animatorPeppa{
     background: url("../images/animators/peppa.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position:absolute;
 }
 #animatorOptimus{
-    background: url("../images/animators/optimus.png");
+    background: url("../images/animators/bambl.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position:absolute;
 }
 #animatorTrolls{
     background: url("../images/animators/trolls.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position:absolute;
 }
 #animatorFairy{
     background: url("../images/animators/fairy.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position:absolute;
 }
 #animatorSpider{
     background: url("../images/animators/spider.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position:absolute;
 }
 #animatorCold{
     background: url("../images/animators/cold.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position:absolute;
 }
 #animatorPatrol{
     background: url("../images/animators/patrol.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position:absolute;
 }
 #animatorMickey{
     background: url("../images/animators/mickey.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position:absolute;
 }
 #animatorTurtles{
-    background: url("../images/animators/turtles.png");
+    background: url("../images/animators/turtle.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position:absolute;
 }
 #animatorMasks{
     background: url("../images/animators/masks.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position:absolute;
+}
+.animatorsCharacter{
+    transition: 1s;
+    position: absolute;
+    width:100%;
+    height:352px;
+}
+#masks{
+    background: url("../images/animators/masks2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#bravl{
+    background: url("../images/animators/bravl2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    z-index:1;
+    position:absolute;
+}
+#bug{
+    background: url("../images/animators/bug2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#cold{
+    background: url("../images/animators/cold2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#fairy{
+    background: url("../images/animators/fairy2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#lol{
+    background: url("../images/animators/lol1.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#mickey{
+    background: url("../images/animators/mickey2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#optimus{
+    background: url("../images/animators/optimus2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#patrol{
+    background: url("../images/animators/patrol2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#peppa{
+    background: url("../images/animators/peppa1.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#pony{
+    background: url("../images/animators/pony2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#spider{
+    background: url("../images/animators/spider2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#trolls{
+    background: url("../images/animators/troll2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#turtles{
+    background: url("../images/animators/turtle2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 #mask{
     align-self: end;

@@ -32,6 +32,7 @@
     #mainBtn {
         top:400px;
     }
+
 }
 
 
@@ -78,6 +79,11 @@
     .questsBtn{
         bottom: 40px;
         left: 18px;
+    }
+    .animatorsBackground {
+        position: relative;
+        width: 142px;
+        height: 146px;
     }
 
 }

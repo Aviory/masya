@@ -440,5 +440,10 @@
          margin-left: 0;
          margin-right: 0;
     }
+    /*---------------------- quest*/
+    #quests .questsFlex{
+        max-width:571px;
+    }
 }
+
 

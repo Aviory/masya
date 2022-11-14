@@ -71,6 +71,11 @@
     #formOfFairy{
          background-position: top;
     }
+    .FlexHorizontal {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
 
 }
 

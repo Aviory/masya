@@ -24,7 +24,11 @@
         right: -2278px;
     }
 }
-
+@media screen and (max-width: 1660px) {
+    #quests .questsFlex{
+        max-width:1030px;
+    }
+}
 
 /*header{*/
 /*    height: 1096px;*/
