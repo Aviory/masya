@@ -1,3 +1,9 @@
+.aflex{
+    width:369px;
+}
+.flex{
+    height:790px;
+}
 header{
     background: url("../images/show/show.png") ;
     background-repeat: no-repeat;

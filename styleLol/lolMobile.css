@@ -1,4 +1,6 @@
-
+.animatorsBtn{
+    left: 74px;
+}
 @media screen and (max-width: 770px) {
     header {
         background: url("../images/lol/Frame 51 (1).png");
