@@ -52,6 +52,19 @@ header{
     background-size: cover;
 }
 
+
+@media screen and (max-width: 1560px) {
+    .flex{
+        height: 1400px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .flex{
+        height: 1600px;
+    }
+}
+
 @media screen and (max-width: 770px) {
     header {
         background: url("../images/show/Frame 50 (3).png");
@@ -66,42 +79,74 @@ header{
         width: 191px;
         height: 188px;
     }
+    .flex{
+        height: 900px;
+    }
+    .aflex {
+        width: 45%;
+    }
     .aflex div{
         border-radius:30%;
     }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
     header {
-        height:700px;
-        background: url("../images/show/Frame 50 (3).png");
-        background-size: cover;
+        background-position-y: -200px;
+    }
+}
+@media screen and (max-width: 640px) {
+    header {
+        background-position-y: -100px;
+    }
+}
+@media screen and (max-width: 580px) {
+    header {
+        background-position-y: 0;
+    }
+}
+@media screen and (max-width: 520px) {
+    header {
+        height: 815px;
+    }
+}
 
-    }
-    #quests .questsFlex img {
-        width: 94%;
-    }
 
-    #mainBtn {
-        top:280px;
-    }
-    .horizontal{
-        width:320px;
-        margin:0;
-    }
-    #mainDialog{
-        font-size: 30px;
-        line-height: 34px;
-    }
-    .underTitle{
-        font-size: 15px;
-        line-height: 18px;
-    }
-    #mainBtn{
-        top:370px;
-    }
-    .animatorsContainer{
-        width: 142px;
-        height: 146px;
+@media screen and (max-width: 425px) {
+header {
+    height: 712px;
+
+}
+#quests .questsFlex img {
+    width: 94%;
+}
+
+#mainBtn {
+    top:280px;
+}
+.horizontal{
+    width:320px;
+    margin:0;
+}
+#mainDialog{
+    font-size: 30px;
+    line-height: 34px;
+}
+.underTitle{
+    font-size: 15px;
+    line-height: 18px;
+}
+#mainBtn{
+    top:370px;
+}
+.animatorsContainer{
+    width: 142px;
+    height: 146px;
+}
+
+}
+@media screen and (max-width: 380px) {
+    header{
+        height: 620px;
     }
 
 }
