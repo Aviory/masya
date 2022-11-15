@@ -1,8 +1,8 @@
 #sliderSection{
-    min-height: 800px;
-
+    /*min-height: 800px;*/
 }
 .sliderMainContainer{
+
     overflow: hidden;
     position: relative;
     display: flex;
@@ -13,11 +13,12 @@
 #sliderContainer{
     position: relative;
     width: 85%;
-    max-width: 1147px;
+    max-width: 1200px;
+
     height: 400px;
     display: flex;
     /* align-content: flex-end; */
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     transition: 0.5s;
 }
@@ -27,18 +28,23 @@
     position: relative;
     /*top:170px;*/
     z-index: 5;
+
 }
 #sliderBthLeft{
     background: url("images/lol/sliderBtnLeft.png");
     left: 4%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #sliderBthRight{
     background: url("images/lol/sliderBtnRight.png");
     right: 4%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .sliderItem{
-    position: relative;
-    min-width: 450px;
+    position: absolute;
+    width: 450px;
     height: 300px;
     opacity: 1;
     border-radius: 40px;
@@ -51,29 +57,26 @@
     opacity: 0.5;
     transform: scale(0.8);
     z-index: 1;
-    position: relative;
 }
 .sliderItem:last-child{
-    right: 10%;
+    left: 62%;
 }
 .sliderItem:first-child{
-    left: 10%;
+    left: 0;
 }
 .sliderMainItem{
     transform: scale(1.5);
+    left: 33%;
     z-index: 2;
 }
 
 
-.inRemoveProcessLeft{
-    margin-left: 0;
-    animation-name: moveright;
-    animation-duration: 0.5s;
-}
-.inRemoveProcessRight{
-    margin-right: 0;
-    opacity: 0.5;
-}
+/*.inRemoveProcessLeft{*/
+/*    left: -100%;*/
+/*}*/
+/*.inRemoveProcessRight{*/
+/*    right: -100%;*/
+/*}*/
 #underSlide img{
     width: auto;
     height: fit-content;
@@ -91,12 +94,81 @@
 }
 @keyframes moveright {
     from{
-        opacity: 0;
+
         margin-right: -180px
     }
     to{
         margin-right: 0;
-        opacity: 0.5;
+
     }
 }
-/*//1526*/
+
+
+
+@media screen and (max-width: 1368px) {
+    .sliderItem {
+        position: absolute;
+        width: 225px;
+        height: 150px;
+        border-radius: 30px;
+    }
+    .sliderMainContainer{
+        height: 260px
+    }
+
+    #sliderContainer{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .sliderItem {
+        position: absolute;
+        width: 150px;
+        height: 100px;
+        border-radius: 20px;
+    }
+    .sliderMainContainer{
+        height: 162px;
+    }
+    #sliderContainer{
+        width: 400px;
+    }
+    .sliderBtn {
+        width: 45px;
+        height: 45px;
+    }
+}
+@media screen and (max-width: 444px) {
+    #sliderContainer{
+        width: 310px;
+    }
+    #sliderBthLeft{
+        left: 8%;
+    }
+    #sliderBthRight{
+        right: 8%;
+    }
+    .sliderItem {
+        position: absolute;
+        width: 120px;
+        height: 80px;
+        border-radius: 15px;
+    }
+}
+@media screen and (max-width: 353px) {
+    #sliderContainer{
+        width: 280px;
+    }
+    #sliderBthLeft{
+        left: 8%;
+    }
+    #sliderBthRight{
+        right: 8%;
+    }
+    .sliderItem {
+        position: absolute;
+        width: 100px;
+        height: 65px;
+        border-radius: 11px;
+    }
+}

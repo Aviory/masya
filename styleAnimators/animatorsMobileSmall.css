@@ -52,7 +52,7 @@
     }
     #quests .questsFlex>div{
         width: 137px;
-        height: 250px;
+        height: 218px;
 
     }
 
@@ -97,7 +97,7 @@
 @media screen and (max-width: 340px) {
     .questText{
         left: -6px;
-        bottom: 60px;
+        bottom: 40px;
     }
     .questText span{
         font-size: 14px;
