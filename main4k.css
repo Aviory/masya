@@ -168,12 +168,13 @@ header{
 .mainBtnCont{
     display: flex;
     justify-content: center;
+    height:85px;
 }
 #mainBtn{
     align-self: center;
     padding: 27px 44px 26px 45px ;
     background: linear-gradient(180deg, #FFEC40 0%, #FC990F 100%);
-    border: 2px solid rgba(245, 134, 52, 0.2);
+    border: none;
     box-shadow: 0px 10px 30px rgba(245, 134, 52, 0.25);
     border-radius: 100px;
     font-family: 'Open Sans';
@@ -185,6 +186,7 @@ header{
     background-origin: border-box;
     color: #373435;
     text-decoration: none;
+    transition: 1s;
 }
 #mainBtn:hover{
     transform:scale(1.1);
@@ -193,12 +195,13 @@ header{
 }
 .formBtn:hover{
     background: linear-gradient(0deg, rgba(255, 236, 64, 0.3), rgba(255, 236, 64, 0.3)), linear-gradient(180deg, #FFEB3F 0%, #FBA510 100%);
-    border: 2px solid #FFEB3F;
+    border: none;
 
 }
 .scalebtn{
     z-index:100;
     position:relative;
+    transition: 1s;
 }
 .scalebtn:hover{
     transform:scale(1.1);
