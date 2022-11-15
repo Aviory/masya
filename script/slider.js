@@ -9,13 +9,15 @@ let count =3;
 function moveRight() {
     if (images.length===count-1)
         return
+
     let items = document.getElementsByClassName("sliderItem");
     addElement()
     items[1].className = "sliderItem"
     items[2].className = "sliderItem sliderMainItem"
     items[3].className = "sliderItem inRemoveProcessRight"
-    items[0].className = "sliderItem inRemoveProcessLeft"
-    setTimeout(removeFirst,500)
+    items[0].className = "sliderItem inRemoveProcessLeft removeWidth"
+    // setTimeout(removeFirst,500)
+    removeFirst()
 }
 
 function moveLeft() {
@@ -23,11 +25,12 @@ function moveLeft() {
         return
     let items = document.getElementsByClassName("sliderItem");
     addElementLast()
-    items[1].className = "sliderItem"
-    items[2].className = "sliderItem sliderMainItem"
-    items[3].className = "sliderItem inRemoveProcessRight"
+    items[1].className = "sliderItem sliderMainItem"
+    items[2].className = "sliderItem "
+    items[3].className = "sliderItem inRemoveProcessRight removeWidth"
     items[0].className = "sliderItem inRemoveProcessLeft"
-    setTimeout(removeLast,500)
+    // setTimeout(removeLast,500)
+    removeLast()
 }
 
 function removeFirst() {

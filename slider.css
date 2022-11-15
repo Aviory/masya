@@ -7,39 +7,42 @@
     position: relative;
     display: flex;
     justify-content: center;
-    padding-top: 90px;
+    align-items: center;
+    height: 520px;
 }
 #sliderContainer{
     position: relative;
     width: 85%;
+    max-width: 1147px;
     height: 400px;
     display: flex;
     /* align-content: flex-end; */
     justify-content: space-around;
-    transition: 1s;
+    align-items: center;
+    transition: 0.5s;
 }
 .sliderBtn{
     width: 68px;
     height: 68px;
-    position: absolute;
-    top:170px;
+    position: relative;
+    /*top:170px;*/
     z-index: 5;
 }
 #sliderBthLeft{
     background: url("images/lol/sliderBtnLeft.png");
-    left: 7%;
+    left: 4%;
 }
 #sliderBthRight{
     background: url("images/lol/sliderBtnRight.png");
-    right: 7%;
+    right: 4%;
 }
 .sliderItem{
     position: relative;
-    min-width: 400px;
+    min-width: 450px;
     height: 300px;
     opacity: 1;
     border-radius: 40px;
-    transition: 1s;
+    transition: 0.5s;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -48,19 +51,28 @@
     opacity: 0.5;
     transform: scale(0.8);
     z-index: 1;
+    position: relative;
 }
-
+.sliderItem:last-child{
+    right: 10%;
+}
+.sliderItem:first-child{
+    left: 10%;
+}
 .sliderMainItem{
     transform: scale(1.5);
     z-index: 2;
 }
+
+
 .inRemoveProcessLeft{
-    margin-left: -600px;
-    opacity: 0;
+    margin-left: 0;
+    animation-name: moveright;
+    animation-duration: 0.5s;
 }
 .inRemoveProcessRight{
-    margin-right: -600px;
-    opacity: 0;
+    margin-right: 0;
+    opacity: 0.5;
 }
 #underSlide img{
     width: auto;
@@ -73,5 +85,18 @@
     font-size: 18px;
     line-height: 28px;
     color: #636061;
+}
+.removeWidth{
+    /*position: absolute;*/
+}
+@keyframes moveright {
+    from{
+        opacity: 0;
+        margin-right: -180px
+    }
+    to{
+        margin-right: 0;
+        opacity: 0.5;
+    }
 }
 /*//1526*/
