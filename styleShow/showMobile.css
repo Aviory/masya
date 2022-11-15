@@ -51,6 +51,15 @@ header{
     background: url("../images/show/site.png");
     background-size: cover;
 }
+@media screen and (max-width: 1625px) {
+    header {
+        background: url("../images/show/show.png");
+        background-repeat: no-repeat;
+        height: 1000px;
+        background-size: cover;
+        background-position-x: -50px;
+    }
+}
 
 
 @media screen and (max-width: 1560px) {
@@ -58,13 +67,38 @@ header{
         height: 1400px;
     }
 }
-
+@media screen and (max-width: 1295px) {
+    header {
+        background: url("../images/show/show.png");
+        background-repeat: no-repeat;
+        height: 1000px;
+        background-size: cover;
+        background-position-x: -100px;
+    }
+}
 @media screen and (max-width: 1170px) {
     .flex{
         height: 1600px;
     }
 }
-
+@media screen and (max-width: 1015px) {
+    header {
+        background: url("../images/show/show.png");
+        background-repeat: no-repeat;
+        height: 1000px;
+        background-size: cover;
+        background-position-x: -150px;
+    }
+}
+@media screen and (max-width: 896px) {
+    header {
+        background: url("../images/show/Frame 50 (3).png");
+        background-repeat: no-repeat;
+        height: 1000px;
+        background-size: cover;
+        background-position-y: -400px;
+    }
+}
 @media screen and (max-width: 770px) {
     header {
         background: url("../images/show/Frame 50 (3).png");
@@ -145,7 +179,7 @@ header {
 }
 @media screen and (max-width: 380px) {
     header{
-        height: 620px;
+        height: 600px;
     }
 
 }
