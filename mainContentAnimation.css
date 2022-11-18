@@ -976,3 +976,34 @@
     transition-duration: 1s;
     transform: translate(30px,30px) rotate(30deg);
 }
+/*------------------- echo*/
+.contentContainer:hover #photo5{
+    transform: translate(20px, 0px);
+}
+.contentContainer:hover #photo1{
+    transform: translate(-55px, 0px);
+}
+.contentContainer:hover #photo2{
+    transform: translate(-45px, 0px);
+}
+.contentContainer:hover #photo3{
+    transform: translate(-40px, 0px);
+}
+.contentContainer:hover #photo4{
+    transform: translate(-5px, 0px);
+}
+.contentContainer:hover #photo6{
+    transform: translate(55px, 0px);
+}
+.contentContainer:hover #photo7{
+    transform: translate(-10px, 0px);
+}
+.contentContainer:hover #photo8{
+    transform: translate(40px, 0px);
+}
+.contentContainer:hover #photo9{
+    transform: translate(45px, 0px);
+}
+.contentContainer:hover #photo10{
+    transform: translate(55px, 0px);
+}
