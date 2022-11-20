@@ -45,7 +45,8 @@ header{
     width:204px;
     height:143px;
     position: absolute;
-    margin-left: 15px;
+    left: 2%;
+    top: 7.7%;
 }
 
 .headerContainer{

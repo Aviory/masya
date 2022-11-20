@@ -618,9 +618,8 @@ input{
     height:444.55px;
     position:relative;
 }
-
 #screens img{
-  transition:2s;
+    transition:2s;
     filter: drop-shadow(0px 10px 60px rgba(0, 0, 0, 0.3));
 }
 #photo1{
@@ -674,8 +673,6 @@ input{
     bottom: 4.97%;
     border-radius: 36px;
     z-index:3;
-    filter: drop-shadow(0px 10px 60px rgba(0, 0, 0, 0.3));
-
 
 
 
@@ -743,4 +740,10 @@ input{
     src: url("fonts/Segoe Script.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
+}
+
+
+#formOfFairy .contentText{
+    position: relative;
+        z-index: 222;
 }

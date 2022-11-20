@@ -1,9 +1,17 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>animators</title>
+
+    <title>Аниматоры Днепр. Заказать аниматоров на час, на дом. Цена на аниматора</title>
+    <meta name="description"
+      content="Аниматоров на день рождения. Любимый герой для ребенка. У нас Вы можете выбрать любого героя на День Рождения ребенка. Человек Паук, куклы Лол, Бравл Старс, Леди Баг и т.д.">
+    <meta name="keywords"
+      content="человек паук, капитан америка, леди баг, бравл старс, куклы лол, свинка пепа, бамблби, щенячий патруль, черепашки ниндзя, микки маус">
+      
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <link rel="shortcut icon" href="./images/leo.ico.ico" type="image/icon">
   <link href="main4k.css" type="text/css" rel="stylesheet"/>
   <link href="styleAnimators/main4kAnimatos.css" type="text/css" rel="stylesheet"/>
 
@@ -28,7 +36,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Nunito:wght@500;700;900&family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
   <script src="script/perspective.js"></script>
+  <script src="script/emailSender.js"></script>
 </head>
+
 <body onload="perspectiveInit()">
 <input id="btnMobileMenu" type="checkbox" class="btnMobileMenu">
 <label for="btnMobileMenu" id="labelBtnMobileMenu"></label>
@@ -74,7 +84,7 @@
 </div>
   <header>
     <div class="content">
-      <a href="index.html"> <img class="logo" src="images/лого 1.png"></a>
+      <a href="index.html"> <img class="logo" src="images/logo_new.png"></a>
       <div class="headerContainer">
         <div class="fline">
           <nav class="baseNav">
@@ -154,13 +164,13 @@
   <section id="animatorsQuests" class="sectionContainer">
     <h2 class="contentH2 textAlignCenter ">Аниматоры</h2>
     <div class="flex">
-      <a class="aflex" href="#"><div class="animatorsContainer">
+      <a class="aflex" href="brawlStars.html"><div class="animatorsContainer">
         <div class="animatorsBackground" id="animatorBravl"></div>
         <div class="animatorsText"><span>БРАВЛ <br> СТАРС</span></div>
         <div class="animatorsBtn"><span>Подробнее</span></div>
         <div class="animatorsCharacter" id="bravl" ></div>
       </div></a>
-      <a class="aflex" href="#"><div class="animatorsContainer">
+      <a class="aflex" href="ladyBug.html"><div class="animatorsContainer">
         <div class="animatorsBackground" id="animatorBag" ></div>
         <div class="animatorsText"><span>леди баг <br> и кот</span></div>
         <div class="animatorsBtn"><span>Подробнее</span></div>
@@ -172,67 +182,67 @@
         <div class="animatorsBtn"><span>Подробнее</span></div>
         <div class="animatorsCharacter" id="lol" ></div>
       </div></a>
-      <a class="aflex" href="#"><div class="animatorsContainer">
+      <a class="aflex" href="pony.html"><div class="animatorsContainer">
         <div class="animatorsBackground" id="animatorPony" ></div>
         <div class="animatorsText"><span>пони</span></div>
         <div class="animatorsBtn"><span>Подробнее</span></div>
         <div class="animatorsCharacter" id="pony" ></div>
       </div></a>
-      <a class="aflex" href="#"><div class="animatorsContainer">
+      <a class="aflex" href="peppaPig.html"><div class="animatorsContainer">
         <div class="animatorsBackground" id="animatorPeppa"  ></div>
         <div class="animatorsText"><span>свинка<br> пепа</span></div>
         <div class="animatorsBtn"><span>Подробнее</span></div>
         <div class="animatorsCharacter" id="peppa" ></div>
       </div></a>
-      <a class="aflex" href="#"><div class="animatorsContainer">
+      <a class="aflex" href="transformers.html"><div class="animatorsContainer">
         <div class="animatorsBackground" id="animatorOptimus" ></div>
         <div class="animatorsText"><span>оптимус и<br> бамблби</span></div>
         <div class="animatorsBtn"><span>Подробнее</span></div>
         <div class="animatorsCharacter" id="optimus" ></div>
       </div></a>
-      <a class="aflex" href="#"><div class="animatorsContainer">
+      <a class="aflex" href="trolls.html"><div class="animatorsContainer">
         <div class="animatorsBackground" id="animatorTrolls" ></div>
         <div class="animatorsText"><span>тролли</span></div>
         <div class="animatorsBtn"><span>Подробнее</span></div>
         <div class="animatorsCharacter" id="trolls" ></div>
       </div></a>
-      <a class="aflex" href="#"><div class="animatorsContainer">
+      <a class="aflex" href="fairies.html"><div class="animatorsContainer">
         <div class="animatorsBackground" id="animatorFairy" ></div>
         <div class="animatorsText"><span>феи</span></div>
         <div class="animatorsBtn"><span>Подробнее</span></div>
         <div class="animatorsCharacter" id="fairy" ></div>
       </div></a>
-      <a class="aflex" href="#"><div  class="animatorsContainer">
+      <a class="aflex" href="marvel.html"><div  class="animatorsContainer">
         <div class="animatorsBackground"id="animatorSpider" ></div>
         <div class="animatorsText"><span>капитан <br> америка<br>и паук</span></div>
         <div class="animatorsBtn"><span>Подробнее</span></div>
         <div class="animatorsCharacter" id="spider" ></div>
       </div></a>
-      <a class="aflex" href="#"><div class="animatorsContainer">
+      <a class="aflex" href="frozen.html"><div class="animatorsContainer">
         <div class="animatorsBackground"id="animatorCold"  ></div>
         <div class="animatorsText"><span>холлодное <br> сердце</span></div>
         <div class="animatorsBtn"><span>Подробнее</span></div>
         <div class="animatorsCharacter" id="cold" ></div>
       </div></a>
-      <a class="aflex" href="#"><div class="animatorsContainer">
+      <a class="aflex" href="puppy.html"><div class="animatorsContainer">
         <div class="animatorsBackground" id="animatorPatrol" ></div>
         <div class="animatorsText"><span>щенячий <br> патруль</span></div>
         <div class="animatorsBtn"><span>Подробнее</span></div>
         <div class="animatorsCharacter" id="patrol" ></div>
       </div></a>
-      <a class="aflex" href="#"><div class="animatorsContainer">
+      <a class="aflex" href="mickey.html"><div class="animatorsContainer">
         <div class="animatorsBackground" id="animatorMickey" ></div>
         <div class="animatorsText"><span>микки <br> и минни</span></div>
         <div class="animatorsBtn"><span>Подробнее</span></div>
         <div class="animatorsCharacter" id="mickey" ></div>
       </div></a>
-      <a class="aflex" href="#"><div class="animatorsContainer">
+      <a class="aflex" href="ninjaTurtles.html"><div class="animatorsContainer">
         <div class="animatorsBackground" id="animatorTurtles" ></div>
         <div class="animatorsText"><span>ниндзя- <br> черепашки</span></div>
         <div class="animatorsBtn"><span>Пoдробнее</span></div>
         <div class="animatorsCharacter" id="turtles" ></div>
       </div></a>
-      <a class="aflex" href="#"><div class="animatorsContainer">
+      <a class="aflex" href="masks.html"><div class="animatorsContainer">
         <div class="animatorsBackground" id="animatorMasks"  ></div>
         <div class="animatorsCharacter" id="masks" ></div>
         <div class="animatorsText"><span>герои в <br> масках</span></div>
@@ -307,7 +317,7 @@
       <div id="form" >
       <input class="input" id="telephone2" name="phone" type="tel" maxlength="50" required
              placeholder="Введите телефон*" >
-        <a href="#" class="btn formBtn" id="sendbtn10"><span class="hideInMobile"> Отправить</span></a>
+        <a onclick="sendAnimators()" href="#" class="btn formBtn" id="sendbtn10"><span class="hideInMobile"> Отправить</span></a>
       </div>
     </form>
       </div>

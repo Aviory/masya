@@ -1,14 +1,27 @@
 <?php
-    $name = $_POST["name"];
-    $phone = $_POST["phone"];
+    $name = "a";
+    $phone = "a";
+    $fromForm = "a";
 
-    $message = "имя:".$name."\r\nтел:".$phone;
+    if(isset($_POST['name'])){
+        $name = $_POST['name'];
+    }
+    if(isset($_POST['phone'])){
+        $phone = $_POST['phone'];
+    }
+    if(isset($_POST['from'])){
+        $fromForm = $_POST['from'];
+    }
+    
 
-    $to = 'nobody@example.com';
-    $subject = 'Leo web';
-    $headers = 'From:Leo web';
+    $message = "имя:".$name."\r\nтел:".$phone."\r\n".$fromForm;
+
+    $to = 'leoshowdp@gmail.com';
+    $subject = "Заявка c сайта";
+    $headers = 'From: Leo web';
 
     mail($to, $subject, $message, $headers);
 
-    echo "fire ".$name;
+
+    echo "fire ".$name." ".$phone." ".$fromForm;
 ?>

@@ -1,0 +1,55 @@
+.lolQuestBtn{
+    left: 74px;
+}
+@media screen and (max-width: 770px) {
+    header {
+        background: url("../images/lol/Frame 51 (1).png");
+        height: 900px;
+        background-size: cover;
+        background-position-y: 35%;
+        background-repeat: no-repeat;
+    }
+    #quests .questsFlex img {
+        width: 171px;
+    }
+
+    .animatorsBtn{
+        left: 17px;
+    }
+}
+@media screen and (max-width: 600px) {
+    header{
+        height: 745px;
+        /*background-position-y: -10%;*/
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header {
+        height:700px;
+        background: url("../images/lol/Frame 51 (1).png");
+        background-size: cover;
+
+    }
+    #quests .questsFlex img {
+        width: 86%;
+    }
+
+    .animatorsBtn{
+        left: 10px;
+    }
+
+    #mainBtn {
+        top:280px;
+    }
+    .horizontal{
+        width:320px;
+        margin:0;
+    }
+
+}
+@media screen and (max-width: 376px) {
+    .animatorsBtn {
+        bottom: 31px;
+    }
+}
