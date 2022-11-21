@@ -52,4 +52,8 @@
     .animatorsBtn {
         bottom: 31px;
     }
+
+    .horizontal {
+       width: auto;
+    }
 }
