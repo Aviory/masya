@@ -211,7 +211,7 @@
 
 /*------ aboutus*/
     #aboutAs{
-        height: 991px;
+        height: 819px;
     }
     #aboutAs .contentContainer{
         right: 0;
@@ -221,6 +221,7 @@
         display: flex;
         justify-content: center;
         right: -90px;
+        top: -118px;
     }
 
     #aboutAsAnimation{
@@ -245,7 +246,7 @@
 
     /*---------- happy birth*/
     #happyBirthday{
-        min-height: 1498px;
+        min-height: 1419px;
         background: url("images/happybirthday/mobileback.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -292,7 +293,7 @@
     #shouPrograms{
         z-index: 3;
         margin-top: -100px;
-        height: 966px;
+        height: 955px;
     }
     #shouPrograms .contentContainer{
         flex-direction: column-reverse;
@@ -306,10 +307,12 @@
         background: url("images/masterclases/mobileback.png");
         background-repeat: no-repeat;
         background-size: cover;
-        height: 1098px;
+        height: 988px;
     }
     #masterClasses .contentContainer{
         margin-top: -250px;
+        position: relative;
+        z-index: 5;
     }
 
     #masterClasses .contentText{
@@ -451,3 +454,27 @@
 }
 
 
+@media screen and (max-width: 605px) {
+
+    #aboutAs{
+        height:942px;
+    }
+    #happyBirthday{
+        min-height: 1626px;
+    }
+    #shouPrograms{
+        height: 1071px;
+    }
+    #masterClasses{
+        height: 1124px;
+    }
+    #calendarCelebrate{
+        height: 1124px;
+    }
+    #inviteToCelebrate{
+        height: 1165px;
+    }
+    #sweets {
+        height: 1045px;
+    }
+}
