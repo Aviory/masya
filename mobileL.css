@@ -59,12 +59,24 @@
         line-height: 27px;
         text-align: center;
     }
+    #aboutAs{
+        height: 698px;
+    }
 
     #aboutAs .contentAnimation{
         margin-top: -130px;
+        top: -30px;
+    }
+
+    .application{
+        padding-right: 5%;
     }
     .mobileHideTextBr{
         display: none;
+    }
+    #formOfMagic{
+        height: 767px;
+        background-position: bottom right;
     }
 
     #happyBirthday .contentH2 span{
@@ -74,6 +86,57 @@
 
     #happyBirthday{
         background-position: center;
+        min-height: 1281px;
+    }
+    #shouPrograms {
+        height: 783px;
+    }
+    #shouPrograms .contentText {
+        margin-top: -176px;
+    }
+    #masterClasses {
+        height: 770px;
+    }
+
+    #masterClasses .contentText {
+        margin-top: -170px;
+    }
+    #calendarCelebrate {
+        height: 796px;
+    }
+    #calendarCelebrate .contentText {
+        margin-top: -168px;
+    }
+
+    #calendarCelebrate .contentContainer {
+        margin-top: -216px;
+    }
+
+    #inviteToCelebrate {
+        height: 762px;
+    }
+
+    #inviteToCelebrate .contentText {
+        margin-top: -200px;
+    }
+
+    #sweets {
+        height: 736px;
+    }
+
+    #sweets .contentText {
+        margin-top: -253px;
+    }
+    #externalSupport {
+        height: 661px;
+    }
+
+    #externalSupport .contentContainer {
+        margin-top: -296px;
+    }
+
+    #externalSupport .contentText {
+        margin-top: -242px;
     }
 
     .contentAnimation {
@@ -83,5 +146,19 @@
     .tariff{
         font-size: 34px;
         margin-top: 2%;
+    }
+
+    #formOfFairy {
+        height: 762px;
+        background-position: bottom right;
+    }
+
+    .wavesBotContainer{
+        bottom: -90px;
+        transform: scale(0.5);
+    }
+
+    .btnUp {
+        bottom: 14px;
     }
 }

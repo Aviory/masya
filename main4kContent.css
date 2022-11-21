@@ -4,6 +4,8 @@
 .contentContainer{
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 5
 }
 .contentText{
     /*flex-grow: 1;*/
@@ -81,7 +83,7 @@
 
 /*---------------------------------------------------------*/
 #formOfMagic{
-    height: 1126px;
+    height: 961px;
     padding-top: 100px;
     background: url("images/Rectangle 42.png");
     background-size: cover;

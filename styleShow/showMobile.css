@@ -181,5 +181,8 @@ header {
     header{
         height: 600px;
     }
+    #mainBtn {
+        top: 526px
+    }
 
 }

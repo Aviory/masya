@@ -1,3 +1,58 @@
+@media screen and (max-width: 394px) {
+    .contentH2{
+        line-height: 32px;
+        margin-block-start: 0.53em;
+        margin-block-end: 0.1em;
+    }
+    .textMarginTop {
+        margin-top: -19px;
+    }
+
+    #masterClasses .contentText {
+        margin-top: -226px;
+    }
+    #calendarCelebrate {
+        height: 734px;
+    }
+    #calendarCelebrate .contentText {
+        margin-top: -204px;
+    }
+    #inviteToCelebrate .contentContainer {
+        margin-top: -425px;
+    }
+    #sweets{
+        top: -50px;
+        height: 688px;
+
+    }
+    #sweets .contentContainer {
+        margin-top: -190px;
+    }
+    #externalSupport .contentContainer {
+        margin-top: -330px;
+    }
+    .sendbtnContainer {
+        margin-top: 25px;
+    }
+    #happyBirthday {
+        min-height: 1025px;
+    }
+    #happyBirthday .contentText {
+        margin-top: -283px
+    }
+    #happyBirthday .contentAnimation {
+        top: -72px;
+    }
+    #shouPrograms {
+        height: 721px;
+    }
+    #shouPrograms .contentText {
+        margin-top: -210px;
+    }
+    #inviteToCelebrate {
+        height: 700px;
+    }
+}
 @media screen and (max-width: 376px) {
  .logo{
      transform: scale(0.6);
@@ -17,8 +72,62 @@
     #happyBirthday .contentContainer{
         margin-top: -220px;
     }
+    #aboutAs{
+        height: 636px;
+    }
     #aboutAs .contentAnimation{
         right: -54px;
+        top: -110px
+    }
+    .btn {
+        padding: 15px 25px;
+    }
+    .contentH2{
+        font-size: 30px;
+    }
+    .contentH2 span {
+        font-size: 18px;
+    }
+
+    #shouPrograms .contentText {
+        margin-top: -234px;
+    }
+
+}
+@media screen and (max-width: 316px) {
+    #mainBtn {
+        padding: 17px 34px 16px 35px;
+    }
+    #masterClasses {
+        height: 657px;
+    }
+    #masterClasses .contentAnimation{
+        top: -97px;
+        position: relative;
+    }
+    #masterClasses .contentText{
+        margin-top: -340px;
+    }
+    #calendarCelebrate .contentContainer {
+        margin-top: -244px;
+    }
+    #inviteToCelebrate .contentAnimation{
+        top: -52px;
+    }
+    #inviteToCelebrate .contentText {
+        margin-top: -300px;
+    }
+    #sweets .contentText {
+        margin-top: -301px;
+    }
+    #sweets .contentAnimation {
+        top:-40px
+    }
+    #externalSupport .contentContainer {
+        margin-top: -385px;
+    }
+    .tariff {
+        font-size: 27px;
     }
 
 }

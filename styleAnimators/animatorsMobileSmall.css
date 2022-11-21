@@ -95,13 +95,24 @@
 
 }
 @media screen and (max-width: 340px) {
-    .questText{
+    .questText {
         left: -6px;
         bottom: 40px;
     }
-    .questText span{
+
+    .questText span {
         font-size: 14px;
         line-height: 20px;
+    }
+
+    #mainBtn {
+        top: 628px;
+    }
+}
+@media screen and (max-width: 316px) {
+    .animatorsContainer, .animatorsBackground{
+        width: 130px;
+        height: 135px;
     }
 }
 
