@@ -48,15 +48,15 @@
         display: none;
     }
     .logo{
-        transform: scale(1.5);
-        margin-top: 50px;
+        transform: scale(0.9);
+        margin-top: -40px;
         margin-left: 74px;
     }
     .baseNav{
         display: none;
     }
     .localisation{
-        transform: scale(2);
+        transform: scale(1);
         padding-top: 50px;
     }
 }

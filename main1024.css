@@ -42,8 +42,9 @@
         min-width: 272px;
     }
     .logo{
-        transform: scale(0.5);
-        margin-left: 0px;
+        transform: scale(0.6);
+        margin-left: -20px;
+        margin-top:20px;
     }
     .baseNav{
         min-width: 388px;
