@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
     <meta name="robots" content="noindex,nofollow">
@@ -33,16 +33,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Nunito:wght@500;700;900&family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
     <script src="script/emailSender.js"></script>
+    <script src="script/localizationMainPage.js"></script>
 </head>
-<body>
+<body onload="initLang()">
     <input id="btnMobileMenu" type="checkbox" class="btnMobileMenu">
     <label for="btnMobileMenu" id="labelBtnMobileMenu"></label>
     <div class="mobileDetails">
         <div class="mobileDetailsHeader">
             <div>
-                <select>
-                    <option selected>Рус</option>
-                    <option>Укр</option>
+                <select onchange="changeTo(this.value)">
+                    <option value="ru" selected>Рус</option>
+                    <option value="ua">Укр</option>
                 </select>
             </div>
 
@@ -59,12 +60,12 @@
         </div>
         <nav class="mobileDetailsContent">
             <ul>
-                <a href="index.html"><li>Главная</li></a>
-                <li>Цены</li>
-                <li>О нас</li>
-                <li>Отзывы</li>
-                <li>Статьи</li>
-                <li>Контакты</li>
+                <a href="index.html"><li id="txtMain">Главная</li></a>
+                <li id="txtPrice">Цены</li>
+                <li id="txtAboutUs">О нас</li>
+                <li id="txtReviews">Отзывы</li>
+                <li id="txtBlogs">Статьи</li>
+                <li id="txtContacts">Контакты</li>
             </ul>
             <ul>
                 <li><a href="animators.html"> Аниматоры и квесты</a></li>
@@ -85,15 +86,15 @@
                 <div class="fline">
                     <nav class="baseNav">
                         <ul>
-                            <li><a class="underlined" href="#back">Цены</a></li>
+                            <li><a id="txtFPagePrice" class="underlined" href="#back">Цены</a></li>
                             <div class="dot"></div>
-                            <li><a class="underlined" href="#">О нас</a></li>
+                            <li><a id="txtFPageAboutUs" class="underlined" href="#">О нас</a></li>
                             <div class="dot"></div>
-                            <li><a class="underlined" href="#">Отзывы</a></li>
+                            <li><a id="txtFPageReviews" class="underlined" href="#">Отзывы</a></li>
                             <div class="dot"></div>
-                            <li><a class="underlined" href="#">Статьи</a></li>
+                            <li><a id="txtFPageBlogs" class="underlined" href="#">Статьи</a></li>
                             <div class="dot"></div>
-                            <li><a class="underlined" href="#">Контакты</a></li>
+                            <li><a id="txtFPageContacts" class="underlined" href="#">Контакты</a></li>
                         </ul>
                     </nav>
                     <div class="localisation">
@@ -101,9 +102,9 @@
                             <a href=""><img src="images/fb.png"></a>
                             <a href=""><img src="images/inst.png"></a>
                         </div>
-                        <select>
-                            <option selected>Рус</option>
-                            <option>Укр</option>
+                        <select onchange="changeTo(this.value)">
+                            <option value="ru" selected>Рус</option>
+                            <option value="ua">Укр</option>
                         </select>
                     </div>
                     <div class="phones">
