@@ -81,6 +81,24 @@
 
 
 }
+@media screen and (max-width: 1574px) and (min-width: 771px) {
+ .contentContainer{
+     padding-left: 3%;
+     padding-right: 3%;
+ }
+}
+
+
+    @media screen and (max-width: 1360px) {
+    #formOfMagic {
+        height: 961px;
+        background-position: top right -200px;
+    }
+    #formOfFairy {
+        height: 952px;
+        background-position: top right -200px;
+    }
+}
 
 /*#heroesContainer:hover #hero1, #heroesContainer:hover #hero4{*/
 /*    transform: translate(-3%,-3%) scale(0.8);*/

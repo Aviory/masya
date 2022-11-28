@@ -243,6 +243,9 @@
     .input{
         width: 90%;
     }
+    #formOfMagic .contentAnimation{
+        display: none;
+    }
 
     /*---------- happy birth*/
     #happyBirthday{
@@ -414,6 +417,9 @@
     }
     .btnUp{
         bottom: 102px;
+    }
+    #formOfFairy .contentAnimation{
+        display: none;
     }
     /*---------------------- footer*/
 
