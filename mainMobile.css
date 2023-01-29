@@ -413,6 +413,7 @@
         margin-top: 20px;
         align-items: start;
         flex-direction: column;
+        width:auto;
     }
     .formBtn{
         width: 25%;

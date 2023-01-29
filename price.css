@@ -83,7 +83,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 20px;
     /* identical to box height */
     text-align: center;
@@ -100,7 +100,6 @@
     line-height: 0%;
     /* identical to box height, or 128% */
     text-align: center;
-
     /* black */
     color: #373435;
     margin-top:0%;
