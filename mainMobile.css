@@ -266,6 +266,10 @@
         width: 92%;
     }
 
+    .textMarginTop {
+        margin-top: -116px;
+    }
+
     #happyBirthday .contentAnimation{
 
         left: 0;
@@ -442,7 +446,7 @@
     }
     #main .text:last-child{
         display: block;
-        width: 130px;
+        width: 180px;
         margin-right: 0;
         text-align: center;
     }

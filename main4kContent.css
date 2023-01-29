@@ -78,7 +78,7 @@
     border-radius:100% ;
 }
 .textMarginTop{
-    margin-top: -35px;
+    margin-top: -85px;
 }
 
 /*---------------------------------------------------------*/
@@ -303,6 +303,8 @@ input{
     min-height: 1330px;
     background: url("images/Frame 50.png");
     background-size: cover;
+    overflow-y: visible;
+    overflow-x: clip;
 }
 #happyBirthday .contentH2 span {
     font-size: 56px;
@@ -334,7 +336,7 @@ input{
     margin-top: 155px;
 }
 .headerMarginTop{
-    top: -20px;
+    top: -66px;
 }
 
 

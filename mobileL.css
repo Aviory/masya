@@ -1,6 +1,10 @@
 
 @media screen and (max-width: 425px) {
 
+    .textMarginTop {
+        margin-top: -92px;
+    }
+
     .btnMobileMenu{
         top: 26px;
         right: 0;
