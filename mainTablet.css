@@ -38,7 +38,7 @@
     .sline{
         display: none;
     }
-    .fline select{
+    .fline select, .fline label{
         display: none;
     }
     .fline{
@@ -58,5 +58,8 @@
     .localisation{
         transform: scale(1);
         padding-top: 50px;
+    }
+    .header_scroll{
+        display: none;
     }
 }

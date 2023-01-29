@@ -34,8 +34,22 @@
 <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Nunito:wght@500;700;900&family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
     <script src="script/emailSender.js"></script>
     <script src="script/localizationMainPage.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <body onload="initLang()">
+<nav class="header_scroll">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+        </a>
+        <a class="py-2 d-none d-md-inline-block underlined" href="#">Аниматоры на праздник     ·</a>
+        <a class="py-2 d-none d-md-inline-block underlined" href="#">Шоу-программы и квесты    ·</a>
+        <a class="py-2 d-none d-md-inline-block underlined" href="#">Дополнительные услуги     </a>
+    </div>
+</nav>
+
+<i class="fas fa-angle-double-down"></i>
+
     <input id="btnMobileMenu" type="checkbox" class="btnMobileMenu">
     <label for="btnMobileMenu" id="labelBtnMobileMenu"></label>
     <div class="mobileDetails">
@@ -88,26 +102,26 @@
                         <ul>
                             <li><a id="txtFPagePrice" class="underlined" href="#back">Цены</a></li>
                             <div class="dot"></div>
-                            <li><a id="txtFPageAboutUs" class="underlined" href="#">О нас</a></li>
+                            <li><a id="txtFPageAboutUs" class="underlined" href="#aboutAs">О нас</a></li>
                             <div class="dot"></div>
-                            <li><a id="txtFPageReviews" class="underlined" href="#">Отзывы</a></li>
+                            <li><a id="txtFPageReviews" class="underlined" href="#echo">Отзывы</a></li>
                             <div class="dot"></div>
                             <li><a id="txtFPageBlogs" class="underlined" href="#">Статьи</a></li>
                             <div class="dot"></div>
-                            <li><a id="txtFPageContacts" class="underlined" href="#">Контакты</a></li>
+                            <li><a id="txtFPageContacts" class="underlined" href="#map">Контакты</a></li>
                         </ul>
                     </nav>
                     <div class="localisation">
-                        <div>
-                            <a href=""><img src="images/fb.png"></a>
-                            <a href=""><img src="images/inst.png"></a>
-                        </div>
+                        <label>Выбрать язык:</label>
                         <select onchange="changeTo(this.value)">
                             <option value="ru" selected>Рус</option>
                             <option value="ua">Укр</option>
                         </select>
                     </div>
                     <div class="phones">
+                        <div>
+                            <a href="https://instagram.com/leo_show_dp"><img src="images/inst.png"></a>
+                        </div>
                         <div>
                             <img src="images/phone_logo.png">
                             <a href="tel:+380634858933">+38 (063) 48-58-933</a>
@@ -137,7 +151,7 @@
 
         </div>
         <div class="mainBtnCont">
-            <a href="#" id="mainBtn">Бесплатный подбор</a>
+            <a href="#formOfMagic" id="mainBtn">Бесплатный подбор</a>
         </div>
         <div id="heroesContainer">
             <div class="heroes">
@@ -200,7 +214,7 @@
                 <div id="aboutAsAnimation">
 
                 </div>
-                <img id="aboutAsPlayBtn" src="images/aboutas/playbtn.png" class="imgAnimationItem">
+                <a href="https://www.youtube.com/watch?v=rQgVmnPtwjw"><img id="aboutAsPlayBtn" src="images/aboutas/playbtn.png" class="imgAnimationItem"></a>
                 <img id="aboutAsBall1" src="images/aboutas/ballon1.png" class="imgAnimationItem">
                 <img id="aboutAsBall2" src="images/aboutas/ballon2.png" class="imgAnimationItem">
                 <img id="aboutconf" src="images/aboutas/aboutconf.png" class="imgAnimationItem">
@@ -235,13 +249,7 @@
                     <input class="input" id="telephone1" name="phone" type="tel" maxlength="50" required
                            placeholder="Введите телефон*"><br>
                     <div class="btnmenu">
-                        <div>
-                            <input class="custom-checkbox" id="myCheckbox1" type="checkbox">
-                            <label class="check1" for="myCheckbox1">
-                                Соглашаюсь со всеми условиями реального и сказочного<br>мира
-                            </label>
-                        </div>
-                        <a onclick="sendMagic()" href="#" class="btn formBtn scalebtn" id="sendbtn1 ">Отправить</a>
+                        <a onclick="sendMagic()" href="#" class="btn scalebtn" id="sendbtn1">Отправить</a>
                     </div>
                 </form>
 
@@ -631,7 +639,15 @@
     <section id="echo" class="sectionContainer">
         <h2 class="tariff">Эхо праздника</h2>
         <b class="nunito22"><center>Слава о наших праздниках ушла далеко за пределы сказочных миров. И это всё благодаря людям, которым<br>мы подарили сказку. Их отзывы расскажут о нас лучше, чем сотни слов на сайте.</center></b>
-        <b class="price" id="nickname"><center>@leo_show_dp</center></b>
+        <a href="https://instagram.com/leo_show_dp">
+            <div id="instdiv" >
+                <img id="logoinst" src="images/instagram/img.png">
+                <div>
+                    <b class="price" id="nickname"><center>@leo_show_dp</center></b>
+                </div>
+            </div>
+        </a>
+
         <div class="contentContainer">
             <div id="screens">
                 <img class="allimg middle" id="photo1" src="images/instagram/inst30.png" >
@@ -688,7 +704,7 @@
                     <li class="li" >Персональный ивент-менеджер на площадке</li>
                 </ul>
                 <div class="mainBtnCont">
-                <a href="#" class="pricebtn scalebtn">Заказать</a>
+                <a href="#formOfMagic" class="pricebtn scalebtn">Заказать</a>
                 </div>
             </div>
             <div class="item">
@@ -712,7 +728,7 @@
                     <li class="li" >Электронные пригласительные стилизованные под тематику/оформление праздника</li>
                 </ul>
                 <div class="mainBtnCont">
-                <a href="#" class="pricebtn scalebtn">Заказать</a>
+                <a href="#formOfMagic" class="pricebtn scalebtn">Заказать</a>
                 </div>
             </div>
 
@@ -741,13 +757,7 @@
                     <input class="input" id="telephone2" name="phone" type="tel" maxlength="50" required
                            placeholder="Введите телефон*"><br>
                     <div class="btnmenu">
-                        <div>
-                            <input class="custom-checkbox" id="myCheckbox2" type="checkbox">
-                            <label class="check1"  for="myCheckbox2">
-                                Соглашаюсь со всеми условиями реального и сказочного<br>мира
-                            </label>
-                        </div>
-                        <a onclick="sendFairy()" href="#" class="btn formBtn scalebtn" id="sendbtn10">Отправить</a>
+                        <a onclick="sendFairy()" href="#" class="btn scalebtn" id="sendbtn10">Отправить</a>
                     </div>
                 </form>
 
@@ -826,11 +836,12 @@
             <img class="line" src="images/footer/Line 2.png" >
             <div id="media">
                 <a href=""><img class="fb" src="images/footer/1964400_facebook_logo_media_social_icon (1) 2face.png" ></a>
-                <a href=""><img class="fb" src="images/footer/7693314_instagram_social media_logo_apps_iconinsta.png" ></a>
+                <a href="https://instagram.com/leo_show_dp"><img class="fb" src="images/footer/7693314_instagram_social media_logo_apps_iconinsta.png" ></a>
             </div>
         </div>
 
     </footer>
 
+<script src="script/scroll.js"></script>
 </body>
 </html>

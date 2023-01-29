@@ -203,8 +203,8 @@ input{
 .btnmenu{
     display:flex;
     width:457px;
-    justify-content:space-between;
-    margin-top:20px;
+    justify-content:center;
+    margin-top:50px;
     align-items:center;
     height:60px;
 }
@@ -315,6 +315,9 @@ input{
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
+}
+.sectionContainer a{
+    text-decoration: none;
 }
 .textAlignCenter{
     text-align: center;
@@ -589,7 +592,7 @@ input{
 
 /*---------------------------------------------------instagram*/
 #echo{
-    padding-top:8%;
+    padding-top:1%;
     position: relative;
 }
 #echoWave{
@@ -725,6 +728,17 @@ input{
     bottom: 22.75%;
     border-radius: 36px;
     z-index:0;
+}
+#logoinst{
+    width:32px;
+    height:32px;
+    margin-right:1%;
+}
+#instdiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
 }
 .allimg{
     width:323px;
