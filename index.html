@@ -55,6 +55,7 @@
     <div class="mobileDetails">
         <div class="mobileDetailsHeader">
             <div>
+                <label class="textWhite">Выбрать язык:</label>
                 <select onchange="changeTo(this.value)">
                     <option value="ru" selected>Рус</option>
                     <option value="ua">Укр</option>
@@ -62,8 +63,8 @@
             </div>
 
             <div class="mobileDetailsPhones">
+                <img class="image_phone_nemu" src="images/phone_logo.png">
                 <div>
-                    <img src="images/phone_logo.png">
                     <a href="tel:+380634858933">+38 (063) 48-58-933</a>
                 </div>
                 <div>
@@ -75,7 +76,7 @@
         <nav class="mobileDetailsContent">
             <ul>
                 <a href="index.html"><li id="txtMain">Главная</li></a>
-                <li id="txtPrice">Цены</li>
+                <li id="txtPrice"><a href="#back">Цены</a></li>
                 <li id="txtAboutUs">О нас</li>
                 <li id="txtReviews">Отзывы</li>
                 <li id="txtBlogs">Статьи</li>
@@ -118,10 +119,11 @@
                             <option value="ua">Укр</option>
                         </select>
                     </div>
+                    <div class="inst_logo_top">
+                        <a href="https://instagram.com/leo_show_dp"><img src="images/inst.png"></a>
+                    </div>
                     <div class="phones">
-                        <div>
-                            <a href="https://instagram.com/leo_show_dp"><img src="images/inst.png"></a>
-                        </div>
+
                         <div>
                             <img src="images/phone_logo.png">
                             <a href="tel:+380634858933">+38 (063) 48-58-933</a>
@@ -501,7 +503,7 @@
             </div>
 
             <div class="contentText">
-                <h2 class="contentH2 textWhite">Оформление на<br> праздник</h2>
+                <h2 class="contentH2 textWhite">Оформление на<br><span class="smallTxtInvite">праздник </span></h2>
 
                 <h3 class="cursiveText textWhite">Уже включены в программу</h3>
 

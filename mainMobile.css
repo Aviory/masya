@@ -8,7 +8,10 @@
 
     /*--------------------------- mobile menu*/
 
-
+    .image_phone_nemu{
+        position: absolute;
+        top: 25%;
+    }
 
     #labelBtnMobileMenu{
         display: block;
@@ -34,12 +37,18 @@
 
     /*-----------------body details*/
 
+    .inst_logo_top{
+        top: 68px;
+        right: 140px;
+        position: absolute;
+    }
+
     .mobileDetailsHeader{
         display: flex;
         width: 70%;
         position: absolute;
         right: 0;
-        margin-top: 100px;
+        margin-top: 59px;
         align-items: center;
         justify-content: space-around
 
@@ -115,9 +124,9 @@
     }
     #wavesContainer{
 
-        bottom: -57px;
-        transform: scale(0.7);
-        right: -2566px;
+        bottom: -64px;
+        transform: scale(0.5);
+        right: -2773px;
     }
 
     #mainBtn{

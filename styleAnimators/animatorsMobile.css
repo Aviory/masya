@@ -25,7 +25,7 @@
         max-width: 520px;
     }
     .aflex{
-        width: 45%;
+        width: auto;
     }
     .aflex img{
         width: 100%;
@@ -198,6 +198,7 @@
         margin-right: 0;
     }
 
+
     .application {
          padding-left: 0;
     }
@@ -206,6 +207,11 @@
         margin-block-end: 4%;
         width: 100%;
         text-align: center;
+    }
+
+    .formFlex .FlexHorizontal{
+        margin-bottom: 0;
+        margin-top: -35px;
     }
 
     #form{
@@ -233,10 +239,19 @@
     }
 
     .flexContacts{
-        justify-content: center;
-
+        justify-content: space-between;
     }
 
+    #helpToChoose{
+        min-height: 861px;
+    }
+
+    .wavesChoseContainer {
+        height: 312px;
+    }
+    .wavesBotMiddle {
+        right: -230px;
+    }
 
 }
 @media screen and (max-width: 687px) {

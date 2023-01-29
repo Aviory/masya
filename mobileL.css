@@ -1,6 +1,13 @@
 
 @media screen and (max-width: 425px) {
 
+    .inst_logo_top{
+        top: 50px;
+        right: 92px;
+        position: absolute;
+    }
+
+
     .textMarginTop {
         margin-top: -92px;
     }
@@ -15,7 +22,8 @@
         right: 0;
     }
     .mobileDetailsHeader {
-        margin-top: 50px;
+        margin-top: 45px;
+        margin-right: 5px;
     }
 
     .logo{
@@ -120,6 +128,18 @@
         height: 762px;
     }
 
+    #inviteToCelebrate h2{
+        margin-bottom: -15px;
+    }
+
+    #inviteToCelebrate .contentAnimation{
+        transform: scale(0.4);
+    }
+
+    .smallTxtInvite{
+        font-size: 27px;
+    }
+
     #inviteToCelebrate .contentText {
         margin-top: -200px;
     }
@@ -129,7 +149,7 @@
     }
 
     #sweets .contentText {
-        margin-top: -253px;
+        margin-top: -210px;
     }
     #externalSupport {
         height: 661px;

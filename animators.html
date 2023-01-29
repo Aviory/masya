@@ -46,15 +46,16 @@
 <div class="mobileDetails">
   <div class="mobileDetailsHeader">
     <div>
-      <select>
-        <option selected>Рус</option>
-        <option>Укр</option>
+      <label class="textWhite">Выбрать язык:</label>
+      <select onchange="changeTo(this.value)">
+        <option value="ru" selected>Рус</option>
+        <option value="ua">Укр</option>
       </select>
     </div>
 
     <div class="mobileDetailsPhones">
+      <img class="image_phone_nemu" src="images/phone_logo.png">
       <div>
-        <img src="images/phone_logo.png">
         <a href="tel:+380634858933">+38 (063) 48-58-933</a>
       </div>
       <div>
@@ -102,14 +103,14 @@
             </ul>
           </nav>
           <div class="localisation">
-            <div>
-              <a href=""><img src="images/fb.png"></a>
-              <a href=""><img src="images/inst.png"></a>
-            </div>
-            <select>
-              <option selected>Рус</option>
-              <option>Укр</option>
+            <label>Выбрать язык:</label>
+            <select onchange="changeTo(this.value)">
+              <option value="ru" selected>Рус</option>
+              <option value="ua">Укр</option>
             </select>
+          </div>
+          <div class="inst_logo_top">
+            <a href="https://instagram.com/leo_show_dp"><img src="images/inst.png"></a>
           </div>
           <div class="phones">
             <div>
@@ -332,6 +333,9 @@
   </div>
   </div>
 </div>
+  <a href="#btnMobileMenu" class="btnUp">
+    <img src="images/btnUp.png" >
+  </a>
   <div class="wavesChoseContainer">
     <div class="wavesTopContainer magrinBottomWaves">
       <div class="wavesTopBig"></div>
@@ -392,7 +396,7 @@
       </div>
       <img class="line" src="images/footer/Line 2.png" >
       <div id="media">
-        <a href=""><img class="fb" src="images/footer/1964400_facebook_logo_media_social_icon (1) 2face.png" ></a>
+<!--        <a href=""><img class="fb" src="images/footer/1964400_facebook_logo_media_social_icon (1) 2face.png" ></a>-->
         <a href=""><img class="fb" src="images/footer/7693314_instagram_social media_logo_apps_iconinsta.png" ></a>
       </div>
     </div>
