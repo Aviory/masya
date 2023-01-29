@@ -83,7 +83,11 @@
 
     .mobileDetailsContent{
         position: relative;
-        top: 200px;
+        top: 110px;
+    }
+
+    .mobileDetailsContent ul{
+        padding-left: 0;
     }
 
     .mobileDetailsContent ul,.mobileDetailsContent a{
