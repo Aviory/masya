@@ -14,6 +14,7 @@ function perspectiveInit() {
     for (let i = 0; i < wrappers.length; i++) {
 
         wrappers[i].addEventListener("mousemove", e => animateOnMouseOver(e));
+        wrappers[i].addEventListener("mouseout", e => animateOnMouseOut(e));
         // wrappers[i].addEventListener("mouseover", e => animateOnMouseOver(e));
     }
 }
@@ -39,6 +40,11 @@ function animateOnMouseOver(e) {
     //     X= ${deg.x}
     //     Y= ${deg.y}
     //     `;
+}
+
+function animateOnMouseOut(e) {
+    // if (e.relatedTarget !=  )
+    e.currentTarget.style.transform = `rotateX(${0}deg)  rotateY(${0}deg)`;
 }
 
 // change the perspective value in styles.css

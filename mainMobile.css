@@ -30,7 +30,6 @@
     }
     #btnMobileMenu:checked+#labelBtnMobileMenu{
         display: block;
-        left: 0;
 
         background: url("images/btnMobileCross.png");
     }
@@ -47,7 +46,7 @@
         display: flex;
         width: 70%;
         position: absolute;
-        right: 0;
+        left: 25px;
         margin-top: 59px;
         align-items: center;
         justify-content: space-around
