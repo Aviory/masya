@@ -432,7 +432,7 @@
         flex-direction: row;
         width:auto;
     }
-    #sendbtn1, #sendbtn10 {
+    #sendbtnShow{
         width: 90px;
         font-size: 16px;
         padding: 20px 30px;

@@ -345,6 +345,10 @@ input{
 #shouPrograms{
     height: 790px;
 }
+#sendbtnShow{
+    position:absolute;
+    padding:15px 35px;
+}
 #shouprogramsElipse{
     left: 11.12%;
     top: 82.36%;
