@@ -14,6 +14,7 @@ function perspectiveInit() {
     for (let i = 0; i < wrappers.length; i++) {
 
         wrappers[i].addEventListener("mousemove", e => animateOnMouseOver(e));
+        // wrappers[i].addEventListener("mouseover", e => animateOnMouseOver(e));
     }
 }
 

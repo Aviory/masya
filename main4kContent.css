@@ -620,6 +620,12 @@ input{
     color:black;
     line-height:26px;
 }
+.nicknameFooter{
+    color:black;
+    line-height:18px;
+    font-size: 16px;
+    margin:0;
+}
 #screens{
     width:1301.26px;
     height:444.55px;
@@ -736,7 +742,18 @@ input{
     height:32px;
     margin-right:1%;
 }
+.logoinstFooter{
+    width:22px;
+    height:22px;
+    margin-right:1%;
+}
 #instdiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.instdivFooter{
     display: flex;
     justify-content: center;
     flex-direction: row;

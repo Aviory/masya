@@ -135,13 +135,18 @@
         transform: scale(1.1);
         z-index: 1;
     }
+
+    #mainBtnHidden{
+        height:0;
+    }
     #mainDialog{
-        margin-top: 100px;
+        margin-top: 150px;
         font-style: normal;
         font-weight: 700;
         font-size: 23px;
         line-height: 26px;
     }
+
     .underTitle{
         font-style: normal;
         font-weight: 700;
@@ -425,8 +430,13 @@
         justify-content: flex-start;
         margin-top: 20px;
         align-items: start;
-        flex-direction: column;
+        flex-direction: row;
         width:auto;
+    }
+    #sendbtn1, #sendbtn10 {
+        width: 90px;
+        font-size: 16px;
+        padding: 20px 30px;
     }
     .formBtn{
         width: 25%;
