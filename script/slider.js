@@ -40,24 +40,26 @@ function toRightOut(item) {
 
 function toFirst(item) {
     item.className = "sliderItem"
-    item.style.left = "0"
+    item.style.left = "-20%"
     item.style.transform = "scale(0.8)"
     item.style.opacity = "0.5"
 }
 
 function toLast(item) {
     item.className = "sliderItem"
-    item.style.left = "61%"
+    item.style.left = "59%"
     item.style.transform = "scale(0.8)"
     item.style.opacity = "0.5"
 }
 
 function toCenter(item) {
     item.className = "sliderItem sliderMainItem"
-    item.style.left = "32%"
+    item.style.left = "21%"
     item.style.right = "auto"
     item.style.opacity = "1"
     item.style.transform = "scale(1.5)"
+    if (document.body.offsetWidth <700)
+        item.style.transform = "scale(1.9)"
 }
 
 function fromOutToRight(item) {
