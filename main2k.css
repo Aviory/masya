@@ -28,6 +28,36 @@
     #quests .questsFlex{
         max-width:1030px;
     }
+
+    #menuContactScroll {
+        width: auto;
+        margin-left:3%;
+    }
+    #menuScroll {
+        width: auto;
+        margin-left:3%;
+
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .textScroll{
+        font-size: 12px;
+    }
+    #menuScroll {
+        width: 100%;
+    }
+    .numbersScroll{
+        font-size:13px;
+    }
+    #menuContactScroll .inlineBlock{
+        transform: scale(0.9);
+    }
+}
+@media screen and (max-width: 1210px) {
+    .header_scroll{
+        display: none;
+    }
 }
 
 /*header{*/

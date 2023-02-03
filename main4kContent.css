@@ -791,3 +791,60 @@ input{
     position: relative;
         z-index: 222;
 }
+#helpContacWh {
+    background: url(/images/animators/wh.png);
+}
+.flexContacts{
+    display: flex;
+    justify-content: start;
+
+}
+.flexContactsScroll{
+    display: flex;
+    justify-content: center;
+}
+#menuScroll{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    margin-left:5%;
+}
+#menuContactScroll{
+    display:flex;
+    width: 20%;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right:5%;
+    align-items: center;
+}
+.textScroll{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 70px;
+    text-decoration: none;
+
+}
+.numbersScroll{
+    margin-right:5px;
+}
+.inlineBlock{
+    display: inline-block;
+}
+#helpContactTel{
+    background: url(/images/animators/tel.png);
+}
+.helpContactBtn{
+    width: 176px;
+    height: 60px;
+}
+#contactScroll{
+    min-width:140px;
+}
+#imgScroll{
+    height:70px;
+}
+#logoScroll{
+    height:70px;
+}

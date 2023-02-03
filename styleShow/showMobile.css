@@ -153,9 +153,7 @@ header {
     width: 94%;
 }
 
-#mainBtn {
-    top:280px;
-}
+
 .horizontal{
     width:320px;
     margin:0;
@@ -169,7 +167,7 @@ header {
     line-height: 18px;
 }
 #mainBtn{
-    top:370px;
+    top:410px;
 }
 .animatorsContainer{
     width: 142px;

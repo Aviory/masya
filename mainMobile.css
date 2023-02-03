@@ -433,10 +433,17 @@
         width:auto;
     }
     #sendbtnShow{
-        width: 90px;
-        font-size: 16px;
-        padding: 20px 30px;
+        border: 0;
+        margin-top: 5px;
+        right: 4.5%;
+        width: 73px;
+        height: 70px;
+        background: url(images/animators_mob/helpBtn.png);
+        background-position: center -20px;
+        content: "";
+        padding: 0;
     }
+
     .formBtn{
         width: 25%;
         align-self: start;
