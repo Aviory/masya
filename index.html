@@ -28,15 +28,18 @@
     <link href="mainContentAnimation.css" type="text/css" rel="stylesheet"/>
     <link href="mobileL.css" type="text/css" rel="stylesheet"/>
     <link href="mobileSmall.css" type="text/css" rel="stylesheet"/>
+
+    <link href="exoSliderMob.css" type="text/css" rel="stylesheet">
 <!--    fonts-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Nunito:wght@500;700;900&family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
     <script src="script/emailSender.js"></script>
     <script src="script/localizationMainPage.js"></script>
+    <script src="script/sliderComment.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
-<body onload="initLang()">
+<body onload="initLang();initSlider()">
 <nav class="header_scroll">
     <div class="container d-flex flex-column flex-md-row justify-content-between">
         <div class="flexContactsScroll">
@@ -677,6 +680,22 @@
                 <img  class="allimg middle" id="photo8" src="images/instagram/inst315.png" >
                 <img  class="allimg small" id="photo9" src="images/instagram/inst27.png" >
                 <img  class="allimg middle" id="photo10" src="images/instagram/inst28.png" >
+            </div>
+        </div>
+        <div class="dottedExoContainer">
+            <div class="b">
+                <div id="exoSliderContainer">
+                    <div class="exoSliderItem"></div>
+                    <div class="exoSliderItem"></div>
+                    <div class="exoSliderItem"></div>
+                    <div class="exoSliderItem"></div>
+                </div>
+            </div>
+            <div id="dottedContainer">
+                <div class="exoDot"></div>
+                <div class="exoDot"></div>
+                <div class="exoDot"></div>
+                <div class="exoDot"></div>
             </div>
         </div>
         <div id="echoWave"></div>

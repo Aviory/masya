@@ -1,0 +1,72 @@
+.b{
+    width: 100%;
+    overflow: hidden;
+}
+.exoSliderItem{
+
+    width: 210px;
+    height: 335px;
+    display: inline-block;
+    background: url("images/instagram/inst26.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-duration: 1s;
+}
+.exoSliderItem:nth-child(2){
+    transform: scale(1.5);
+}
+
+#exoSliderContainer{
+    margin-top: 100px;
+    transition-duration: 1s;
+    height: 405px;
+    min-width: 1906px;
+    left: -27%;
+    position: relative;
+
+}
+.exoDot{
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    background: white;
+    display: inline-block;
+    margin-left: 10px;
+}
+.exoDot:nth-child(2){
+    background: #636061;
+}
+
+#dottedContainer{
+    width: 90px;
+    height: 40px;
+    margin: auto;
+    position: relative;
+    top: -20px;
+}
+.dottedExoContainer{
+    position: relative;
+    z-index: 5;
+}
+
+@media screen and (min-width: 446px) {
+    .dottedExoContainer{
+        display: none;
+    }
+}
+@media screen and (max-width: 446px) {
+    #screenContainer {
+        display: none;
+    }
+    #echoWave {
+        position: absolute;
+        width: 450px;
+        bottom: 0;
+        transform: scaleY(-1);
+        height: 340px;
+        background: url(images/wave/purpleStaticWave.png);
+        background-repeat: no-repeat;
+        background-position: 50.5%;
+    }
+
+}
