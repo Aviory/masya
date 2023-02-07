@@ -472,6 +472,28 @@
     #formOfFairy .contentAnimation{
         display: none;
     }
+
+    #turtlebtn, #fairybtn{
+        width: auto;
+        padding: 15px 25px;
+        align-self: center;
+        background: linear-gradient(180deg, #FFEC40 0%, #FC990F 100%);
+        border: none;
+        box-shadow: 0px 10px 30px rgba(245, 134, 52, 0.25);
+        border-radius: 100px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        background-origin: border-box;
+        color: #373435;
+        text-decoration: none;
+        transition: 1s;
+    }
+
+
     /*---------------------- footer*/
 
     #img{

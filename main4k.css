@@ -205,7 +205,7 @@ select option{
     justify-content: center;
     height:85px;
 }
-#mainBtn, #sendbtn1, #sendbtn10{
+#mainBtn, #turtlebtn, #fairybtn{
     align-self: center;
     padding: 27px 44px 26px 45px ;
     background: linear-gradient(180deg, #FFEC40 0%, #FC990F 100%);
