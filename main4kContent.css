@@ -487,11 +487,14 @@ input{
 #masterClasses{
     height: 1075px;
     padding-top: 260px;
-    /*background: url("images/Frame 53.png"), linear-gradient(345.24deg, #187FE1 -3%, rgba(12, 109, 201, 0) 64.24%), linear-gradient(117.91deg, rgba(186, 220, 253, 0.32) 12.71%, rgba(207, 234, 255, 0) 43.93%), linear-gradient(0deg, #4B9FEF, #4B9FEF), linear-gradient(164.39deg, #FFC647 9.83%, #F05D5E 137.48%);*/
-    /*background-blend-mode: screen, screen, soft-light, normal, screen, normal, normal;*/
-    background: url("images/Frame 53.png");
     background-size: cover;
+    background: url("images/Frame 53.png"), url("images/masterclases/splashBackMasterClass.png");
+    background-position: center, left;
+    background-size: cover,100%;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: screen;
 }
+
 #masterClassesEllipse{
     left: 41px;
     top: 582px;

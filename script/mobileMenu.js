@@ -7,7 +7,7 @@ function goTo(id) {
 
 function goToLoadPage(id) {
     localStorage.setItem("goTo",id)
-    //todo load index
+    window.location.replace('index.html');
 }
 
 function goFrom() {
