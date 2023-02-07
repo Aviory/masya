@@ -554,9 +554,13 @@ input{
 #inviteToCelebrate{
     height: 1075px;
     padding-top: 374px;
-    background: url("images/Frame 55.png");
-    background-size: cover;
+    background: url("images/Frame 55.png"), url(images/invitetocelebrate/invitesplash.png);
+    background-position: center, left;
+    background-size: cover,100%;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: screen;
 }
+
 
 .cursiveText{
     font-family: 'Segoe Script';
@@ -579,15 +583,15 @@ input{
     background-size: cover;
 }
 
-/*#externalSupport{*/
-/*     height: 1075px;*/
-/*     padding-top: 300px;*/
-/*     background: url("images/Frame 57.png"), url(images/externalsupport/splashBackStar.png);*/
-/*     background-position: center, left;*/
-/*     background-size: cover,100%;*/
-/*     background-repeat: no-repeat, no-repeat;*/
-/*     background-blend-mode: hard-light;*/
-/* }*/
+#externalSupport{
+     height: 1075px;
+     padding-top: 300px;
+     background: url("images/Frame 57.png"), url(images/externalsupport/splashBackStar.png);
+     background-position: center, left;
+     background-size: cover,100%;
+     background-repeat: no-repeat, no-repeat;
+     background-blend-mode: hard-light;
+ }
 
 /*--------------------------------------------*/
 #formOfFairy{

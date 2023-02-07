@@ -400,6 +400,18 @@
     #externalSupport .contentText{
         margin-top: -135px;
     }
+
+    #externalSupport{
+        height: 1075px;
+        padding-top: 300px;
+        background: url("images/Frame 57.png"), url(images/externalsupport/splashBackStar.png);
+        background-position: center, top;
+        background-size: cover,190%;
+        background-repeat: no-repeat, no-repeat;
+        background-blend-mode: hard-light;
+    }
+
+
     /*---------- tarifs*/
     #contain{
         flex-direction: column;
@@ -431,6 +443,11 @@
         align-items: start;
         flex-direction: row;
         width:auto;
+    }
+    #echo{
+        overflow-y: visible;
+        overflow-x: clip;
+        z-index: 5;
     }
     #sendbtnShow{
         border: 0;
@@ -516,5 +533,12 @@
     }
     #sweets {
         height: 1045px;
+    }
+}
+@media screen and (max-width: 590px) {
+    #externalSupport{
+        height: 1108px;
+        background: url("images/externalsupport/extsupportmob.png");
+        background-size: cover;
     }
 }
