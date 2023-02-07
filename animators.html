@@ -38,9 +38,38 @@
   <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Nunito:wght@500;700;900&family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
   <script src="script/perspective.js"></script>
   <script src="script/emailSender.js"></script>
+  <script src="script/mobileMenu.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 
 <body onload="perspectiveInit()">
+<nav class="header_scroll">
+  <div class="container d-flex flex-column flex-md-row justify-content-between">
+    <div class="flexContactsScroll">
+      <div id="menuScroll">
+        <div id="imgScroll">
+          <a href="index.html"><img id="logoScroll" src="images/footer/logo1.png"></a>
+        </div>
+        <a class="textScroll" href="#">Аниматоры на праздник</a>
+        <b class="textScroll">.</b>
+        <a class="textScroll" href="#">Шоу-программы и квесты</a>
+        <b class="textScroll">.</b>
+        <a class="textScroll" href="#">Дополнительные услуги</a>
+      </div>
+      <div id="menuContactScroll">
+        <div id="contactScroll">
+          <div>
+            <b class="numbersScroll">+38 (063) 48-58-933<br>
+              +38 (063) 48-58-933
+            </b>
+          </div>
+        </div>
+        <a href="https://wa.me/380965115567" class="inlineBlock"><div id="helpContacWh" class="helpContactBtn"></div> </a>
+        <a href="https://t.me/katerina_leo_show_dp" class="inlineBlock"><div id="helpContactTel" class="helpContactBtn"></div> </a>
+      </div>
+    </div>
+  </div>
+</nav>
 <input id="btnMobileMenu" type="checkbox" class="btnMobileMenu">
 <label for="btnMobileMenu" id="labelBtnMobileMenu"></label>
 <div class="mobileDetails">
@@ -66,12 +95,12 @@
   </div>
   <nav class="mobileDetailsContent">
     <ul>
-      <a href="index.html"><li>Главная</li></a>
-      <li>Цены</li>
-      <li>О нас</li>
-      <li>Отзывы</li>
-      <li>Статьи</li>
-      <li>Контакты</li>
+      <a href="index.html"><li id="txtMain">Главная</li></a>
+      <a onclick="goTo('back')"><li id="txtPrice">Цены</li></a>
+      <a onclick="goTo('aboutAs')"><li id="txtAboutUs">О нас</li></a>
+      <a onclick="goTo('echo')"><li id="txtReviews">Отзывы</li></a>
+      <li id="txtBlogs">Статьи</li>
+      <a onclick="goTo('map')"><li id="txtContacts">Контакты</li></a>
     </ul>
     <ul>
       <li><a href="animators.html"> Аниматоры и квесты</a></li>
@@ -405,5 +434,6 @@
     </a>
   </div>
 </footer>
+<script src="script/scroll.js"></script>
 </body>
 </html>

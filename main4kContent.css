@@ -580,14 +580,14 @@ input{
 }
 
 /*#externalSupport{*/
-/*    height: 1075px;*/
-/*    padding-top: 300px;*/
-/*    background: url("images/Frame 57.png"), url(images/externalsupport/splashBackStar.png);*/
-/*    background-position: center, left;*/
-/*    background-size: cover,100%;*/
-/*    background-repeat: no-repeat, no-repeat;*/
-/*    background-blend-mode: hard-light;*/
-/*}*/
+/*     height: 1075px;*/
+/*     padding-top: 300px;*/
+/*     background: url("images/Frame 57.png"), url(images/externalsupport/splashBackStar.png);*/
+/*     background-position: center, left;*/
+/*     background-size: cover,100%;*/
+/*     background-repeat: no-repeat, no-repeat;*/
+/*     background-blend-mode: hard-light;*/
+/* }*/
 
 /*--------------------------------------------*/
 #formOfFairy{
@@ -772,6 +772,7 @@ input{
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 20px;
 }
 #screenContainer{
     width:100%;
