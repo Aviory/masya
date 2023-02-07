@@ -12,7 +12,7 @@ function goToLoadPage(id) {
 
 function goFrom() {
     let id = localStorage.getItem("goTo")
-    if (id!=="" || id!=null || id != undefined){
+    if (id !== "" && id != null){
 
         document.getElementById(id).scrollIntoView();
         localStorage.setItem("goTo","")
