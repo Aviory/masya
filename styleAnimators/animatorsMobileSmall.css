@@ -31,6 +31,7 @@
     }
     #mainBtn {
         top:410px;
+        scale: 0.6;
     }
     .questText{
         left: -9px;
