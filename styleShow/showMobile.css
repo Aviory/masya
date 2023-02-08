@@ -1,3 +1,6 @@
+.showFlexMob{
+    display:none
+}
 .aflex{
     width:369px;
 }
@@ -115,6 +118,9 @@ header{
         height: 188px;
     }
     .flex{
+        display: none;
+    }
+    .flex{
         height: 900px;
     }
     .aflex {
@@ -122,6 +128,55 @@ header{
     }
     .aflex div{
         border-radius:30%;
+    }
+    .showFlexMob{
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 425px;
+        width:95%;
+    }
+    .showperspectiveMob{
+        width:50%;
+        height:100%;
+        position:relative;
+    }
+    .showperspectiveMob img{
+        width:98%;
+        margin-left:2%;
+    }
+    .questTextMob{
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        bottom: 8%;
+        text-align: center;
+        transition: 1s;
+    }
+    .questTextMob span {
+        font-family: 'Balsamiq Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .lolQuestBtnMob{
+        top:65%;
+        left:15%;
+        width:70%;
+        opacity:0;
+        position:absolute;
+        height:20%;
+    }
+    .showperspectiveMob:hover .lolQuestBtnMob {
+        opacity: 1;
+    }
+    .showperspectiveMob:hover .questTextMob {
+        bottom: 40%;
     }
 }
 @media screen and (max-width: 700px) {

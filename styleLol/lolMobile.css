@@ -29,6 +29,7 @@
         justify-content: center;
         flex-wrap: wrap;
         max-width: 425px;
+        width:95%;
     }
     .perspectiveMob{
         width:50%;
