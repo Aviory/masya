@@ -7,10 +7,16 @@ let touchStartX = 0;
 let touchEndX = 0;
 
 function initSlider() {
+
     slider = document.getElementById("exoSliderContainer");
     dotContainer = document.getElementById("dottedContainer")
     slider.addEventListener("touchstart", startDrag)
     slider.addEventListener("touchend", endDrag)
+
+    if ( document.body.clientWidth<=373 ){
+        leftMargin = -34;
+        slider.style.left = leftMargin+"%";
+    }
     // slider.addEventListener("mousemove", trackMouse)
 }
 

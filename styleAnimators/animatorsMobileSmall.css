@@ -30,7 +30,7 @@
         margin-top: 113px;
     }
     #mainBtn {
-        top:400px;
+        top:410px;
     }
     .questText{
         left: -9px;
@@ -66,7 +66,7 @@
     }
 
     #mainBtn {
-        top: 410px;
+        top: 415px;
         scale: 0.6;
     }
     .animatorsText span {
@@ -94,7 +94,7 @@
     }
 
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 351px) {
     .questText {
         left: -6px;
         bottom: 40px;
