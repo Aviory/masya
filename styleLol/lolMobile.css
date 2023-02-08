@@ -1,6 +1,9 @@
 .lolQuestBtn{
     left: 74px;
 }
+.questsFlexMob{
+    display:none;
+}
 @media screen and (max-width: 770px) {
     header {
         background: url("../images/lol/Frame 51 (1).png");
@@ -9,12 +12,63 @@
         background-position-y: 35%;
         background-repeat: no-repeat;
     }
+    .questsFlex{
+        display:none;
+    }
     #quests .questsFlex img {
         width: 171px;
     }
 
     .animatorsBtn{
         left: 17px;
+    }
+    .questsFlexMob{
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 425px;
+    }
+    .perspectiveMob{
+        width:50%;
+        height:100%;
+        position:relative;
+    }
+    .perspectiveMob img{
+        width:98%;
+        margin-left:2%;
+    }
+    .questTextMob{
+        position: absolute;
+        width: 86%;
+        left: 7%;
+        bottom: 8%;
+        text-align: center;
+        transition: 1s;
+    }
+    .questTextMob span {
+        font-family: 'Balsamiq Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .lolQuestBtnMob{
+        top:65%;
+        left:15%;
+        width:70%;
+        opacity:0;
+        position:absolute;
+        height:20%;
+    }
+    .perspectiveMob:hover .lolQuestBtnMob {
+        opacity: 1;
+    }
+    .perspectiveMob:hover .questTextMob {
+        bottom: 40%;
     }
 }
 @media screen and (max-width: 600px) {
@@ -46,7 +100,20 @@
         width:320px;
         margin:0;
     }
+    .lolQuestBtnMob{
+        top:65%;
+        left:15%;
+        width:70%;
+        opacity:0;
+        position:absolute;
+        height:20%;
+    }
 
+}
+@media screen and (max-width: 400px) {
+    .questsFlexMob .LOLa{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 376px) {
     .animatorsBtn {
@@ -55,5 +122,16 @@
 
     .horizontal {
        width: auto;
+    }
+    .questTextMob span {
+        font-size: 12px;
+    }
+    .lolQuestBtnMob{
+        top:65%;
+        left:15%;
+        width:70%;
+        opacity:0;
+        position:absolute;
+        height:20%;
     }
 }

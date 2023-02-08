@@ -99,6 +99,7 @@ header{
         background-position-y: -400px;
     }
 }
+
 @media screen and (max-width: 770px) {
     header {
         background: url("../images/show/Frame 50 (3).png");
